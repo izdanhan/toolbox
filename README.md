@@ -17,7 +17,7 @@ This repo acts as a **toolbox and knowledge base**, keeping all small but useful
 ## Directory Structure
 
 ```
-misc-scripts
+toolbox
 ├── aliases              # Centralized shell aliases for consistent environments
 │   └── examples/        # Example alias files to copy/extend
 │
