@@ -1,4 +1,7 @@
-# Placeholder
+# ⚙️ System Documentation
 
-This folder is reserved for related scripts.  
-Keeping a README ensures the folder is tracked in Git even if empty.
+This folder contains system administration and security best practices.
+
+| File      | Description                                                    |
+|-----------|----------------------------------------------------------------|
+| README.md | Overview of system-related guides and placeholder for new docs |

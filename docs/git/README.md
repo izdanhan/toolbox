@@ -1,4 +1,7 @@
-# Placeholder
+# 📚 Git Documentation
 
-This folder is reserved for related scripts.  
-Keeping a README ensures the folder is tracked in Git even if empty.
+This folder contains guides, tips, and references for using Git effectively.
+
+| File              | Description                                                            |
+|-------------------|------------------------------------------------------------------------|
+| git_cheatsheet.md | Common Git commands, workflows, and examples for everyday development. |
