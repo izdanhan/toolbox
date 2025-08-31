@@ -25,6 +25,7 @@ toolbox
 │   ├── linux/     # Linux references & tips
 │   ├── system/    # Sysadmin & security best practices
 │   └── workflows/ # Step-by-step guides & custom workflows
+│       └── toolbox_maintenance.md # Guide for maintaining & expanding this repo
 │
 ├── ollama/        # Scripts and helpers for Ollama models
 │   └── examples/  # Example prompts, configs, usage patterns
@@ -49,7 +50,7 @@ toolbox
 ## 📖 Navigation
 
 - [aliases/](aliases/README.md) → Centralized aliases + examples  
-- [docs/](docs/README.md) → Knowledge base (Git, Linux, system, workflows)  
+- [docs/](docs/README.md) → Knowledge base (Git, Linux, system, workflows, incl. [toolbox maintenance](docs/workflows/toolbox_maintenance.md))  
 - [ollama/](ollama/README.md) → Model helpers, examples, and scripts  
 - [system/](system/README.md) → Benchmarks, cleanup, monitoring tools  
 - [utils/](utils/README.md) → Backup, timers, misc utilities  
@@ -74,6 +75,7 @@ toolbox
 - Manage and test **Ollama models** with `ollama/model_manager.sh`.  
 - Keep your **aliases synced across machines** with `aliases/custom_aliases.sh`.  
 - Document your **workflows and best practices** under `docs/workflows/`.  
+- Maintain your toolbox itself with `docs/workflows/toolbox_maintenance.md`.  
 - Create new scripts or docs with consistency using `templates/`.  
 
 ---
@@ -116,5 +118,5 @@ toolbox
 - Expand `docs/` with your own knowledge base (Linux tips, Git workflows, troubleshooting).  
 - Add new **aliases** under `aliases/` and sync across systems.  
 - Create **templates** for script or document types you use often.  
-- Gradually grow this repo into your **go-to toolbox** for all environments.  
-
+- Grow this repo into your **go-to toolbox** for all environments.  
+- Maintain repo structure and consistency using [toolbox maintenance](docs/workflows/toolbox_maintenance.md).  

@@ -1,31 +1,70 @@
-# Aliases
+# 🔗 Aliases (`aliases/`)
 
-This folder stores all **custom shell aliases** for your environment.
+This folder centralizes **custom shell aliases** to make your workflow faster, more consistent, and easier to maintain across systems.
 
-- Use this folder to keep aliases consistent across machines.
-- Aliases are stored in version control, so you never lose them when reinstalling or switching systems.
+---
 
-## Structure
+## 📂 Structure
 
-- `examples/` → Example alias files you can copy and extend.
-- `custom_aliases.sh` → Your personal aliases (edit this file).
-- `README.md` → This guide.
-
-## Usage
-
-1. Add or edit your aliases in `custom_aliases.sh`.
-2. Reload them into your shell:
-
-```bash
-source ~/Projects/toolbox/aliases/custom_aliases.sh
+```
+aliases
+├── custom_aliases.sh   # Your main alias collection
+├── examples/           # Example alias sets for reference
+│   └── README.md
 ```
 
-3. (Optional) Add the following line to your `~/.zshrc` or `~/.bashrc`:
+---
+
+## 📖 Navigation
+
+- [custom_aliases.sh](custom_aliases.sh) → Your active aliases.  
+- [examples/](examples/) → Example aliases to copy or adapt.  
+
+---
+
+## 🛠 Best Practices
+
+- **Organization**:  
+  - Group aliases by category (system, git, navigation, productivity).  
+  - Keep each alias short but memorable.  
+  - Document non-obvious aliases with comments.  
+
+- **Portability**:  
+  - Keep your alias file in this repo → so you can sync it across machines.  
+  - Source it from your shell config (`.zshrc` / `.bashrc`) with:  
+    ```bash
+    source ~/Projects/github/toolbox/aliases/custom_aliases.sh
+    ```
+
+- **Versioning**:  
+  - Use Git to track alias changes over time.  
+  - Add/remove aliases in commits with meaningful messages.  
+
+---
+
+## 💡 Example Aliases
 
 ```bash
-source ~/Projects/toolbox/aliases/custom_aliases.sh
+# System shortcuts
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+
+# Git shortcuts
+alias gs='git status'
+alias ga='git add'
+alias gc='git commit -m'
+alias gp='git push'
+
+# Navigation
+alias proj='cd ~/Projects/github'
+alias docs='cd ~/Projects/github/toolbox/docs'
+
+# Workflow helpers
+alias reload!='source ~/.zshrc'
+alias ports='sudo lsof -i -P -n | grep LISTEN'
 ```
 
-## Related Docs
+---
 
-See also: [Alias Management Workflow](../docs/workflows/alias_management.md)
+This folder is your **personal shortcut hub**. Keep it tidy, documented, and in sync with your daily workflow.
