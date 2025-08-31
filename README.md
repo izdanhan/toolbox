@@ -88,6 +88,13 @@ toolbox
   ./utils/backup/backup.sh ~/Projects
   ```
 
+---
+
+## 🔄 Repo Sync Workflow
+To keep your laptop and desktop in sync, use the included **`sync_repos.sh`** script.  
+Detailed instructions are in:
+
+📄 [`docs/workflows/repo_sync.md`](docs/workflows/repo_sync.md)
 
 ---
 
