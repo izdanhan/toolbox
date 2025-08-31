@@ -1,8 +1,13 @@
 # Templates
 
-Starter templates for new scripts or documentation.  
+This folder contains **starter templates for scripts and documentation**.  
+They serve as a quick way to create new, consistent files across the repo.
 
-- `bash/` → Boilerplate for Bash scripts (with safety checks and comments)  
-- `markdown/` → Example structure for new Markdown documentation  
+## Structure
 
-Use these as a starting point to maintain consistency in new files.  
+- `bash/` → Boilerplate for new Bash scripts.  
+- `markdown/` → Example structure for new documentation files.  
+
+---
+
+Tip: When creating a new script or doc, copy from here instead of starting from scratch.

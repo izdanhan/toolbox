@@ -1,7 +1,9 @@
-# 🐧 Linux Documentation
+# Linux Docs
 
-This folder contains Linux-related tips, cheatsheets, and references.
+This folder contains **Linux tips, command references, and cheatsheets**.
 
-| File                 | Description                                       |
-|----------------------|---------------------------------------------------|
-| system_cheatsheet.md | General Linux commands, shortcuts, and quick refs |
+- Use this for general Linux knowledge you often forget.  
+- Add step-by-step notes for tasks you do rarely but want to remember.
+
+Examples:  
+- `system_cheatsheet.md` → Commands for system administration.  

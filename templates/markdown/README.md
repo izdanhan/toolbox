@@ -1,4 +1,9 @@
-# Placeholder
+# Markdown Templates
 
-This folder is reserved for related scripts.  
-Keeping a README ensures the folder is tracked in Git even if empty.
+This folder contains **starter templates for Markdown documentation**.
+
+Examples:  
+- `placeholder_README.md` → Base README template.  
+- Templates for guides, cheatsheets, and documentation pages.  
+
+Tip: Keep style consistent across all Markdown docs by reusing these templates.

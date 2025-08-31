@@ -1,7 +1,8 @@
-# 📚 Git Documentation
+# Git Docs
 
-This folder contains guides, tips, and references for using Git effectively.
+This folder covers **Git usage, workflows, and version control tips**.
 
-| File              | Description                                                            |
-|-------------------|------------------------------------------------------------------------|
-| git_cheatsheet.md | Common Git commands, workflows, and examples for everyday development. |
+- `git_cheatsheet.md` → Quick reference of common Git commands.  
+- Add guides for advanced topics (branching strategies, submodules, etc.).
+
+See also: [repo_sync.md](../workflows/repo_sync.md)

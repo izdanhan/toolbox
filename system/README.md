@@ -1,8 +1,18 @@
-# System Scripts
+# System Utilities
 
-This folder contains **system-related scripts**.  
-Each subfolder is dedicated to a specific area:
+This folder contains scripts for **system management and monitoring**.  
+It focuses on cleanup, benchmarking, and monitoring tasks.
 
-- `benchmarks/` → GPU/CPU performance benchmarks  
-- `cleanup/` → Disk cleanup, log rotation, and cache clearing  
-- `monitoring/` → Scripts for system monitoring and info gathering  
+## Structure
+
+- `benchmarks/` → Scripts to measure system performance (CPU, GPU, etc.).  
+- `cleanup/` → Tools for disk cleanup, cache clearing, log rotation.  
+- `monitoring/` → Scripts for system info and health monitoring.  
+
+## Usage
+
+Use these utilities to keep your system fast, clean, and observable.
+
+---
+
+Best practice: keep logs or benchmark outputs under `logs/` (in project root or dedicated folder).  
