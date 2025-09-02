@@ -12,7 +12,7 @@ Kup is not available in the official Fedora repositories due to a naming conflic
 1. **Open a terminal** (`Konsole`).
 2. Enable the Copr repository that provides Kup:
 ```bash
-sudo dnf copr enable zawertun/kde-kup1
+sudo dnf copr enable zawertun/kde-kup
 ```
 3. Install the `kup` package and its recommended backend, `bup`, for versioned backups:
 ```bash
