@@ -1,4 +1,5 @@
-🛡️ **Complete Guide to Backing Up Your Home Folderwith Kup on Fedora KDE**
+
+# 🛡️ Complete Guide to Backing Up Your Home Folder with Kup on Fedora KDE
 
 This guide will walk you through installing the Kup backup tool on Fedora Linux with the KDE Plasma desktop and configuring it to protect your data while excluding unnecessary folders.
 
@@ -10,9 +11,13 @@ Kup is not available in the official Fedora repositories due to a naming conflic
 
 1. **Open a terminal** (`Konsole`).
 2. Enable the Copr repository that provides Kup:
-sudo dnf copr enable zawertun/kde-kup
+```bash
+sudo dnf copr enable zawertun/kde-kup1
+```
 3. Install the `kup` package and its recommended backend, `bup`, for versioned backups:
-sudo dnf install kup bup
+```bash
+sudo dnf install kup bup15
+```
 
 ***
 
@@ -104,6 +109,7 @@ Here is a quick reference table for folders you might want to exclude from your 
 | `**/.local/share/Steam` | The main Steam library, containing all game files (very large!). |
 | `**/Downloads` | User download directory (transient, large files). |
 | `**/.cache` | Application cache files (unnecessary to back up). |
+| `**/.var/app/com.valvesoftware.Steam` | Flatpak version of Steam installation. |
 | `**/tmp` | Temporary files. |
 | `*.tmp` | Temporary files. |
 | `**/Trash` | Local trash folder. |
