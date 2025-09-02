@@ -16,7 +16,7 @@ sudo dnf copr enable zawertun/kde-kup
 ```
 3. Install the `kup` package and its recommended backend, `bup`, for versioned backups:
 ```bash
-sudo dnf install kup bup15
+sudo dnf install kde-kup bup15
 ```
 
 ***
