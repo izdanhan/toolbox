@@ -20,6 +20,9 @@ toolbox
 ├── aliases/       # Centralized shell aliases for consistent environments
 │   └── examples/  # Example alias files to copy/extend
 │
+├── configs/       # Config files
+│   └── home/      # Config files in $home/.configs
+│
 ├── docs/          # Documentation: guides, cheatsheets, best practices
 │   ├── git/       # Git usage & workflows
 │   ├── linux/     # Linux references & tips
