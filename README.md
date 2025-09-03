@@ -52,7 +52,8 @@ toolbox
 
 ## 📖 Navigation
 
-- [aliases/](aliases/README.md) → Centralized aliases + examples  
+- [aliases/](aliases/README.md) → Centralized aliases + examples
+- [configs/](configs/README.md) → Config files for programs, mainly in .config folder.  
 - [docs/](docs/README.md) → Knowledge base (Git, Linux, system, workflows, incl. [toolbox maintenance](docs/workflows/toolbox_maintenance.md))  
 - [ollama/](ollama/README.md) → Model helpers, examples, and scripts  
 - [system/](system/README.md) → Benchmarks, cleanup, monitoring tools  
