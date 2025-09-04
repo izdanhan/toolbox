@@ -10,7 +10,10 @@ This guide sets up the **Logitech MX Master 3S** mouse on Fedora 42, enabling th
 ## 1. Install Dependencies
 
 ```bash
-sudo dnf install cmake gcc-c++ systemd-devel libevdev-devel libudev-devel yaml-cpp-devel git
+# sudo dnf install cmake gcc-c++ systemd-devel libevdev-devel libudev-devel yaml-cpp-devel git glib2-devel libconfig-devel
+
+# From https://github.com/PixlOne/logiops
+# sudo dnf install cmake libevdev-devel systemd-devel libconfig-devel gcc-c++ glib2-devel
 ```
 
 ---
@@ -20,11 +23,13 @@ sudo dnf install cmake gcc-c++ systemd-devel libevdev-devel libudev-devel yaml-c
 ```bash
 git clone https://github.com/PixlOne/logiops.git
 cd logiops
-mkdir build && cd build
-cmake ..
+mkdir build
+cd build
+cmake -DCMAKE_BUILD_TYPE=Release ..
 make
-sudo make install
 ```
+
+To install, run `sudo make install` after building. You can set the daemon to start at boot by running `sudo systemctl enable logid` or `sudo systemctl enable --now logid` if you want to enable and start the daemon.
 
 ---
 
