@@ -33,15 +33,7 @@ To install, run `sudo make install` after building. You can set the daemon to st
 
 ---
 
-## 3. Create Config Directory
-
-```bash
-sudo mkdir -p /etc
-```
-
----
-
-## 4. Create/Edit Config File
+## 3. Create/Edit Config File
 
 Open `/etc/logid.conf` in your editor:
 
@@ -146,7 +138,7 @@ devices: (
 
 ```
 
-## 5. Enable & Start Service
+## 4. Enable & Start Service
 
 ```bash
 sudo systemctl enable --now logid
@@ -160,7 +152,7 @@ systemctl status logid
 
 ---
 
-## 6. Test Your Setup
+## 5. Test Your Setup
 
 * **Side scroll wheel left** → Zoom Out (`CTRL + -`)
 * **Side scroll wheel right** → Zoom In (`CTRL + +`)
@@ -171,7 +163,7 @@ systemctl status logid
 
 ---
 
-## 7. Optional: Battery + Quick Settings (Solaar)
+## 6. Optional: Battery + Quick Settings (Solaar)
 
 ```bash
 sudo dnf install solaar
