@@ -64,6 +64,11 @@ Connections USB-C and HDMI
 
 ---
 
+## VR Headset:
+Meta Quest 2
+
+---
+
 ## Philips Hue:
 1 Led strip back of my desktop PC   
 1 Led strip back of my TV   
