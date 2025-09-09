@@ -75,6 +75,8 @@ Connections USB-C and HDMI
 Affinity Photo   
 Affinity Designer   
 Affinity Publisher   
+Darktable
+digiKam
 DaVinci Resolve (free edition)   
 Kdenlive   
 OBS Studio   
