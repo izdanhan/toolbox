@@ -75,6 +75,10 @@ Affinity Photo
 Affinity Designer   
 Affinity Publisher   
 DaVinci Resolve (free edition)   
+Kdenlive   
+OBS Studio   
 Blender   
 Gimp   
 Krita   
+Kodi (watching my movies and tv series)   
+Visual Studio Code   
