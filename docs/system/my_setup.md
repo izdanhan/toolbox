@@ -3,11 +3,12 @@
 AMD Ryzen 9 5900X   
 32 Gb RAM   
 Nvidia RTX 3080 10 Gb   
-2 Tb Samsung 990 Pro nVME SSD (Fedora 42 KDE Plasma Desktop)   
-1 Tb Samsung 980 nVME SSD (Windows 11 Home)   
+2 Tb Samsung 990 Pro nVME SSD    
+1 Tb Samsung 980 nVME SSD    
 500 Gb Samsung 850 EVO SATA SSD   
-2 Tb HDD, TV series and movies, NTFS   
-2 Tb HDD, for backups and etc., can be any filesystem   
+2 Tb HDD   
+2 Tb HDD
+Windows 11 Home license   
 
 ---
 
@@ -15,8 +16,8 @@ Nvidia RTX 3080 10 Gb
 Lenovo ThinkPad T14s Gen 4   
 AMD Ryzen Pro 7 7840U   
 32 Gb RAM   
-2 Tb Samsung 990 EVO nVME SSD (Fedora 42 Workstation)   
-Windows 11 Pro License   
+2 Tb Samsung 990 EVO nVME SSD   
+Windows 11 Pro license   
 
 ---
 
@@ -30,7 +31,7 @@ ThinkPad Universal Thunderbolt 4 Dock
 ---
 
 ## External SSD:
-2 Tb Samsung T7 nVME SSD, USB-C, can be any filesystem
+2 Tb Samsung T7 nVME SSD, USB-C
 
 ---
 
@@ -82,3 +83,4 @@ Gimp
 Krita   
 Kodi (watching my movies and tv series)   
 Visual Studio Code   
+Ollama   
