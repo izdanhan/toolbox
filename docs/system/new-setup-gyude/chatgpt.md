@@ -100,12 +100,8 @@ Great! Here's an **enhanced Markdown layout** showing an optimized Steam setup w
 - Steam’s **“Move Install Folder”** is safer and faster than Backup/Restore
 - Double-check saves if a game does **not use Steam Cloud**
 
-```
-
-This layout ensures:
+#### This layout ensures:
 
 * Maximum speed for your favorite games
 * Cross-platform accessibility for others
 * Easy future reinstallation without re-downloading everything
-
-I can also create a **version with a suggested folder structure for the external SSD** that avoids conflicts between Windows and Linux libraries, making it plug-and-play. Do you want me to do that?

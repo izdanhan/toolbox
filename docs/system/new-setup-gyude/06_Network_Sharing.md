@@ -29,7 +29,7 @@ Assign static IPs to critical devices:
 ## Samba File Sharing Setup
 
 ### Linux Samba Server Configuration
-```bash
+
 # Install Samba on Fedora
 sudo dnf install samba samba-client
 
@@ -38,10 +38,11 @@ sudo cp /etc/samba/smb.conf /etc/samba/smb.conf.bak
 
 # Edit Samba configuration
 sudo nano /etc/samba/smb.conf
-```
+
 
 ### Sample Samba Configuration
 Add to `/etc/samba/smb.conf`:
+
 ```ini
 [global]
    workgroup = WORKGROUP
@@ -71,6 +72,7 @@ Add to `/etc/samba/smb.conf`:
 ```
 
 ### User and Service Management
+
 ```bash
 # Set Samba password for your user
 sudo smbpasswd -a yourusername
@@ -87,6 +89,7 @@ sudo firewall-cmd --reload
 ## Media Streaming Options
 
 ### Kodi as Media Center
+
 ```bash
 # Install Kodi on Fedora
 sudo dnf install kodi
@@ -111,6 +114,7 @@ EOF
 ```
 
 ### MiniDLNA for TV Compatibility
+
 ```bash
 # Install MiniDLNA
 sudo dnf install minidlna
@@ -183,6 +187,7 @@ On Samsung Q70A TV:
 ## Access Control & Security
 
 ### User Permissions Management
+
 ```bash
 # Set correct permissions on shared directories
 sudo chmod -R 775 /mnt/archive/
