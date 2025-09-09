@@ -133,3 +133,92 @@ MediaProjects/
 *   **Philips Hue:** Use the Hue Sync app on **Windows** to sync your lights to your games or movies on the TV for an immersive experience.
 
 This setup gives you a incredibly powerful, organized, and flexible environment. You can seamlessly switch between a professional-grade production studio (Windows) and a fun, open-source learning lab (Linux) without ever losing your place. Enjoy your new creative journey
+
+---
+
+Excellent question. This is where a solid, repeatable workflow pays massive dividends, especially when hopping between OSes. Let's get practical.
+
+The golden rule: **Your workflow should be almost identical on both Windows and Linux.** The goal is to make the operating system just a different tool opening the same project, not a completely different experience.
+
+Here’s a detailed, step-by-step workflow for both photo and video.
+
+---
+
+### **The Universal First Step: SD Card Preparation**
+
+1.  **Format in-camera:** Always format your SD card *in the camera* before a new shoot. This ensures maximum compatibility and avoids file system errors.
+2.  **File System:** Your camera likely formats the card as **exFAT**. This is perfect as it's read/writable by both Windows and Linux out-of-the-box.
+
+---
+
+### **Part 1: Photo Workflow (The Organized Method)**
+
+You *can* just connect the camera via USB and drag-and-drop files. **Don't.** Using a dedicated ingestion tool is better. It provides verification, renaming, and organization from the start.
+
+**The Tool of Choice: digiKam (Cross-Platform!)**
+
+`digiKam` is a professional-grade Photo Management tool. Its "Download" tool is fantastic for ingestion. It's available on both Linux (native/flatpak) and Windows. Using the same tool on both OSes is a huge win.
+
+**Step-by-Step Ingestion with digiKam:**
+
+1.  **Connect:** Connect your camera via USB and turn it on. Or, use a USB SD Card Reader (often faster and more reliable).
+2.  **Open digiKam:** Open digiKam on either OS.
+3.  **Open Download Tool:** Click on the "Download" tool (the icon with a camera and a down arrow).
+4.  **Select Source:** It should detect your camera. Select it.
+5.  **Set Download Rules (This is the magic):**
+    *   **Destination:** Point it to your `MediaProjects/Project_YYYY-MM-DD_ProjectName/01_Photos/` folder.
+    *   **Subfolder Creation:** Tell it to create subfolders by date.
+        *   e.g., `YYYY-MM-DD/` or `YYYY/MM-MMDD/`
+    *   **File Renaming:** Rename files on import. This is crucial!
+        *   Example pattern: `{Date}-{Time}-{OriginalName}.{Ext}`
+        *   Or: `{ProjectName}-{Sequence#}`
+        *   This prevents impossible-to-sort messes like `IMG_0001.CR3` from multiple shoots.
+6.  **Metadata:** You can have it automatically assign tags, ratings, or copyright info on import.
+7.  **The Critical Step: Verification:** **ENABLE THE "CHECK AFTER DOWNLOAD" OPTION.** This makes `digiKam` checksum the files after copy to ensure they were transferred perfectly without corruption. This is non-negotiable for professional work.
+8.  **Download:** Click download and let it work.
+
+**Now you have:** A perfectly organized, verified, and renamed set of photos in your project folder, ready to be opened in Darktable (Linux) or Affinity Photo (Windows).
+
+**Windows Alternative:** If you don't want `digiKam` on Windows, Adobe's **Lightroom** has a similar import dialog. Since you use Affinity, you can use **FastStone Image Viewer** (excellent free tool) or the basic import dialog in the Windows Photos app, but they lack the powerful renaming and verification of `digiKam`.
+
+---
+
+### **Part 2: Video Workflow (The Simple & Robust Method)**
+
+For video, the files are much larger, and the priority is a simple, reliable transfer. Dedicated ingestion tools like `digiKam` can sometimes struggle with video files.
+
+**The Method: Manual Copy & Verify**
+
+1.  **Connect:** Use a USB SD Card Reader (highly recommended for speed).
+2.  **Browse:** Open your file manager (Windows Explorer, Dolphin, Nautilus).
+3.  **Locate Files:** Navigate to the SD card. Video files from your EOS R50 will likely be in a folder like `DCIM/100CANON/`.
+4.  **Copy:**
+    *   **DO NOT "CUT" OR MOVE.** Always *copy* the files first.
+    *   Copy the entire contents of the video folder (or the specific `.MP4`/`.MR4` files) to your project folder: `MediaProjects/Project_YYYY-MM-DD_ProjectName/01_Footage/From_Camera/`.
+5.  **Verify (Optional but Recommended):** After the copy is done, you can use a checksum tool to ensure integrity. On Linux, you can use `rsync -c` (checksum mode) to compare the source and destination. On Windows, a tool like `FreeFileSync` has a "Verify" option.
+6.  **Clear Card:** Once you have confirmed the files are safe on two separate drives (your main drive and your archive HDD), *then* you format the SD card in-camera to clear it for the next shoot.
+
+---
+
+### **Summary: Your Cross-Platform Workflow Table**
+
+| Step | Linux Tool | Windows Tool | Destination |
+| :--- | :--- | :--- | :--- |
+| **Photo Import** | **digiKam** (Recommended) | **digiKam** (Recommended) or Windows Photos | `.../01_Photos/` |
+| | (Verification, Renaming, Organizing) | | |
+| **Video Import** | **File Manager** (Dolphin/Nautilus) | **File Manager** (Explorer) | `.../01_Footage/From_Camera/` |
+| | (Simple, robust copy) | | |
+| **Photo Editing** | **Darktable** (RAW) -> **GIMP/Krita** | **Affinity Photo** | `.../04_ProjectFiles/` |
+| **Video Editing** | **Kdenlive** | **DaVinci Resolve** | `.../04_ProjectFiles/` |
+| **Asset Storage** | | | `.../02_Audio/`, `.../03_Assets/` |
+
+### **Pro Tip: The "Incoming" Folder**
+
+To make this even cleaner, create an `00_Incoming/` folder within your project folder.
+
+1.  First, import/copy *everything* from your SD card here.
+2.  *Then*, organize from there into your `01_Photos`, `01_Footage`, etc. This two-step process prevents you from accidentally leaving files on the card.
+
+By standardizing this folder structure and using cross-platform tools like `digiKam` where possible, you completely eliminate the mental overhead of OS switching. You just boot, import, and create.
+
+---
