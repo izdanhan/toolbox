@@ -1,8 +1,3 @@
-Of course. Let's begin with the first document: the OS Setup.
-
-This document will cover the rationale, preparation, and step-by-step instructions for installing both Windows 11 and Fedora Linux in a dual-boot configuration, tailored to your hardware.
-
-Here is the content for `01_OS_Setup.md`:
 
 ***
 
@@ -138,3 +133,14 @@ sudo grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg
 You can set the default OS and timeout in `/etc/default/grub` and then run the command above again.
 
 ***
+
+## Repository Structure
+| File      | Description   |
+|-----------|---------------|
+| README.md | [Overview and hardware summary](README.md)
+| 01_OS_Setup.md | [Dual-boot configuration guide](01_OS_Setup.md)
+| 02_Storage_Strategy.md | [Storage layout and management](02_Storage_Strategy.md)
+| 03_Software_Configuration.md | [Creative software setup](03_Software_Configuration.md)
+| 04_Workflow_Management.md | [Cross-platform workflow implementation](04_Workflow_Management.md)
+| 05_Lab_Environment.md | [Distro-hopping and experimentation setup](05_Lab_Environment.md)
+| 06_Network_Sharing.md | [Media sharing and network configuration](06_Network_Sharing.md)

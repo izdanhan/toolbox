@@ -1,3 +1,6 @@
+
+***
+
 # 06 - Network Sharing & Media Distribution Guide
 
 ## Table of Contents
@@ -320,4 +323,15 @@ sudo tcpdump -i eth0 port 445
 
 This network sharing setup provides seamless access to your media files across all devices while maintaining good performance and security. The combination of Samba for file sharing and DLNA for media streaming ensures compatibility with all your devices including the Samsung TV.
 
-Would you like me to create any additional documentation or helper scripts for this setup?
+***
+
+## Repository Structure
+| File      | Description   |
+|-----------|---------------|
+| README.md | [Overview and hardware summary](README.md)
+| 01_OS_Setup.md | [Dual-boot configuration guide](01_OS_Setup.md)
+| 02_Storage_Strategy.md | [Storage layout and management](02_Storage_Strategy.md)
+| 03_Software_Configuration.md | [Creative software setup](03_Software_Configuration.md)
+| 04_Workflow_Management.md | [Cross-platform workflow implementation](04_Workflow_Management.md)
+| 05_Lab_Environment.md | [Distro-hopping and experimentation setup](05_Lab_Environment.md)
+| 06_Network_Sharing.md | [Media sharing and network configuration](06_Network_Sharing.md)

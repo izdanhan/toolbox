@@ -1,3 +1,6 @@
+
+***
+
 # 05 - Lab Environment & Distro-Hopping Guide
 
 ## Table of Contents
@@ -318,3 +321,14 @@ Keep notes in a structured format:
 ```
 
 This lab environment setup allows you to safely satisfy your distro-hopping urges while maintaining your productive workflow. The next guide will cover network sharing and media distribution.
+
+## Repository Structure
+| File      | Description   |
+|-----------|---------------|
+| README.md | [Overview and hardware summary](README.md)
+| 01_OS_Setup.md | [Dual-boot configuration guide](01_OS_Setup.md)
+| 02_Storage_Strategy.md | [Storage layout and management](02_Storage_Strategy.md)
+| 03_Software_Configuration.md | [Creative software setup](03_Software_Configuration.md)
+| 04_Workflow_Management.md | [Cross-platform workflow implementation](04_Workflow_Management.md)
+| 05_Lab_Environment.md | [Distro-hopping and experimentation setup](05_Lab_Environment.md)
+| 06_Network_Sharing.md | [Media sharing and network configuration](06_Network_Sharing.md)

@@ -1,3 +1,6 @@
+
+***
+
 # 04 - Workflow Management Guide
 
 ## Table of Contents
@@ -234,3 +237,16 @@ sudo dnf install nvidia-cuda-toolkit
 ```
 
 This workflow management system ensures that your creative process remains organized and efficient, regardless of which operating system you're using. The next guide will cover your lab environment for distro hopping and experimentation.
+
+***
+
+## Repository Structure
+| File      | Description   |
+|-----------|---------------|
+| README.md | [Overview and hardware summary](README.md)
+| 01_OS_Setup.md | [Dual-boot configuration guide](01_OS_Setup.md)
+| 02_Storage_Strategy.md | [Storage layout and management](02_Storage_Strategy.md)
+| 03_Software_Configuration.md | [Creative software setup](03_Software_Configuration.md)
+| 04_Workflow_Management.md | [Cross-platform workflow implementation](04_Workflow_Management.md)
+| 05_Lab_Environment.md | [Distro-hopping and experimentation setup](05_Lab_Environment.md)
+| 06_Network_Sharing.md | [Media sharing and network configuration](06_Network_Sharing.md)

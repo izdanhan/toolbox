@@ -5,14 +5,18 @@ Certainly! Based on your detailed requirements and hardware setup, I'll create a
 ## Overview
 This repository documents the optimized configuration for a high-end creative workstation supporting video/photo editing, gaming, and Linux tinkering. The setup leverages multiple operating systems and specialized storage configurations to create a seamless workflow across Windows and Linux environments.
 
+Continue to [Deep-Roleplay Principles: Kaelen Vesper](deep_roleplay.md)
+
 ## Repository Structure
-- **README.md** (this file): Overview and hardware summary
-- **01_OS_Setup.md**: Dual-boot configuration guide
-- **02_Storage_Strategy.md**: Storage layout and management
-- **03_Software_Configuration.md**: Creative software setup
-- **04_Workflow_Management.md**: Cross-platform workflow implementation
-- **05_Lab_Environment.md**: Distro-hopping and experimentation setup
-- **06_Network_Sharing.md**: Media sharing and network configuration
+| File      | Description   |
+|-----------|---------------|
+| README.md | [Overview and hardware summary](README.md)
+| 01_OS_Setup.md | [Dual-boot configuration guide](01_OS_Setup.md)
+| 02_Storage_Strategy.md | [Storage layout and management](02_Storage_Strategy.md)
+| 03_Software_Configuration.md | [Creative software setup](03_Software_Configuration.md)
+| 04_Workflow_Management.md | [Cross-platform workflow implementation](04_Workflow_Management.md)
+| 05_Lab_Environment.md | [Distro-hopping and experimentation setup](05_Lab_Environment.md)
+| 06_Network_Sharing.md | [Media sharing and network configuration](06_Network_Sharing.md)
 
 ## Hardware Specification 
 | Component | Specification |

@@ -1,6 +1,3 @@
-Excellent. Let's move on to the storage strategy, which is the backbone of your entire workflow. This document will detail how to format, mount, and use every drive in your system for maximum performance and organization.
-
-Here is the content for `02_Storage_Strategy.md`:
 
 ***
 
@@ -153,3 +150,14 @@ Point demanding applications to use your `D:\` or `/mnt/scratch` drive for tempo
 3.  **Project Sync:** Use your **Samsung T7 SSD** to manually copy current WIP projects before traveling.
 
 ***
+
+## Repository Structure
+| File      | Description   |
+|-----------|---------------|
+| README.md | [Overview and hardware summary](README.md)
+| 01_OS_Setup.md | [Dual-boot configuration guide](01_OS_Setup.md)
+| 02_Storage_Strategy.md | [Storage layout and management](02_Storage_Strategy.md)
+| 03_Software_Configuration.md | [Creative software setup](03_Software_Configuration.md)
+| 04_Workflow_Management.md | [Cross-platform workflow implementation](04_Workflow_Management.md)
+| 05_Lab_Environment.md | [Distro-hopping and experimentation setup](05_Lab_Environment.md)
+| 06_Network_Sharing.md | [Media sharing and network configuration](06_Network_Sharing.md)
