@@ -35,7 +35,7 @@ ThinkPad Universal Thunderbolt 4 Dock
 ---
 
 ## Displays:
-24" 144 Hz main display (Connection: DisplayPort)   
+24" 144 Hz main display, VRR (G-Sync) (Connection: DisplayPort)   
 24" 60 Hz secondary display (Connection: DisplayPort)
 
 ## TV:
