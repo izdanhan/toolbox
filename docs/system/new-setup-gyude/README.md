@@ -6,8 +6,6 @@
 ## Overview
 This repository documents the optimized configuration for a high-end creative workstation supporting video/photo editing, gaming, and Linux tinkering. The setup leverages multiple operating systems and specialized storage configurations to create a seamless workflow across Windows and Linux environments.
 
-Continue to [Deep-Roleplay Principles: Kaelen Vesper](deep_roleplay.md)
-
 ## Repository Structure
 | File      | Description   |
 |-----------|---------------|
