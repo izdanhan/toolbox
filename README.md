@@ -3,7 +3,6 @@
 This repository is your **personal toolbox** — a collection of scripts, templates, and documentation designed to keep your workflow consistent, organized, and efficient across systems.
 
 It contains:
-
 - 🔧 Shell aliases  
 - 📚 Documentation & guides  
 - 🤖 Ollama helpers  
