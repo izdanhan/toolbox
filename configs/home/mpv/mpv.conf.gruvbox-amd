@@ -1,0 +1,66 @@
+# mpv.conf with Gruvbox Colors and AMD 780M Optimizations
+# FIXES: Color option parsing corrected. Removed unsupported 'osc-visibility'.
+
+# Gruvbox Color Palette
+# Light Text: #ebdbb2
+# Dark Background: #282828
+# Accent Blue: #458588
+
+# --- Video Quality & Hardware Decoding (AMD iGPU/Linux) ---
+profile=gpu-hq
+hwdec=vaapi
+hwdec-codecs=all
+
+vo=gpu-next
+gpu-api=vulkan
+
+interpolation=yes
+video-sync=display-resample
+tscale=oversample
+deband=yes
+
+# --- Audio ---
+audio-channels=auto
+audio-normalize-downmix=yes
+
+# --- Subtitles (Gruvbox Colors - FINAL CORRECTION) ---
+slang=fi,en
+sub-auto=fuzzy
+sub-file-paths=subs:subtitle:subtitles
+sub-codepage=utf8
+
+sub-font='Ubuntu'
+sub-font-size=45
+
+# Gruvbox Color Settings - Parameters wrapped in single quotes
+sub-color='#ebdbb2'         # Gruvbox Light Text
+sub-border-color='#282828'  # Gruvbox Dark Background
+# sub-shadow-color='#282828'  # Gruvbox Dark Background
+sub-border-size=2
+# sub-shadow-offset=2
+
+blend-subtitles=video
+sid=auto
+
+# --- OSD & On-screen display (Gruvbox Colors - FINAL CORRECTION) ---
+osd-font='Ubuntu'
+osd-font-size=28
+osd-scale=1.2
+osc=yes
+osd-level=1
+
+# Gruvbox Color Settings - Parameters wrapped in single quotes
+osd-color='#ebdbb2'         # Gruvbox Light Text
+# osd-border-color='#458588'  # Gruvbox Blue (Accent)
+# osd-shadow-color='#282828'  # Gruvbox Dark Background
+
+# --- Window & Display ---
+ontop=yes
+keepaspect-window=yes
+save-position-on-quit=yes
+
+# --- Performance ---
+vd-lavc-threads=0
+
+# --- Input ---
+input-default-bindings=yes
