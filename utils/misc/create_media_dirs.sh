@@ -6,6 +6,13 @@ ROOT_DIR="/media/daniel/Voyager/Media"
 # Define directories and their README content
 declare -A DIRS
 
+# Documents
+DIRS["$ROOT_DIR/Documents/MediaPlans"]="Plans and outlines for media projects."
+DIRS["$ROOT_DIR/Documents/Scripts"]="Scripts for videos or screen recordings."
+DIRS["$ROOT_DIR/Documents/Storyboards"]="Visual storyboards for video projects."
+DIRS["$ROOT_DIR/Documents/Notes"]="General notes related to media creation."
+DIRS["$ROOT_DIR/Documents/References"]="Reference materials for media projects."
+
 # Pictures
 DIRS["$ROOT_DIR/Pictures/Screenshots"]="Screenshots captured from the desktop."
 DIRS["$ROOT_DIR/Pictures/Wallpapers"]="High-resolution wallpapers for desktop background."
