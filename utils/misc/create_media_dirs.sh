@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Root media directory
-ROOT_DIR="/mnt/polaris/Media"
+ROOT_DIR="/media/daniel/Voyager/Media"
 
 # Define directories and their README content
 declare -A DIRS
@@ -51,6 +51,8 @@ for DIR in "${!DIRS[@]}"; do
     README="$DIR/README.md"
     echo -e "# $(basename "$DIR")\n\n${DIRS[$DIR]}" > "$README"
 done
+
+cp Media.md "$ROOT_DIR/README.md"
 
 echo "Directory structure created under $ROOT_DIR with README.md files."
 
