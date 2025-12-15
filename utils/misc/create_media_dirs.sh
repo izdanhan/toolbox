@@ -6,6 +6,17 @@ ROOT_DIR="/media/daniel/Voyager/Media"
 # Define directories and their README content
 declare -A DIRS
 
+# Pictures
+DIRS["$ROOT_DIR/Pictures/Screenshots"]="Screenshots captured from the desktop."
+DIRS["$ROOT_DIR/Pictures/Wallpapers"]="High-resolution wallpapers for desktop background."
+DIRS["$ROOT_DIR/Pictures/Icons"]="Icon sets for applications and folders."
+DIRS["$ROOT_DIR/Pictures/Memes"]="Collection of memes and humorous images."
+DIRS["$ROOT_DIR/Pictures/Misc"]="Miscellaneous images that don't fit other categories."
+DIRS["$ROOT_DIR/Pictures/Inspiration"]="Images collected for creative inspiration."
+DIRS["$ROOT_DIR/Pictures/Reference"]="Reference images for art or design projects."
+DIRS["$ROOT_DIR/Pictures/Thumbnails"]="Thumbnails for videos or projects."
+DIRS["$ROOT_DIR/Pictures/Avatars"]="Profile pictures and avatars for online use."
+
 # Photos
 DIRS["$ROOT_DIR/Photos/RAW"]="Original RAW photo files imported from camera."
 DIRS["$ROOT_DIR/Photos/Edited"]="Post-processed images (edited with digiKam or Krita)."
