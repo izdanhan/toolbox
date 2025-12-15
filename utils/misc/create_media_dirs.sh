@@ -35,6 +35,8 @@ DIRS["$ROOT_DIR/Projects/Krita/Assets"]="Brushes, textures, patterns for Krita."
 
 DIRS["$ROOT_DIR/Projects/Kdenlive/ProjectFiles"]="Kdenlive project files (.kdenlive)."
 
+DIRS["$ROOT_DIR/Projects/Unity"]="Unity projects."
+
 DIRS["$ROOT_DIR/Projects/Other"]="Miscellaneous creative projects."
 
 # Assets
