@@ -77,9 +77,6 @@ Meta Quest 2
 ---
 
 ## Software:
-Affinity Photo   
-Affinity Designer   
-Affinity Publisher   
 Darktable
 digiKam
 DaVinci Resolve (free edition)   
