@@ -10,7 +10,7 @@ alias fl-r="flatpak run"
 
 # apt
 alias ap-in="sudo apt install"
-alias ap-up="sudo apt update && sudo apt upgrade"
+alias ap-up="sudo apt update && sudo apt full-upgrade"
 alias ap-s="apt search"
 alias ap-i="apt show"
 
