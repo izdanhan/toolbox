@@ -1,5 +1,5 @@
 # misc
-alias lsaa="lsd -al"
+alias lsa="lsd -al"
 alias fafe="clear && fastfetch"
 
 # flatpak
@@ -27,11 +27,4 @@ alias p-in="sudo pacman -S "
 alias p-rm="sudo pacman -R "
 alias p-s="pacman -Ss "
 alias p-i="pacman -Si "
-
-# nala
-# alias n-in="sudo nala install "
-# alias n-rm="sudo nala remove "
-# alias n-up="sudo nala update && sudo nala upgrade"
-# alias n-s="nala search "
-# alias n-i="nala show "
 
