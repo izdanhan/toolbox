@@ -1,6 +1,7 @@
 # misc
 alias lsa="lsd -al"
 alias fafe="clear && fastfetch"
+#alias vim="nvim"
 
 # flatpak
 alias fl-in="flatpak install"
