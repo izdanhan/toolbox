@@ -305,3 +305,10 @@ Remember to:
 - **Use branches** for new features (`git checkout -b feature-name`)
 - **Review changes** before committing (`git diff`)
 
+Use this way:
+# Check your current remote URL
+git remote -v
+
+# Change from HTTPS to SSH
+git remote set-url origin git@github.com:YOUR_USERNAME/YOUR_REPO.git
+
