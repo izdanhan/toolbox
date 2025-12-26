@@ -1,5 +1,5 @@
 # Best All-Around. Top-tier general performance, reasoning, and creative tasks.
-# ollama pull llama3:8b
+ollama pull llama3:8b
 
 # Dedicated Coding. Excellent for code generation, explanation, and debugging.
 ollama pull codellama:13b
