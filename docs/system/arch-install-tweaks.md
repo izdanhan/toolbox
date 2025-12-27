@@ -377,3 +377,301 @@ When using `archinstall`, it usually creates a desktop entry. However, as a vete
 
 **Since you're dual-booting with Mint, would you like me to show you how to set up a "Shared Games" folder so both Mint and Arch can access the same Steam library on that 2TB drive?**
 
+---
+
+Since you want an entirely independent EFI partition on your **2TB drive** so that the Arch drive can boot on its own (even if the Mint drive is removed), you should follow this specific workflow in `archinstall`.
+
+### 🛠️ In the `archinstall` Menu:
+
+1. **Disk Configuration:**
+* Select **"Pre-partitioned"** or **"Manual partitioning."**
+* Since you are an experienced user, I recommend creating the partitions *before* starting the script, or using the manual tool inside it.
+
+
+2. **The Partition Scheme (2TB Drive):**
+* **Partition 1 (EFI):** Size: `1024 MB` (1GB is the "future-proof" standard for 2025).
+* Type: `EFI System` (EF00).
+* Format: `FAT32`.
+* Mount point: `/boot`.
+
+
+* **Partition 2 (Arch Root):** Size: `256 GB`.
+* Format: `Btrfs`.
+* Mount point: `/`.
+
+
+* **Partition 3 (Games):** Size: `Remaining Space (~1.7TB)`.
+* Format: `Btrfs` (or Ext4).
+* Mount point: `/mnt/games` (or just leave it unmounted and handle it in `/etc/fstab` post-install).
+
+
+
+
+
+### ⚠️ Critical Step for Timeshift
+
+`archinstall` will ask if you want to use **Btrfs subvolumes**.
+
+* **Say Yes.**
+* Ensure it names them `@` for the root and `@home` for home.
+* **Timeshift requires this specific naming convention.** If they are just named `root` or `home`, Timeshift's Btrfs mode will not work.
+
+---
+
+### 🚀 Post-Install Optimization (NVIDIA + 5900X)
+
+Once the script finishes and you chroot in (or boot for the first time), run these specific veteran tweaks for your hardware:
+
+#### 1. Fix the "Shared Drive" Permissions
+
+Since your games are on a separate partition, make sure your user owns that directory so Steam doesn't throw "Permission Denied" errors:
+
+```bash
+sudo chown -R $USER:$USER /mnt/games
+
+```
+
+#### 2. The "NVIDIA Wayland" Flag
+
+Even if `archinstall` detects your 3080, double-check that **DRM Kernel Mode Setting** is on. It is the only way Hyprland or Plasma 6 will run smoothly.
+Check `/etc/default/grub` for:
+`GRUB_CMDLINE_LINUX_DEFAULT="... nvidia-drm.modeset=1"`
+
+#### 3. Enable Multilib for Gaming
+
+You'll need the 32-bit NVIDIA libs for Steam.
+
+```bash
+sudo sed -i '/\[multilib\]/,/Include/s/^#//' /etc/pacman.conf
+sudo pacman -Syu lib32-nvidia-utils
+
+```
+
+#### 4. The "Safety Net" (Timeshift + GRUB)
+
+Since you are testing DEs, run this immediately:
+
+```bash
+sudo pacman -S timeshift timeshift-autosnap grub-btrfs
+# Tell grub-btrfs to watch Timeshift snapshots
+sudo systemctl edit --full grub-btrfsd.service
+# Change ExecStart to: /usr/bin/grub-btrfsd --syslog --timeshift-auto
+sudo systemctl enable --now grub-btrfsd.service
+
+```
+
+---
+
+### 🏁 Summary of Your High-End Desktop
+
+* **Ryzen 5900X:** Will handle the `zstd:1` compression and the `linux-zen` scheduler like a beast.
+* **RTX 3080:** Will finally have **Explicit Sync** on Wayland (no more flickering).
+* **Hyprland:** Will be your ultra-low-latency workspace.
+* **KDE Plasma 6:** Will be your backup for HDR gaming.
+
+**Would you like me to show you the specific Hyprland workspace rules to force games to open on a specific monitor or in a "performance mode"?**
+
+---
+
+For a veteran with a **Ryzen 5900X** and **RTX 3080**, performance is all about getting the compositor out of the way when a game is running. In 2025, Hyprland has a powerful "v2" rule system that can automate this.
+
+Here is how to set up **"Performance Mode"** rules in your `~/.config/hypr/hyprland.conf`.
+
+---
+
+### 🖥️ 1. Force Games to a Specific Monitor
+
+First, identify your primary gaming monitor (e.g., `DP-1`). You can bind a specific workspace (let's say **Workspace 4**) to that monitor so games always open there.
+
+```bash
+# Bind Workspace 4 to your high-refresh gaming monitor
+workspace = 4, monitor:DP-1, default:true
+
+```
+
+### 🏎️ 2. The "Performance Mode" Window Rules
+
+These rules detect games (via Steam or common game classes) and automatically strip away animations, blur, and borders to save GPU cycles, while enabling **Tearing** (Immediate Mode) for the lowest possible latency.
+
+```bash
+# Detect Steam and common game patterns
+windowrulev2 = workspace 4, class:^(steam_app_.*)$
+windowrulev2 = workspace 4, class:^(gamescope)$
+
+# PERFORMANCE TWEAKS: Disable eye-candy for games
+windowrulev2 = noanim, class:^(steam_app_.*)$
+windowrulev2 = noblur, class:^(steam_app_.*)$
+windowrulev2 = noborder, class:^(steam_app_.*)$
+windowrulev2 = noshadow, class:^(steam_app_.*)$
+
+# LATENCY: Enable "Immediate" (Tearing) for games if G-Sync is off
+# Note: Requires 'allow_tearing = true' in the general section
+windowrulev2 = immediate, class:^(steam_app_.*)$
+
+# FOCUS: Prevent games from losing focus to notifications
+windowrulev2 = idleinhibit fullscreen, class:^(steam_app_.*)$
+
+```
+
+### 🎮 3. Global "Game Mode" Toggle (Veteran Shortcut)
+
+Sometimes you want to turn off *all* desktop effects manually before a heavy gaming session. Add this bind to your config:
+
+```bash
+# Toggle animations, blur, and decorations with one keybind
+# Useful for the 5900X to focus entirely on the game thread
+bind = $mainMod, G, exec, hyprctl keyword animations:enabled 0 && hyprctl keyword decoration:blur:enabled 0 && hyprctl keyword decoration:drop_shadow 0
+bind = $mainMod SHIFT, G, exec, hyprctl keyword animations:enabled 1 && hyprctl keyword decoration:blur:enabled 1 && hyprctl keyword decoration:drop_shadow 1
+
+```
+
+---
+
+### 🛠️ 4. Essential General Settings for Gaming
+
+Ensure these are in your `general` and `misc` sections for the best experience with an RTX 3080:
+
+```bash
+general {
+    allow_tearing = true # Allows the 'immediate' rule to work
+}
+
+misc {
+    vrr = 2            # Enable VRR (G-Sync) for fullscreen windows only
+    no_direct_scanout = false # Keep this false for better performance in games
+}
+
+```
+
+### 🏁 Final Tip for the Veteran
+
+Since you have a **5900X (12 cores)**, use `gamemoded` (Feral GameMode). It will automatically set your CPU governor to `performance` and prioritize the game's process.
+
+1. Install: `sudo pacman -S gamemode lib32-gamemode`
+2. In Steam Launch Options: `gamemoderun %command%`
+
+**Would you like me to show you how to set up a status bar (like Waybar) that displays your RTX 3080's temperature and load while you're in Hyprland?**
+
+---
+
+Since you have an **RTX 3080** and a **5900X**, you definitely want to keep an eye on those thermals and clock speeds, especially in a minimalist environment like Hyprland.
+
+In late 2025, **Waybar** remains the gold standard. To monitor an NVIDIA GPU on Arch, you’ll want to use the `nvidia-smi` command via a custom module, as the standard Waybar GPU module can sometimes be finicky with proprietary drivers.
+
+---
+
+### 🛠️ 1. Install Dependencies
+
+You’ll need `waybar` and `jq` (to process the JSON for the bar).
+
+```bash
+sudo pacman -S waybar jq
+
+```
+
+---
+
+### 📊 2. The Waybar Configuration (`~/.config/waybar/config`)
+
+Add these custom modules to your config file. These will query your 3080 and 5900X specifically.
+
+```json
+{
+    "layer": "top",
+    "modules-right": ["custom/nvidia", "cpu", "temperature", "memory", "clock"],
+
+    "custom/nvidia": {
+        "exec": "nvidia-smi --query-gpu=utilization.gpu,temperature.gpu --format=csv,noheader,nounits | awk -F', ' '{print \"  \" $1 \"%   \" $2 \"°C\"}'",
+        "interval": 2,
+        "tooltip": false
+    },
+
+    "cpu": {
+        "format": "  {usage}%",
+        "tooltip": true,
+        "interval": 2
+    },
+
+    "temperature": {
+        "thermal-zone": 2, // You might need to check /sys/class/thermal/
+        "hwmon-path": "/sys/class/hwmon/hwmon1/temp1_input", // Path for Ryzen 5900X
+        "critical-threshold": 80,
+        "format": "{icon} {temperatureC}°C",
+        "format-icons": ["", "", ""]
+    },
+
+    "memory": {
+        "format": "  {}%"
+    }
+}
+
+```
+
+---
+
+### 🎨 3. Styling the Bar (`~/.config/waybar/style.css`)
+
+Make it look modern to match your RTX 3080 power.
+
+```css
+window#waybar {
+    background: rgba(20, 20, 20, 0.8);
+    border-bottom: 2px solid #333;
+    color: #ffffff;
+    font-family: "JetBrains Mono", "Font Awesome 6 Free";
+    font-size: 14px;
+}
+
+#custom-nvidia {
+    color: #76b900; /* NVIDIA Green */
+    padding: 0 10px;
+}
+
+#cpu {
+    color: #00ccff;
+    padding: 0 10px;
+}
+
+#temperature {
+    color: #ffaa00;
+    padding: 0 10px;
+}
+
+#temperature.critical {
+    background-color: #ff0000;
+}
+
+```
+
+---
+
+### 🚀 4. Auto-Start Waybar in Hyprland
+
+Add this to your `hyprland.conf` so the bar launches with your desktop:
+
+```bash
+exec-once = waybar
+
+```
+
+---
+
+### 🧠 Veteran Tip: Precision Monitoring
+
+Since you're on a 12-core 5900X, you might want to see the load on *all* cores if things feel sluggish.
+
+* **Recommendation:** Install `btop`. It is the modern, much prettier successor to `top` or `htop`.
+* **Keybind:** Add `bind = $mainMod, Escape, exec, alacritty -e btop` to your config for instant system oversight.
+
+### **Summary of your Build Progress**
+
+1. **Bootloader:** GRUB (with Snapshot support).
+2. **OS:** Arch Linux (linux-zen kernel).
+3. **UI:** Hyprland (with NVIDIA optimizations) + KDE Plasma 6 (as a backup).
+4. **Safety:** Timeshift Btrfs snapshots.
+5. **Monitoring:** Waybar with 3080/5900X telemetry.
+
+You are now set up with a configuration that is technically superior to your Mint install for high-end gaming.
+
+**Is there anything else you need before you start the `archinstall` process, like setting up the RGB control for your 3080 or Ryzen cooler?**
+
