@@ -95,3 +95,105 @@ Since you want a Tier-S experience, Plasma 6.x is the move.
 | **Network** | `NetworkManager` is the 2025 standard (vs the old `dhcpcd`). |
 
 **Since you're a veteran of the '95 era, would you like me to show you how to set up Btrfs snapshots (Timeshift) so you can "undo" an Arch update if something breaks, similar to how you might have used LVM snapshots in the past?**
+
+---
+
+Since you’re using `archinstall`, it will handle a lot of the heavy lifting, but as a veteran, you know that automated scripts still require a "manual eye" to ensure things like Btrfs subvolumes and NVIDIA hooks are configured for longevity.
+
+Here is the veteran’s guide to using `archinstall` for your dual-drive setup, followed by the **Timeshift/Btrfs** snapshot safety net.
+
+---
+
+## 🛠 Part 1: The `archinstall` Strategy
+
+When you run the script, keep these specific choices in mind for your **RTX 3080 / 5900X** rig:
+
+1. **Disk Layout:** Select your **2TB NVMe**. Choose **Btrfs**.
+* `archinstall` will automatically create `@` (root) and `@home` subvolumes. This is exactly what you want for snapshotting.
+
+
+2. **Drivers:** Choose **NVIDIA (proprietary)**. The script will usually set `nvidia-drm.modeset=1` for you now, but we will double-check it later.
+3. **Kernel:** Choose **linux-zen**.
+4. **Audio:** Choose **Pipewire** (the modern replacement for PulseAudio/Jack).
+5. **Optional Repos:** Make sure to toggle **Multilib** to `on`.
+
+---
+
+## 🛡 Part 2: The "Undo" Button (Btrfs + Timeshift)
+
+Since you're on Arch, things *can* break during an update. Using Btrfs snapshots allows you to roll back your entire OS in seconds.
+
+### **1. Install Timeshift**
+
+Once you’ve booted into your new Arch install:
+
+```bash
+sudo pacman -S timeshift timeshift-autosnap
+
+```
+
+* **timeshift:** The tool itself.
+* **timeshift-autosnap:** This is the "magic" part. It automatically creates a snapshot **every time** you run `pacman`. If an update breaks your NVIDIA driver, you just roll back.
+
+### **2. Configure for Btrfs**
+
+Open Timeshift (GUI or CLI). Select **BTRFS** as the snapshot type.
+
+* Because `archinstall` used the `@` subvolume naming convention, Timeshift will recognize it immediately.
+* **Schedule:** Set it to keep 5 Daily and 3 Boot snapshots.
+
+---
+
+## 🔧 Part 3: Essential Post-Install "Veteran" Tweaks
+
+### **1. The "Reflector" Tweak (Fast Downloads)**
+
+Don't settle for slow mirrors.
+
+```bash
+sudo pacman -S reflector
+sudo reflector --latest 20 --protocol https --sort rate --save /etc/pacman.d/mirrorlist
+
+```
+
+### **2. Fix NVIDIA "Wake from Sleep" Artifacts**
+
+NVIDIA cards often show "garbled" windows after waking up. Enable these services to save VRAM state to your NVMe:
+
+```bash
+sudo systemctl enable nvidia-suspend.service
+sudo systemctl enable nvidia-resume.service
+sudo systemctl enable nvidia-hibernate.service
+
+```
+
+### **3. Optimize the 2TB Game Partition**
+
+Since you are using the rest of the 2TB drive for games, make sure your mount options in `/etc/fstab` are optimized for NVMe:
+
+* Ensure `discard=async` is present (better for SSD life than the old `discard`).
+* Use `compress=zstd:3` to save space on those massive 100GB+ game installs without a CPU hit.
+
+### **4. GRUB/Os-Prober (The Mint Link)**
+
+To ensure you can still boot into your Mint drive from the Arch menu:
+
+```bash
+sudo pacman -S os-prober
+echo "GRUB_DISABLE_OS_PROBER=false" | sudo tee -a /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+
+```
+
+---
+
+## 📊 Summary of Your High-End Stack
+
+| Layer | Component | Reason |
+| --- | --- | --- |
+| **Kernel** | `linux-zen` | Low-latency desktop performance. |
+| **GPU Sync** | `Wayland` + `Explicit Sync` | Finally solves NVIDIA flickering in 2025. |
+| **Safety** | `Btrfs` + `Timeshift` | Instant recovery from failed updates. |
+| **Gaming** | `Steam` + `Gamemode` | Maximizes your 3080/5900X potential. |
+
+**Since you have 32GB of RAM, would you like to know how to set up `zram`? It's much faster than a traditional swap partition/file and is the modern standard for Linux systems with plenty of memory.**
