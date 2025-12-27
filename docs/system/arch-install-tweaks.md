@@ -675,3 +675,178 @@ You are now set up with a configuration that is technically superior to your Min
 
 **Is there anything else you need before you start the `archinstall` process, like setting up the RGB control for your 3080 or Ryzen cooler?**
 
+---
+
+Since you have been using Linux since '95, you know the "dependency hell" of the past. In 2025, it’s less about "breaking" things and more about **visual consistency** and **system overhead**.
+
+Given your plan to install **KDE Plasma 6** as a secondary DE, the logical choice is to use **KDE/Qt apps** as your base for Hyprland.
+
+---
+
+## 🏆 The Case for the KDE (Qt) Base
+
+### 1. Unified Dependencies
+
+Since you will already have Plasma 6 installed for your "backup" sessions, all the heavy Qt6 libraries and KDE Frameworks will already be on your NVMe. If you use GNOME apps (GTK), you’ll end up loading both the KDE and GNOME "stacks" into your 32GB of RAM.
+
+### 2. Dolphin is King
+
+As a power user, **Dolphin** is significantly more capable than Nautilus.
+
+* It has a built-in terminal (`F4`), which is essential for an Arch user.
+* It handles remote mounts (SSH, FTP) more robustly than Nautilus.
+* It integrates perfectly with your 3080/high-res setup for thumbnail previews of heavy media.
+
+### 3. Wayland Native
+
+KDE apps have been Wayland-native for a long time. While GNOME apps are too, KDE apps offer more granular control over window rules and decorations that Hyprland can leverage.
+
+---
+
+## 🛠️ The "Pro" Hyprland App Stack
+
+If you go with the KDE/Qt base, here is the curated list of apps that look and work best in Hyprland:
+
+| Category | App Recommendation | Why? |
+| --- | --- | --- |
+| **File Manager** | **Dolphin** | Feature-rich; already installed via Plasma. |
+| **Terminal** | **Kitty** or **Alacritty** | GPU-accelerated (uses your 3080); Wayland native. |
+| **Text Editor** | **Kate** | Outstanding for config files; lightweight. |
+| **Image Viewer** | **Gwenview** | Fast and handles RAW/high-res images well. |
+| **App Launcher** | **Rofi-Wayland** | Highly customizable; fits the "Hyprland aesthetic." |
+| **Auth Agent** | **polkit-kde-agent** | Necessary for GUI apps to ask for sudo. |
+
+---
+
+## 🎨 Avoiding "Theme Mismatch"
+
+The biggest headache with Hyprland is making Qt apps (KDE) and GTK apps (Firefox, etc.) look the same. Since you're on Arch, use **kvantum** to force a consistent look.
+
+1. **Install:** `sudo pacman -S kvantum qt5-wayland qt6-wayland`
+2. **Set Env Var:** In your `hyprland.conf`, add:
+`env = QT_QPA_PLATFORMTHEME,qt6ct`
+3. **Theming:** Use `qt6ct` to set the theme to Kvantum, and then use the Kvantum Manager to pick a dark theme that matches your Hyprland borders.
+
+---
+
+## 🚀 The "Veteran's Move" for archinstall
+
+When the script asks for "Optional repositories" and "Packages":
+
+* **Include:** `dolphin`, `kate`, `ark` (archiving), and `ffmpegthumbs` (for video previews in Dolphin).
+* **Avoid:** `gnome-control-center` or `nautilus`. They bring in the `dconf` and `gvfs` overhead that can sometimes conflict with how KDE handles mounting.
+
+### One final tip:
+
+Since you're using **Dolphin** in Hyprland, you'll need a "Portal" to make sure file dialogs pop up correctly.
+**Install:** `xdg-desktop-portal-hyprland` and `xdg-desktop-portal-kde`.
+
+**Would you like the specific `exec-once` lines for your `hyprland.conf` to make sure the KDE authentication agent and wallpaper engine start automatically?**
+
+---
+
+To ensure your **Hyprland** session feels like a complete desktop and not just a window manager, you need to trigger the "background" services that KDE apps (and the system in general) rely on.
+
+Add these to your `~/.config/hypr/hyprland.conf`:
+
+### 🛠️ 1. The "Must-Have" Background Services
+
+These ensure you can use `sudo` in GUI apps, keep your screen from dimming during games, and handle file sharing.
+
+```bash
+# Authentication Agent (Allows Dolphin/Kate to ask for your password)
+exec-once = /usr/lib/polkit-kde-authentication-agent-1
+
+# Pipewire / Wireplumber (Audio & Screen Sharing)
+exec-once = dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP
+exec-once = systemctl --user import-environment WAYLAND_DISPLAY XDG_CURRENT_DESKTOP
+
+# Status Bar & Notifications
+exec-once = waybar
+exec-once = swaync # Or 'mako' for notifications
+
+# Wallpaper Engine (Hyprpaper is lightweight and perfect for your 3080)
+exec-once = hyprpaper
+
+```
+
+### 🌓 2. Blue Light Filter (Night Light)
+
+Since you’re likely spending long hours on this rig, a blue light filter is essential. **Hyprland** doesn't have a built-in one like GNOME/KDE, so we use `wlsunset`.
+
+1. **Install:** `sudo pacman -S wlsunset`
+2. **Add to Config:**
+```bash
+# Set for your approximate location (example for Finland: 60.1 lat, 24.9 lon)
+exec-once = wlsunset -l 60.1 -L 24.9
+
+```
+
+
+
+---
+
+### 📂 3. Making Dolphin "Feel" Native
+
+Since you're using **Dolphin** on a tiling window manager, it might try to open in weird sizes. You can force it to behave with a window rule:
+
+```bash
+# Open Dolphin in a specific size and center it if it's floating
+windowrulev2 = float, class:^(org.kde.dolphin)$
+windowrulev2 = size 1000 600, class:^(org.kde.dolphin)$
+windowrulev2 = center, class:^(org.kde.dolphin)$
+
+```
+
+---
+
+### 🔒 4. The Screen Locker
+
+Since you're a veteran, you know never to leave a terminal open when you walk away. Use `hyprlock`, which is the modern Wayland-native locker.
+
+1. **Install:** `sudo pacman -S hyprlock hypridle`
+2. **Add to Config:**
+```bash
+# Lock screen after 5 mins of inactivity
+exec-once = hypridle
+
+# Manual lock bind (Super + L)
+bind = $mainMod, L, exec, hyprlock
+
+```
+
+
+
+---
+
+### 📋 5. Clipboard History
+
+Wayland handles the clipboard differently than X11. You need a manager so your "copy" doesn't disappear when you close the source window.
+
+1. **Install:** `sudo pacman -S wl-clipboard cliphist`
+2. **Add to Config:**
+```bash
+exec-once = wl-paste --type text --watch cliphist store 
+exec-once = wl-paste --type image --watch cliphist store
+
+# Bind to view history (requires rofi or wofi)
+bind = $mainMod, V, exec, cliphist list | rofi -dmenu | cliphist decode | wl-copy
+
+```
+
+
+
+---
+
+### **Final Archinstall Checklist**
+
+* [ ] **Disk:** Btrfs on the 2TB NVMe (Subvolumes: `@`, `@home`).
+* [ ] **Bootloader:** GRUB (Installed to the new 1GB EFI on the 2TB drive).
+* [ ] **Graphics:** NVIDIA Proprietary.
+* [ ] **Kernels:** `linux-zen`.
+* [ ] **Network:** NetworkManager.
+
+**You are fully prepared.** With your 1995-era experience and this 2025-ready config, this will likely be the fastest Linux machine you've ever owned.
+
+**Would you like me to stay "on standby" while you run the installer in case you hit any partitioning snags?**
+
