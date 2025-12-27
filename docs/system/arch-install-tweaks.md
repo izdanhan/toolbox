@@ -197,3 +197,183 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 | **Gaming** | `Steam` + `Gamemode` | Maximizes your 3080/5900X potential. |
 
 **Since you have 32GB of RAM, would you like to know how to set up `zram`? It's much faster than a traditional swap partition/file and is the modern standard for Linux systems with plenty of memory.**
+
+---
+
+Given your background since '95 and your **RTX 3080**, the answer to "Should I try Hyprland?" is a resounding **yes**—but with a very specific "2025 caveat."
+
+In late 2025, Hyprland has reached a point where it is no longer the "flickery mess" it once was on NVIDIA, thanks to **Explicit Sync** (introduced in NVIDIA driver 555 and perfected in later versions). However, it still requires more "under-the-hood" respect than KDE Plasma.
+
+---
+
+## ⚡ Hyprland on NVIDIA (Late 2025 State)
+
+| Factor | Experience |
+| --- | --- |
+| **Stability** | **High.** Flickering is 99% gone if you use the 555+ drivers and the `nvidia-drm.modeset=1` flag. |
+| **Performance** | **Extreme.** With a 5900X, your input latency will be lower than almost any other desktop environment. |
+| **The "Catch"** | **Blurry Apps.** XWayland apps (like Steam and Discord) can look blurry if you use fractional scaling. You often have to choose between "tiny text" or "slight blur" unless you tweak them specifically. |
+
+---
+
+## 🛠 Veteran’s Hyprland Setup Guide (NVIDIA Edition)
+
+If you use `archinstall`, select the "Desktop" profile and then "Hyprland." Once installed, you **must** do these manual steps to ensure your 3080 doesn't act up.
+
+### **1. Essential Environment Variables**
+
+Edit your `~/.config/hypr/hyprland.conf` and add these lines. This is the "secret sauce" for NVIDIA stability:
+
+```bash
+# NVIDIA specific
+env = LIBVA_DRIVER_NAME,nvidia
+env = XDG_SESSION_TYPE,wayland
+env = GBM_BACKEND,nvidia-drm
+env = __GLX_VENDOR_LIBRARY_NAME,nvidia
+
+# Fix cursor issues
+env = CURSOR_FLAGS,nvidia
+
+# Fix flickering in Electron apps (Discord, VS Code)
+env = ELECTRON_OZONE_PLATFORM_HINT,auto
+
+```
+
+### **2. Explicit Sync Check**
+
+Ensure your system is truly using the modern sync protocol. Run:
+`pacman -Qs xorg-xwayland`
+It should be version **24.1 or higher**. Hyprland 0.50+ (current in late 2025) uses explicit sync by default, which is why your 3080 will finally feel smooth.
+
+### **3. The "Hybrid" Approach (Dual-DE)**
+
+Since you’ve been using Linux since '95, you know the value of a backup.
+
+* **Install both KDE Plasma 6 and Hyprland.**
+* They can coexist perfectly.
+* Use KDE for "mission critical" work or HDR gaming (KDE’s HDR implementation is currently more mature).
+* Use Hyprland for your daily driver, coding, and general "cool factor."
+
+---
+
+## 🏎 Performance Comparison (5900X / 3080)
+
+* **KDE Plasma:** Feels like a high-end luxury car. Smooth, heavy features, everything works, HDR is stunning.
+* **Hyprland:** Feels like a stripped-out race car. Instant response times, gorgeous blur effects, but you'll be editing text files to change your volume keys or display brightness.
+
+### **My Recommendation?**
+
+**Try it.** You have the hardware to handle it, and as a long-time user, you’ll appreciate the sheer speed. If it feels too "fiddly" after a week, your KDE install is just one logout away.
+
+**Would you like me to help you craft a "minimalist" Hyprland config file that specifically targets high-refresh-rate gaming for your RTX 3080?**
+
+---
+
+Since you have an **RTX 3080** and a **Ryzen 5900X**, you should aim for a configuration that prioritizes **low latency** and **high refresh rates**.
+
+By late 2025, Hyprland has excellent "Explicit Sync" support, which finally eliminates the NVIDIA flickering. Here is a specialized "Veteran's Config" for your `~/.config/hypr/hyprland.conf`.
+
+---
+
+## 🛠 1. The NVIDIA "Must-Haves" (Environment Variables)
+
+Add these to the top of your config. These ensure the NVIDIA driver and Wayland communicate without lag.
+
+```bash
+# NVIDIA & Wayland Toolkit
+env = LIBVA_DRIVER_NAME,nvidia
+env = XDG_SESSION_TYPE,wayland
+env = GBM_BACKEND,nvidia-drm
+env = __GLX_VENDOR_LIBRARY_NAME,nvidia
+
+# Fix cursor issues on NVIDIA
+cursor {
+    no_hardware_cursors = true
+}
+
+# Fix flickering in Discord/VSCode (Electron apps)
+env = ELECTRON_OZONE_PLATFORM_HINT,auto
+
+```
+
+---
+
+## 🖥 2. High Refresh Rate Monitor Setup
+
+Don't use `preferred`. Be explicit to ensure your 3080 pushes the max frames.
+*Run `hyprctl monitors` to find your port name (e.g., `DP-1` or `HDMI-A-1`).*
+
+```bash
+# General rule for any monitor: Use highest refresh rate
+# monitor = , highrr, auto, 1
+
+# Specific rule (e.g., 1440p at 144Hz)
+monitor = DP-1, 2560x1440@144, 0x0, 1
+
+# Enable 10-bit color for your 3080
+monitor = DP-1, 2560x1440@144, 0x0, 1, bitdepth, 10
+
+```
+
+---
+
+## 🏎 3. Performance & Gaming Tweaks
+
+Since you are a gamer, you want to disable "Variable Frame Rate" (VFR) for the desktop to keep it buttery smooth, but enable "Variable Refresh Rate" (VRR/G-Sync) for games.
+
+```bash
+misc {
+    vfr = false # Keeps the GPU active for smoother desktop animations
+    vrr = 1     # 0: off, 1: on, 2: fullscreen only (recommended for G-Sync)
+    no_direct_scanout = false # Critical for performance in full-screen games
+}
+
+render {
+    explicit_sync = 2 # Forces explicit sync (0: off, 1: on, 2: auto)
+}
+
+```
+
+---
+
+## 🎨 4. Aesthetic (The "Arch Pro" Look)
+
+With a 5900X, you can afford the "Eye Candy" without losing a single FPS in games.
+
+```bash
+decoration {
+    rounding = 10
+    blur {
+        enabled = true
+        size = 8
+        passes = 3
+        new_optimizations = true
+    }
+    drop_shadow = true
+    shadow_range = 15
+    col.shadow = rgba(1a1a1aee)
+}
+
+animations {
+    enabled = true
+    bezier = myBezier, 0.05, 0.9, 0.1, 1.05
+    animation = windows, 1, 7, myBezier
+    animation = workspaces, 1, 6, default
+}
+
+```
+
+---
+
+## 🏁 Final Step: The NVIDIA Wrapper
+
+When using `archinstall`, it usually creates a desktop entry. However, as a veteran, you might prefer starting it manually. If you encounter issues, ensure you launch Hyprland with this wrapper script or check that your `.zshrc` / `.bashrc` exports those `env` variables.
+
+### **Quick Checklist before reboot:**
+
+1. **32-bit drivers:** `sudo pacman -S lib32-nvidia-utils` (Essential for Steam).
+2. **Portal:** `sudo pacman -S xdg-desktop-portal-hyprland` (Essential for screen sharing).
+3. **App Launcher:** `sudo pacman -S rofi-wayland` or `wofi`.
+
+**Since you're dual-booting with Mint, would you like me to show you how to set up a "Shared Games" folder so both Mint and Arch can access the same Steam library on that 2TB drive?**
+
