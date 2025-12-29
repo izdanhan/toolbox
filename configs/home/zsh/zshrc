@@ -10,6 +10,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Aliases
 source $HOME/git/toolbox/aliases/my_aliases.sh
+source $HOME/git/toolbox/aliases/git_aliases.sh
 
 # Exports
 export EDITOR='fresh'
