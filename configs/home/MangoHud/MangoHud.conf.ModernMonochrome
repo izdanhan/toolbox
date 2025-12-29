@@ -2,8 +2,11 @@
 
 legacy_layout=false
 
-# Kernel & Header
+# Header & Wine
 custom_text_center=altair
+wine
+wine_color=FFFFFF
+# custom_text_center=
 
 # Modern Glass Aesthetics
 background_alpha=0.5
@@ -50,9 +53,6 @@ fps
 engine_version
 engine_color=808080       # Subtle dark gray
 vulkan_driver
-custom_text_center=
-wine
-wine_color=FFFFFF
 
 # Frametime - Clean Monochrome Gradient
 frame_timing
