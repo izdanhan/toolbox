@@ -1,6 +1,7 @@
 # misc
 alias lsa="lsd -al"
 alias ff="clear && fastfetch"
+alias fr="fresh"
 alias nano="fresh"
 alias ryujinx="mangohud flatpak run io.github.ryubing.Ryujinx"
 #alias vim="nvim"
