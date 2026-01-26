@@ -14,3 +14,4 @@
 - `discordo` - Discord client in terminal
 - `curl cheat.sh` - curl cheat sheet
 - `curl wttr.in/tampere` - weather forecast
+
