@@ -36,8 +36,8 @@ sudo firewall-cmd --complete-reload
 #!/bin/bash
 
 # === INTERFACES ===
-WIFI_IF="wlp0s20f3"    # change to your Wi-Fi interface
-ETH_IF="enp3s0"       # change if you have Ethernet
+WIFI_IF="wlp1s0"    # change to your Wi-Fi interface
+ETH_IF="eth0"       # change if you have Ethernet
 
 # === ZONES ===
 sudo firewall-cmd --set-default-zone=public
