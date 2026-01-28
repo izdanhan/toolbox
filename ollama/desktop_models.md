@@ -2,7 +2,7 @@
 
 Yes, your current models are an **excellent choice** for your desktop PC (Ryzen 9 5900X + 32 GB RAM + RTX 3080 10 GB) — in fact, they're **even better suited** here than on your laptop, thanks to the **NVIDIA GPU acceleration via CUDA** in Ollama.
 
-### Why these models shine on RTX 3080 10 GB (2026 context)
+## Why these models shine on RTX 3080 10 GB (2026 context)
 
 - **RTX 3080 10 GB** is still a strong consumer GPU for local LLMs in 2026. It handles **up to ~14–15B parameter models** fully in VRAM at standard Q4_K_M quantization (the default Ollama uses), with room for decent context lengths (8K–32K tokens).
 - Your **Ryzen 9 5900X** (12-core/24-thread Zen 3) provides solid fallback/hybrid offloading if needed, and **32 GB system RAM** handles KV cache overflow or partial offloading gracefully.
@@ -24,7 +24,7 @@ Here's a quick breakdown for your exact hardware:
 - Longer contexts (e.g., 32K+) might push a bit into system RAM for KV cache, but with 32 GB RAM it's fine (minimal slowdown).
 - Compared to your laptop (AMD iGPU/CPU): Expect **2–5x faster** responses on the desktop, especially for the 12–14B models.
 
-### Recommendations for your desktop
+## Recommendations for your desktop
 
 - **Primary daily driver**: Stick with **qwen2.5:14b** — it's frequently ranked as one of the strongest medium models that fits comfortably in 10 GB VRAM. Great general-purpose, reasoning, and multilingual performance.
 - **For speed/quick tasks**: **qwen2.5:7b** or **qwen2.5-coder:7b** — you'll feel the snappiness.
