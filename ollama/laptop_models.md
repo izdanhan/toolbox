@@ -1,3 +1,5 @@
+# Laptop Ollama models
+
 Your current Ollama setup looks excellent for your **ThinkPad T14s Gen 4** with **Ryzen 7 PRO 7840U** (Radeon 780M iGPU) and **32 GB RAM**:
 
 ```
@@ -13,7 +15,8 @@ llama3.2:3b           a80c4f17acd5  2.0 GB  2 hours ago
 
 Total downloaded: ~39 GB — perfect fit, leaving plenty of headroom in your 32 GB RAM for inference (no 70B disasters anymore!).
 
-### Quick ranking & recommendations based on 2026 benchmarks/performance on similar AMD iGPU/CPU laptops
+## Quick ranking & recommendations based on 2026 benchmarks/performance on similar AMD iGPU/CPU laptops
+
 These are pulled from community reports (Reddit/LocalLLaMA, Ollama discussions), hardware tests on Ryzen 7840U/780M, and leaderboard trends for small/medium models. Your iGPU (via ROCm if enabled in Ollama) gives a nice boost on smaller models (~20–50+ t/s possible), while larger ones lean more on CPU (~10–30 t/s).
 
 | Model              | Size (quant) | Est. Speed (your hw) | Strengths (2026 view)                          | Best for                          | Recommendation |
@@ -27,11 +30,13 @@ These are pulled from community reports (Reddit/LocalLLaMA, Ollama discussions),
 | **llama3.2:3b**   | ~2 GB       | 50–80+ t/s          | Very fast tiny model; surprisingly capable | Ultra-quick responses, low-power | ★★☆☆☆ (backup for speed) |
 
 **Top picks to use right now**:
+
 1. **qwen2.5:14b** → Your flagship. Highest capability without killing speed. Use this for most things — it's frequently called one of the best medium models in 2026 for local hardware.
 2. **gemma3:12b** → Switch here for math, science, or when you want super-coherent output. Many users prefer it over Qwen for certain reasoning chains.
 3. **qwen2.5-coder:7b** or **qwen2.5:7b** → For fast responses or coding sessions. The 7B variants fly on your setup (often 40–60 t/s on CPU/iGPU).
 
 ### Tips for best experience in Open WebUI
+
 - In the model selector (chat or admin > models), pick one and set **temperature 0.7–0.9** for creative, **0.1–0.3** for precise/code.
 - If iGPU acceleration isn't active (check `ollama ps` or logs for ROCm mentions), everything runs great on CPU anyway — your 8-core Zen 4 is strong.
 - Test context length: These support 8K–128K tokens; set higher in Open WebUI for long chats/codebases.
