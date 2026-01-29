@@ -12,16 +12,16 @@ alias fl-up="flatpak update"
 alias fl-r="flatpak run"
 
 # apt
-#alias ap-in="sudo apt install"
-#alias ap-up="sudo apt update && sudo apt full-upgrade"
-#alias ap-s="apt search"
-#alias ap-i="apt show"
+alias ap-in="sudo apt install"
+alias ap-up="sudo apt update && sudo apt full-upgrade"
+alias ap-s="apt search"
+alias ap-i="apt show"
 
 # apt > nala
-alias ap-in="sudo nala install"
-alias ap-up="sudo nala update && sudo nala full-upgrade"
-alias ap-s="nala search"
-alias ap-i="nala show"
+#alias ap-in="sudo nala install"
+#alias ap-up="sudo nala update && sudo nala full-upgrade"
+#alias ap-s="nala search"
+#alias ap-i="nala show"
 
 # nala
 alias nl-in="sudo nala install"
