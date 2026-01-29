@@ -2,14 +2,18 @@
 
 https://www.youtube.com/watch?v=DfA9DjleY_E
 
-discordo: https://github.com/ayn2op/discordo
-btop: https://github.com/aristocratos/btop
-bluetui: https://github.com/pythops/bluetui
-impala: https://github.com/pythops/impala
-nmtui: package manager, likely installed
-wiremix: https://github.com/tsowell/wiremix
-yazi: https://github.com/sxyazi/yazi
-lynx: https://lynx.invisible-island.net/
-ncdu: https://dev.yorhel.nl/ncdu
-lazygit: https://github.com/jesseduffield/lazygit
-neovim: https://github.com/neovim/neovim
+## Usefull apps in terminal
+
+- `btop` - interactive process viewer
+- `nload` - network traffic monitor
+- `wiremix` - sound mixer for ALSA sound system
+- `impala` - TUI for managing wifi
+- `nmtui` - TUI for managing wifi
+- `bluetui` - TUI for managing bluetooth devices
+- `tldr` - simplified and community-driven man pages
+- `lazygit` - TUI for git
+- `yazi` - Yazi, a blazing fast terminal file manager.
+- `ncdu` - ncurses disk usage viewer
+- `discordo` - Discord client in terminal
+- `curl cheat.sh` - curl cheat sheet
+- `curl wttr.in/tampere` - weather forecast
