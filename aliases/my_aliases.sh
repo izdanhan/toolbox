@@ -2,6 +2,7 @@
 alias lsa="lsd -al"
 alias ff="clear && fastfetch"
 alias fr="fresh"
+alias weather="curl wttr.in/tampere"
 #alias vim="nvim"
 
 # flatpak
