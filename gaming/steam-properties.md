@@ -13,4 +13,7 @@ gamescope -w 1920 -h 1080 -W 2560 -H 1440 -f -F fsr --fsr-sharpness 2 -r 60 -- %
 gamescope -w 1280 -h 720 -W 1920 -H 1080 -f -F fsr --fsr-sharpness 2 -r 60 --force-grab-cursor -- %command%
 
 ## Elite Dangerous
+__GL_GSYNC_ALLOWED=1 __GL_VRR_ALLOWED=1 MANGOHUD=1 gamemoderun %command%
 MANGOHUD=1 __GL_GSYNC_ALLOWED=1 __GL_VRR_ALLOWED=1 DISABLE_COMPOSITOR=1 gamemoderun %command% /autorun /autoquit /edo
+
+
