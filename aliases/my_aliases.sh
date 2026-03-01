@@ -1,5 +1,5 @@
 # misc
-alias lsa="lsd -al"
+alias la="lsd -al"
 alias ff="clear && fastfetch"
 alias fr="fresh"
 alias weather="curl wttr.in/tampere"
