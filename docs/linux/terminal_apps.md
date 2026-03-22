@@ -14,6 +14,7 @@ https://www.youtube.com/watch?v=DfA9DjleY_E
 - `lazygit` - TUI for git
 - `yazi` - Yazi, a blazing fast terminal file manager.
 - `ncdu` - ncurses disk usage viewer
+- `mcdu` - disk usage viewer
 - `discordo` - Discord client in terminal
 - `curl cheat.sh` - curl cheat sheet
 - `curl wttr.in/tampere` - weather forecast
