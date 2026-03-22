@@ -7,7 +7,7 @@
     WINE_FULLSCREEN_FSR=1
 
 ## Skyrim, Fallout 4 and other Bethesda games
-    DXVK_FRAME_RATE=60
+    PROTON_ENABLE_WAYLAND=1 DXVK_FRAME_RATE=60 gamemoderun %command%
 
 ## Gamescope
     gamescope -w 1280 -h 720 -W 1920 -H 1080 -f -F fsr --fsr-sharpness 2 -r 60 -- %command%
