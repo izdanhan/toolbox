@@ -1,68 +1,84 @@
-Setting up VSCodium with local LLMs on your ThinkPad T14s is the final piece of the "Eden" puzzle. Since you are already running **Ollama**, we will connect VSCodium to it using **Continue**—the most powerful open-source AI extension for VS Code/Codium in 2026.
+The **"No models configured"** message in the Continue sidebar usually means the extension cannot properly read or parse your `~/.continue/config.yaml` file.
 
-Unlike GitHub Copilot, this setup is **100% private, offline, and free**.
+This is very common after the initial setup, especially if the file is missing the required header or has formatting issues.
 
----
+### Fix It in 2 Minutes
 
-### 1. Install the "Continue" Extension
-1.  Open **VSCodium**.
-2.  Go to the **Extensions** view (`Ctrl+Shift+X`).
-3.  Search for **Continue** and click **Install**.
-4.  Once installed, you'll see a new "C" icon in your left sidebar.
+1. **Open the config file the proper way**:
+   - In VS Code, open the Continue sidebar (`Ctrl + L` or click the Continue icon on the left).
+   - In the top-right corner of the Continue panel, click the **gear/settings icon**.
+   - Choose **"Open config.yaml"** (or "Local Config" → cog icon next to it).
 
-### 2. Configure Continue to use your Ollama Models
-Continue needs to know which of the models you just pulled (Llama, DeepSeek, etc.) to use for **Chat** and which to use for **Autocomplete**.
+2. **Replace everything** in the file with this clean, minimal working config for your Ollama setup:
 
-1.  Click the **Continue** icon in the sidebar.
-2.  Click the **Gear icon** (bottom right of the Continue panel) to open `config.json`.
-3.  Replace or edit the `models` and `tabAutocompleteModel` sections with this optimized configuration for your **Ryzen 7840U**:
+```yaml
+name: Local Ollama Config
+version: 1.0.0
+schema: v1
 
-```json
-{
-  "models": [
-    {
-      "title": "Llama 3.1 8B (Daily)",
-      "provider": "ollama",
-      "model": "llama3.1:8b"
-    },
-    {
-      "title": "DeepSeek Coder (Advanced)",
-      "provider": "ollama",
-      "model": "deepseek-coder-v2"
-    }
-  ],
-  "tabAutocompleteModel": {
-    "title": "Qwen 2.5 Coder 7B",
-    "provider": "ollama",
-    "model": "qwen2.5-coder:7b"
-  },
-  "embeddingsProvider": {
-    "provider": "ollama",
-    "model": "nomic-embed-text"
-  }
-}
+models:
+  - name: Qwen2.5 Coder 7B
+    provider: ollama
+    model: qwen2.5-coder:7b
+    apiBase: http://localhost:11434
+
+  - name: Llama 3.2 3B
+    provider: ollama
+    model: llama3.2:3b
+    apiBase: http://localhost:11434
+
+tabAutocompleteModel:
+  name: Qwen2.5 Coder 1.5B (Fast Autocomplete)
+  provider: ollama
+  model: qwen2.5-coder:1.5b
+  apiBase: http://localhost:11434
 ```
 
-### 3. Why this specific setup?
-* **Chat:** **Llama 3.1** is great for general questions, while **DeepSeek** is your specialist for "hard" coding bugs.
-* **Autocomplete:** I set this to **Qwen 2.5 Coder 7B**. In 2026, Qwen is the king of "Fill-In-The-Middle" (FIM). It will ghost-write code as you type with almost zero lag on your Radeon 780M.
-* **Embeddings:** Adding `nomic-embed-text` (you can `ollama pull nomic-embed-text`) allows Continue to index your local folder, so you can ask, *"Where is the login logic handled in this project?"*
+3. **Save** the file (`Ctrl + S`).
 
----
+4. **Refresh Continue**:
+   - Close and reopen the Continue sidebar, or restart VS Code completely.
+   - In the model dropdown at the top of the Continue chat, you should now see your models listed.
 
-### 4. Essential Shortcuts for your Workstation
-Now that you're in VSCodium, memorize these to stay in the "flow":
+### Quick Test
+- Select **Qwen2.5 Coder 7B** in the dropdown.
+- Type a prompt like: "Write a Python function to reverse a string" and hit Enter.
+- For inline autocomplete while typing code, the 1.5B model should kick in automatically.
 
-* **`Ctrl + L`**: Highlight code and send it to the Chat. (Use this to say "Refactor this function").
-* **`Ctrl + I`**: Inline Edit. It opens a small box above your code. Type "Add error handling here," and it will rewrite the code in place.
-* **`Tab`**: To accept the gray "ghost" text suggested by the autocomplete.
+### Prerequisites (Double-Check These)
+Make sure Ollama is actually running and the models exist:
 
-### 5. Troubleshooting the Connection
-If Continue says "Failed to fetch":
-1.  Make sure Ollama is running: `systemctl status ollama`.
-2.  If you are using **Zsh**, ensure your `OLLAMA_HOST` is set to `127.0.0.1:11434` (the default).
+```bash
+# In a terminal
+systemctl status ollama          # Should be active (running)
+ollama list                      # Should show qwen2.5-coder:7b, llama3.2:3b, qwen2.5-coder:1.5b
+```
 
----
+If any model is missing, pull it first:
+```bash
+ollama pull qwen2.5-coder:7b
+ollama pull qwen2.5-coder:1.5b
+ollama pull llama3.2:3b
+```
 
-### **The "Doomsday" Power Move: Indexing your Docs**
-If you are working on a specific C library (like `GTK` or `Kernel` headers), you can type `@docs` in the Continue chat and paste a URL to the documentation. Continue will scrape it and store it locally so you can chat with the manual **offline**.
+### If It Still Says "No models configured"
+- Restart VS Code.
+- Check for YAML formatting errors (indentation must be **2 spaces**, no tabs).
+- Open the Developer Tools in VS Code (`Ctrl + Shift + I`) → Console tab and look for Continue-related errors, then paste them here.
+- Try the ultra-minimal version (just one model):
+
+```yaml
+name: Minimal Ollama
+version: 1.0.0
+schema: v1
+
+models:
+  - name: Qwen Coder
+    provider: ollama
+    model: qwen2.5-coder:7b
+    apiBase: http://localhost:11434
+```
+
+Would you like a version optimized for your Ryzen 7840U (with higher context length or temperature settings)? Or do you want to add `@codebase` / edit / apply features?
+
+Paste the exact error (if any) or a screenshot of the Continue panel after trying this config, and I'll refine it further.
