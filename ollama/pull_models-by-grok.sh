@@ -32,6 +32,7 @@ MODELS_GOOD=(
   "mistral-nemo"            # The Logic/Survival expert (12B)
   "qwen2.5:14b"             # Outstanding reasoning & general knowledge
   "gemma3:12b"              # Google's latest – excellent coherence & speed
+  "deepseek-coder-v2"       # For coding
   # "llama3.1:70b"            # Wait, no – too big; skip or use Q4_K_M if curious but slow
   # Instead: strong MoE alternatives that punch above weight
   # "qwen2.5-coder:32b"       # MoE-style, ~30B but active ~3–8B → great coding/reasoning

@@ -5,8 +5,8 @@
 - `btop` - interactive process viewer
 - `nload` - network traffic monitor
 - `wiremix` - sound mixer for ALSA sound system
-- `impala` - TUI for managing wifi
-- `nmtui` - TUI for managing wifi
+- `impala` - #2 TUI for managing wifi 
+- `nmtui` - #1 TUI for managing wifi
 - `bluetui` - TUI for managing bluetooth devices
 - `tldr` - simplified and community-driven man pages
 - `lazygit` - TUI for git
