@@ -44,3 +44,8 @@ alias p-rm="sudo pacman -R "
 alias p-s="pacman -Ss "
 alias p-i="pacman -Si "
 
+# Ollama & AI Management
+alias ai-up="podman start open-webui && sudo systemctl start ollama"
+alias ai-down="podman stop open-webui && sudo systemctl stop ollama"
+alias ai-status="podman stats open-webui"
+

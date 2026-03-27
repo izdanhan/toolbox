@@ -6,12 +6,20 @@
 
 set -euo pipefail
 
+# Check if AMD GPU is detected by Ollama
+if ! ollama info 2>&1 | grep -iq "amdgpu"; then
+  echo "⚠️  WARNING: AMD GPU (ROCm) not detected by Ollama."
+  echo "Models will run on CPU (slower). Check 'rocminfo' if this is unexpected."
+  sleep 3
+fi
+
 echo "Starting model pull for Ryzen 7840U / 32 GB setup..."
 echo "This may take 10–60 minutes depending on your internet (models are 4–18 GB each)."
 echo ""
 
 # Fast & capable daily drivers (7–8B class) – great speed, multilingual
 MODELS_FAST=(
+  "phi3.5"                  # The Battery Saver (3.8B)
   "llama3.2:3b"             # Very fast, good small model baseline
   "llama3.1:8b"             # Excellent general-purpose (Meta's strong 2024/25 base)
   "qwen2.5:7b"              # Top-tier small model – often beats larger ones
@@ -21,6 +29,7 @@ MODELS_FAST=(
 
 # Higher quality / reasoning (12–14B class) – best sweet spot for 32 GB
 MODELS_GOOD=(
+  "mistral-nemo"            # The Logic/Survival expert (12B)
   "qwen2.5:14b"             # Outstanding reasoning & general knowledge
   "gemma3:12b"              # Google's latest – excellent coherence & speed
   # "llama3.1:70b"            # Wait, no – too big; skip or use Q4_K_M if curious but slow
