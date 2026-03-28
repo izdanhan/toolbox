@@ -1,0 +1,11 @@
+#!/bin/bash
+# stop-ollama-webui - Stop Open WebUI and Ollama
+
+echo "=== Stopping Open WebUI ==="
+podman stop open-webui 2>/dev/null || true
+podman rm open-webui 2>/dev/null || true
+
+echo "=== Stopping Ollama service ==="
+sudo systemctl stop ollama
+
+echo "✅ Everything stopped."
