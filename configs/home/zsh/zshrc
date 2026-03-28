@@ -18,7 +18,7 @@ source $HOME/git/toolbox/aliases/git_aliases.sh
 # Exports
 export EDITOR='fresh'
 export VISUAL='fresh'
-export PATH="$HOME/.local/bin:$PATH"
+export PATH="$HOME/git/toolbox/scripts:$HOME/.local/bin:$PATH"
 
 # Basic git prompt
 # autoload -Uz vcs_info
