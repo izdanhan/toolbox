@@ -1,13 +1,15 @@
 #!/bin/bash
-# start-ollama-webui - Reliable version for Podman on Fedora
+echo "=== Starting Ollama with Vulkan (no ROCm) ==="
 
-echo "=== Starting Ollama with Vulkan ==="
+sudo systemctl stop ollama 2>/dev/null || true
 sudo systemctl set-environment OLLAMA_VULKAN=1
+sudo systemctl set-environment OLLAMA_FLASH_ATTENTION=1
+sudo systemctl set-environment OLLAMA_LLM_LIBRARY=libggml-vulkan.so
+
 sudo systemctl start ollama
 sleep 4
 
-echo "=== Starting Open WebUI (Podman + host network) ==="
-
+echo "=== Starting Open WebUI ==="
 podman stop open-webui 2>/dev/null || true
 podman rm open-webui 2>/dev/null || true
 
@@ -19,6 +21,5 @@ podman run -d \
   --restart unless-stopped \
   ghcr.io/open-webui/open-webui:main
 
-echo "✅ Ollama + Open WebUI started successfully!"
-echo "→ Open WebUI: http://localhost:8080"
-echo "→ Ollama API: http://localhost:11434"
+echo "✅ Started!"
+echo "→ Open WebUI → http://localhost:8080"
