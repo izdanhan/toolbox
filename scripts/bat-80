@@ -1,0 +1,3 @@
+#!/bin/bash
+
+sudo tlp setcharge 75 80 BAT0

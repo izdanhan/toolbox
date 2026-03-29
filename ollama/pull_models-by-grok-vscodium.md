@@ -60,7 +60,7 @@ ollama pull qwen2.5-coder:7b
 ollama pull qwen2.5-coder:1.5b
 ollama pull llama3.2:3b
 ```
-
+ollama pull llama3.
 ### If It Still Says "No models configured"
 - Restart VS Code.
 - Check for YAML formatting errors (indentation must be **2 spaces**, no tabs).
