@@ -2,8 +2,10 @@
 alias la="lsd -al"
 alias ff="clear && fastfetch"
 alias fr="fresh"
+alias nano="fresh"
 alias weather="curl wttr.in/tampere"
-#alias vim="nvim"
+alias disks="lsblk -o NAME,SIZE,TYPE,FSTYPE,MOUNTPOINT"
+alias vim="nvim"
 
 # flatpak
 alias fl-in="flatpak install"
@@ -12,6 +14,7 @@ alias fl-up="flatpak update"
 alias fl-r="flatpak run"
 
 # apt
+alias apt="nala"
 alias ap-in="sudo apt install"
 alias ap-up="sudo apt update && sudo apt full-upgrade"
 alias ap-s="apt search"

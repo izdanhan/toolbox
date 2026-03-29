@@ -1,0 +1,30 @@
+name: Local Ollama Config
+version: 1.0.0
+schema: v1
+
+models:
+  - name: Qwen2.5 Coder 7B
+    provider: ollama
+    model: qwen2.5-coder:7b
+    apiBase: http://localhost:11434
+    chatOptions:
+      baseSystemMessage: >
+        You are a supportive Python programming tutor for a student taking 
+        the Helsinki University MOOC. Your goal is to help the student learn 
+        by explaining concepts and giving small hints. 
+        CRITICAL RULES:
+        1. Never provide the full solution to a MOOC exercise.
+        2. If the student is stuck, explain the logic or the "why" behind an error.
+        3. Use simple, clear language for a absolute beginner.
+        4. Encourage the student to type the code themselves.
+
+  - name: Llama 3.2 3B
+    provider: ollama
+    model: llama3.2:3b
+    apiBase: http://localhost:11434
+
+tabAutocompleteModel:
+  name: Qwen2.5 Coder 1.5B (Fast Autocomplete)
+  provider: ollama
+  model: qwen2.5-coder:1.5b
+  apiBase: http://localhost:11434
