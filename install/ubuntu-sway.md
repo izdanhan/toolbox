@@ -6,7 +6,7 @@ I’ll walk you through a **clean Sway setup on Linux Mint 22.3 (Ubuntu 24.04 ba
 
 ---
 
-# 1. Install Sway and basic tools
+## 1. Install Sway and basic tools
 
 Everything you need is in Ubuntu 24.04 repos, no PPA required.
 
@@ -43,7 +43,7 @@ This gives you a full usable environment:
 
 ---
 
-# 2. Log into Sway
+## 2. Log into Sway
 
 After install:
 
@@ -59,7 +59,7 @@ First start will ask:
 
 ---
 
-# 3. Important default keybindings (very important)
+## 3. Important default keybindings (very important)
 
 Sway uses **Super key (Windows key)** as modifier.
 
@@ -80,7 +80,7 @@ Memorize these and you’re good.
 
 ---
 
-# 4. Config file location
+## 4. Config file location
 
 Your config:
 
@@ -96,7 +96,7 @@ nano ~/.config/sway/config
 
 ---
 
-# 5. Set your monitor (important for your 144Hz display)
+## 5. Set your monitor (important for your 144Hz display)
 
 First check display name:
 
@@ -123,7 +123,7 @@ For dock setups this is very important.
 
 ---
 
-# 6. Autostart important programs
+## 6. Autostart important programs
 
 Add to bottom of config:
 
@@ -136,7 +136,7 @@ exec blueman-applet
 
 ---
 
-# 7. Screenshot keybinding
+## 7. Screenshot keybinding
 
 Add to config:
 
@@ -148,7 +148,7 @@ Then **Print Screen → select area → screenshot copied to clipboard**
 
 ---
 
-# 8. Lock screen + suspend
+## 8. Lock screen + suspend
 
 Add:
 
@@ -162,7 +162,7 @@ exec swayidle -w \
 
 ---
 
-# 9. Recommended programs for tiling setup
+## 9. Recommended programs for tiling setup
 
 Install these too:
 
@@ -179,7 +179,7 @@ sudo apt install \
 
 ---
 
-# 10. Very common Sway ecosystem apps
+## 10. Very common Sway ecosystem apps
 
 These are worth knowing:
 
@@ -200,7 +200,7 @@ This is basically a full desktop built from components.
 
 ---
 
-# 11. Next things you will probably want later
+## 11. Next things you will probably want later
 
 After you use Sway for a bit, people usually start customizing:
 
@@ -215,7 +215,7 @@ After you use Sway for a bit, people usually start customizing:
 
 ---
 
-# If you want, next I can help you with:
+### If you want, next I can help you with:
 
 **Dock + laptop workflow**, like:
 
