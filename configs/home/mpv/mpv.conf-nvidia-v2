@@ -10,6 +10,7 @@ hwdec=nvdec
 vo=gpu-next
 gpu-api=vulkan
 
+video-sync=display-tempo
 # video-sync=display-resample   # Keep for smooth playback, but monitor CPU
 # If it still spikes CPU, try: video-sync=display-tempo  (less CPU heavy)
 
@@ -17,8 +18,8 @@ gpu-api=vulkan
 # deband-iterations=2         # Uncomment and tune (1-4) if you want lighter/faster deband
 
 # --- Scaling (defaults in gpu-hq are fine for RTX 3080; add these only if needed) ---
-# scale=ewa_lanczos
-# cscale=ewa_lanczos
+scale=ewa_lanczos
+cscale=ewa_lanczos
 
 # --- Audio ---
 audio-channels=stereo

@@ -20,6 +20,7 @@ echo ""
 # Fast & capable daily drivers (7–8B class) – great speed, multilingual
 MODELS_FAST=(
   "phi3.5"                  # The Battery Saver (3.8B)
+  "qwen2.5-coder:1.5b"      # Autocomplete for Continue
   "llama3.2:3b"             # Very fast, good small model baseline
   "llama3.1:8b"             # Excellent general-purpose (Meta's strong 2024/25 base)
   "qwen2.5:7b"              # Top-tier small model – often beats larger ones
