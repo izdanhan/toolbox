@@ -21,6 +21,12 @@
 
     MANGOHUD=1 __GL_GSYNC_ALLOWED=1 __GL_VRR_ALLOWED=1 DISABLE_COMPOSITOR=1 gamemoderun %command% /autorun /autoquit /edo
 
+# Elite Dangerous Steam EDMC
+flatpak override --user --filesystem="~/.steam/steam/steamapps/compatdata/359320/pfx/drive_c/users/steamuser/Saved Games/Frontier Developments/Elite Dangerous" io.edcd.EDMarketConnector
+
+# Elite Dangerous Epic EDMC
+flatpak override --user --filesystem="/run/media/daniel/Voyager/HeroicLibrary/Prefixes/Elite Dangerous/drive_c/users/steamuser/Saved Games/Frontier Developments/Elite Dangerous" io.edcd.EDMarketConnector
+
 ## Bethesda games
 
 ### D11 games
