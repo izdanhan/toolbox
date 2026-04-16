@@ -7,3 +7,8 @@ ssh-keygen -t ed25519 -C "daniel.hanikka@proton.me"
 eval "$(ssh-agent -s)"                                                                                                             130 ↵
 ssh-add ~/.ssh/id_ed25519
 cat ~/.ssh/id_ed25519.pub
+
+echo "Copy/paste that to GitHub SSH settings."
+
+git config --global user.name "Daniel Hanikka"
+git config --global user.email "daniel.proton.me"
