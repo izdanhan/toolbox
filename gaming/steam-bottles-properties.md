@@ -3,6 +3,9 @@
 ## Basic
     MANGOHUD=1 gamemoderun %command%
 
+## CachyOS
+    MANGOHUD=1 game-performance %command%
+
 ## FSR scale to fullscreen
     WINE_FULLSCREEN_FSR=1
 
