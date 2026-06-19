@@ -34,9 +34,3 @@ For your reference, this is how your master volume index stands:
 * **Volume XI:** Acoustic Capture Mechanics, Spectral Repair, and Multi-Channel Sound Design *(Field Audio)*
 * **Volume XII:** Optical Digitization, Film Matrix Inversion, and Archivist Reproduction *(Camera Scanning)*
 * **Volume XIII:** Deterministic Directory Architecture and Cross-Platform Asset Lifecycle *(Filesystem Governance)*
-
-
-
----
-
-The manual is complete. The protocols are set. Go create.
