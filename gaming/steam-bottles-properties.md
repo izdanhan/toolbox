@@ -47,3 +47,8 @@ flatpak override --user --filesystem="/run/media/daniel/Voyager/HeroicLibrary/Pr
 ### Skyrim gamepad fix
     SkyrimPrefs.ini:
     bGamepadEnable=1
+
+## Proton-CachyOS
+    MANGOHUD=1 PROTON_USE_OPTISCALER=1 PROTON_USE_FSR4=1 gamemoderun %command%
+
+

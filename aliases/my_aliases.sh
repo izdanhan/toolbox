@@ -14,7 +14,7 @@ alias fl-up="flatpak update"
 alias fl-r="flatpak run"
 
 # apt
-alias apt="nala"
+#alias apt="nala"
 alias ap-in="sudo apt install"
 alias ap-up="sudo apt update && sudo apt full-upgrade"
 alias ap-s="apt search"
