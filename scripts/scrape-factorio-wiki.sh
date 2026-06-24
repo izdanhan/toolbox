@@ -4,6 +4,7 @@ mkdir -p ~/Downloads/zim/factorio-wiki
 
 docker run --rm \
   -v ~/Downloads/zim/factorio-wiki:/output \
+  -e CRAWLER_KWARGS='{"exclude": [".*index\\.php.*", ".*Special:.*"]}' \
   -it ghcr.io/openzim/zimit \
   zimit \
   --seeds https://wiki.factorio.com/ \
