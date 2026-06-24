@@ -10,15 +10,15 @@ Tämä taipuisa ja pehmeä tasoleipä on täydellinen lisäke ruoan kaveriksi. S
 
 ### Ainekset
 
-Vesi: 3 dl (reilusti kädenlämpöistä, n. +42 °C)
+* Vesi: 3 dl (reilusti kädenlämpöistä, n. +42 °C)
 
-Kuivahiiva: 1 pussi (11 g)
+* Kuivahiiva: 1 pussi (11 g)
 
-Vehnäjauhot: n. 7–8 dl
+* Vehnäjauhot: n. 7–8 dl
 
-Rypsiöljy: 3 rkl (2 rkl taikinaan, 1 rkl kulhon voiteluun)
+* Rypsiöljy: 3 rkl (2 rkl taikinaan, 1 rkl kulhon voiteluun)
 
-Suola: 1,5 tl
+* Suola: 1,5 tl
 
 ### Valmistusohje
 
@@ -46,31 +46,31 @@ Tomaattipyreellä höystetty, lihaisa ja tulisen mausteinen kastike.
 
 ### Ainekset
 
-Nakkeja: 400–500 g (paloiteltuna)
+* Nakkeja: 400–500 g (paloiteltuna)
 
-Rypsiöljy: 3 rkl
+* Rypsiöljy: 3 rkl
 
-Tomaattipyre: 1 pieni tölkki (n. 70 g) tai 3–4 rkl
+* Tomaattipyre: 1 pieni tölkki (n. 70 g) tai 3–4 rkl
 
-Lihaliemikuutio: 1 kpl (tuo syvää umamin makua)
+* Lihaliemikuutio: 1 kpl (tuo syvää umamin makua)
 
-Vehnäjauhot: 3 rkl (suurustamiseen)
+* Vehnäjauhot: 3 rkl (suurustamiseen)
 
-Vesi: n. 5–6 dl
+* Vesi: n. 5–6 dl
 
-Suola: Maun mukaan vasta aivan lopussa (liemikuutiossa ja nakeissa on jo suolaa)
+* Suola: Maun mukaan vasta aivan lopussa (liemikuutiossa ja nakeissa on jo suolaa)
 
-Mausteseos (tulisuus ja itämainen aromi):
+* Mausteseos (tulisuus ja itämainen aromi):
 
-Chilijauhe tai cayenne-pippuri: 0,5–2 tl (oman tulisuusmieltymyksen mukaan)
+* Chilijauhe tai cayenne-pippuri: 0,5–2 tl (oman tulisuusmieltymyksen mukaan)
 
-Juustokumina (jeera): 1 tl \*(antaa sen aidon Lähi-idän maun)\*
+* Juustokumina (jeera): 1 tl \*(antaa sen aidon Lähi-idän maun)\*
 
-Paprikajauhe: 1 tl
+* Paprikajauhe: 1 tl
 
-Mustapippuri: Myllystä muutama pyöräytys
+* Mustapippuri: Myllystä muutama pyöräytys
 
-\* \*(Vinkki: Jos kaapista löytyy sipulia tai valkosipulia, pilko ne mukaan nakeille!)\*
+(Vinkki: Jos kaapista löytyy sipulia tai valkosipulia, pilko ne mukaan nakeille!)
 
 ### Valmistusohje
 

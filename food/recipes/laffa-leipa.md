@@ -8,15 +8,15 @@ Kiertoilmauunilla saat paistettua näitä useamman kerralla kahdella eri pellill
 
 ### Ainekset:
 
-  Vettä: 3 dl (reilusti kädenlämpöistä, n. +42 °C)
+  * Vettä: 3 dl (reilusti kädenlämpöistä, n. +42 °C)
 
-  Kuivahiivaa: 1 pussi (11 g)
+  * Kuivahiivaa: 1 pussi (11 g)
 
-  Vehnäjauhoja: n. 7–8 dl
+  * Vehnäjauhoja: n. 7–8 dl
 
-  Rypsiöljyä: 3 rkl (2 rkl taikinaan, 1 rkl voiteluun)
+  * Rypsiöljyä: 3 rkl (2 rkl taikinaan, 1 rkl voiteluun)
 
-  Suolaa: 1,5 tl
+  * Suolaa: 1,5 tl
 
 ### Teet näin:
 
