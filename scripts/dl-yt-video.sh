@@ -9,14 +9,24 @@ fi
 
 URL="$1"
 
-echo "Starting download for: $URL"
+echo "Executing clean 1080p MKV extraction..."
 
-# Execute yt-dlp with 1080p constraints
-yt-dlp -f "bestvideo[height<=1080]+bestaudio/best[height<=1080]" --merge-output-format mp4 "$URL"
+# Ajetaan lataus dynaamisella nimellä, jotta voimme siivota väliaikaistiedostot luotettavasti
+yt-dlp --extractor-args "youtube:player-client=web_embedded,android_embedded" \
+       --js-runtimes node \
+       --remote-components ejs:github \
+       -f "bestvideo[height<=1080]+bestaudio/best[height<=1080]" \
+       --merge-output-format mkv \
+       --keep-video \
+       "$URL"
 
 if [ $? -eq 0 ]; then
-    echo "Download completed successfully."
+    echo -e "\nCleaning up raw source tracks..."
+    # Poistetaan väliaikaiset raakavideo- ja äänitiedostot (.f[0-9]* loppuiset)
+    rm -f *\[*\]*.f[0-9]*.* 2>/dev/null
+    
+    echo -e "\nSuccess: Only the final 1080p MKV are kept."
 else
-    echo "Error: Download failed. Make sure yt-dlp and ffmpeg are updated."
+    echo "Error: Download or extraction failed."
     exit 1
 fi
