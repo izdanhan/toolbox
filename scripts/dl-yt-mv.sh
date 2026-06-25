@@ -17,6 +17,7 @@ yt-dlp --extractor-args "youtube:player-client=web_embedded,android_embedded" \
        --remote-components ejs:github \
        -f "bestvideo[height<=1080]+bestaudio/best[height<=1080]" \
        --merge-output-format mkv \
+       --embed-chapters \
        -x --audio-format mp3 --audio-quality 0 \
        --keep-video \
        "$URL"
