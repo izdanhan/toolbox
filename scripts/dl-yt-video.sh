@@ -9,7 +9,7 @@ fi
 
 URL="$1"
 
-echo "Executing clean 1080p MKV (with Chapters) and MP3 extraction..."
+echo "Executing clean 1080p MKV (with Chapters)"
 
 # Lisätty --embed-chapters, joka muuttaa YouTuben aikajanat MKV-kappaleiksi
 yt-dlp --extractor-args "youtube:player-client=web_embedded,android_embedded" \
@@ -25,7 +25,7 @@ if [ $? -eq 0 ]; then
     echo -e "\nCleaning up raw source tracks..."
     rm -f *\[*\]*.f[0-9]*.* 2>/dev/null
     
-    echo -e "\nSuccess: 1080p MKV (with metadata chapters) and MP3 saved."
+    echo -e "\nSuccess: 1080p MKV (with metadata chapters)."
 else
     echo "Error: Download or extraction failed."
     exit 1
