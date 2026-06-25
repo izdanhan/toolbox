@@ -1,4 +1,5 @@
 # misc
+# alias dl-yt-mv="dl-yt-mv.sh"
 alias la="lsd -al"
 alias ff="clear && fastfetch"
 alias fr="fresh"
