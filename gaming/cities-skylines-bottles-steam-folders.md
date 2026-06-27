@@ -9,6 +9,14 @@
 
 ```
 
+### Saves
+
+```bash
+"/home/daniel/.local/share/Steam/userdata/88067014/255710/remote/"
+
+```
+
+
 ### Optimal Steam proporties for desktop
 
 ```bash
