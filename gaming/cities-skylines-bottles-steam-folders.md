@@ -27,7 +27,7 @@ MANGOHUD=1 DXVK_CONFIG="dxgi.maxFrameRate=90" __GL_SHADER_DISK_CACHE=1 __GL_SHAD
 
 ## Bottles
 
-### Mods
+#### Mods
 
 ```bash
 "/home/daniel/.var/app/com.usebottles.bottles/data/bottles/bottles/Cities-Skylines/drive_c/users/steamuser/AppData/Local/Colossal Order/Cities_Skylines/Addons/Mods"
@@ -35,7 +35,7 @@ MANGOHUD=1 DXVK_CONFIG="dxgi.maxFrameRate=90" __GL_SHADER_DISK_CACHE=1 __GL_SHAD
 ```
 
 
-### Saves
+#### Saves
 
 ```bash
 "/home/daniel/.var/app/com.usebottles.bottles/data/bottles/bottles/Cities-Skylines/drive_c/users/steamuser/AppData/Local/Colossal Order/Cities_Skylines/Saves"
@@ -54,10 +54,10 @@ To guarantee proper DX11/DX12 to Vulkan translation and handling of large-scale 
 
 #### 2. System Performance Toggles
 
-* **Esync / Fsync:** **Enabled**. These optimize multi-threaded CPU synchronization. Since you are on a Ryzen 9 5900X (12 cores / 24 threads), this dramatically alleviates the simulation bottleneck.
+* **NTSync:** **Enabled**. These optimize multi-threaded CPU synchronization. Since you are on a Ryzen 9 5900X (12 cores / 24 threads), this dramatically alleviates the simulation bottleneck.
 * **Discrete GPU:** **Enabled** (Forces the container to bind explicitly to your RTX 3080).
 
-#### 3. Environment Variables (Crucial for Nvidia + Unity Engine)
+### 3. Environment Variables (Crucial for Nvidia + Unity Engine)
 
 Go to **System** -> **Environment Variables** within your bottle configuration and add the following keys to optimize Nvidia's pipeline cache and memory limits:
 
@@ -96,6 +96,8 @@ Go to **System** -> **Environment Variables** inside your bottle and add the fol
 | `RADV_PERFTERRAIN` | `1` | Optimizes primitive shading lines on AMD drivers—directly stabilizes performance when viewing terrain heights or map contours. |
 | `DXVK_ASYNC` | `1` | Forces asynchronous shader compilation. Essential on the 780M to prevent sudden frame drops when rotating the camera over dense zones. |
 | `radv_zero_vram` | `true` | Cleans up allocated VRAM pages inside your shared system RAM instantly, preventing memory leaks when loading custom assets like `SCT-Homecoming`. |
+| `MESA_SHADER_CACHE_DISABLE` | `false` |
+| `MESA_SHADER_CACHE_MAX_SIZE` | `5G` |
 
 ---
 
