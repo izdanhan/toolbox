@@ -98,6 +98,7 @@ Go to **System** -> **Environment Variables** inside your bottle and add the fol
 | `radv_zero_vram` | `true` | Cleans up allocated VRAM pages inside your shared system RAM instantly, preventing memory leaks when loading custom assets like `SCT-Homecoming`. |
 | `MESA_SHADER_CACHE_DISABLE` | `false` |
 | `MESA_SHADER_CACHE_MAX_SIZE` | `5G` |
+| `DXVK_CONFIG` | `"dxgi.maxFrameRate=30; d3d11.maxFrameRate=30"` |
 
 ---
 
