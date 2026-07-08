@@ -1,55 +1,55 @@
-This is a known issue with **Keychron Q-series** keyboards on Linux. Because they are highly programmable, they identify themselves as multiple devices to the OS, including a "System Control" device that Linux mistakenly flags as a **joystick**.
+# Keychron Q6 Pro disable "joystick"
 
-Since Linux sees it as a joystick, it grabs "Port 1" in RetroArch before you even turn on your Xbox controller.
 
-### The Fix: Create a udev Rule
 
-You need to tell Linux to ignore the Keychron's "joystick" identity. This is a permanent fix that won't interfere with the keyboard's normal typing functions.
+### The Universal Universal Deployment Guide
 
-1. **Find your IDs:** Open a terminal and run:
+#### 1. Create the Unified Rule File
+
+Open a terminal on either machine. Use this command to create a rule file under the standard administrative path `/etc/udev/rules.d/`:
+
 ```bash
-lsusb | grep Keychron
+sudo nano /etc/udev/rules.d/99-block-keychron-joystick.rules
 
 ```
 
+#### 2. Insert the Code Blocks
 
-You should see something like `ID 3434:0661`. The first part is the **Vendor ID** (`3434`), and the second is the **Product ID** (`0361`). **Note yours down.**
-2. **Create the rule file:**
-```bash
-sudo nano /etc/udev/rules.d/99-keychron-ignore-joy.rules
+Paste the following block exactly as written. This accomplishes two things: it wipes out the `ID_INPUT_JOYSTICK` environment flags so Steam/SDL ignores it, and it forcefully nukes the `/dev/input/jsX` legacy node if the kernel tries to spawn it for Vendor `3434`.
 
-```
-
-
-3. **Paste this inside** (replace `3434` and `0661` with your actual IDs from step 1):
 ```text
-# Keychron Q6 Pro - Disable Joystick Mode
-SUBSYSTEM=="input", ATTRS{idVendor}=="3434", ATTRS{idProduct}=="0661", ENV{ID_INPUT_JOYSTICK}=""
+# Disable Keychron virtual joystick/gamepad interfaces universally
+SUBSYSTEM=="input", ATTRS{idVendor}=="3434", ENV{ID_INPUT_JOYSTICK}="", ENV{ID_INPUT_GAMEPAD}=""
+KERNEL=="js*", ATTRS{idVendor}=="3434", RUN+="/bin/rm /dev/input/%k"
 
 ```
 
+Save and exit (`Ctrl+O`, `Enter`, then `Ctrl+X`).
 
-4. **Save and Reload:**
-Press `Ctrl+O`, `Enter`, then `Ctrl+X`. Then run:
+#### 3. Trigger and Apply (No Reboot Required)
+
+Force `udev` to parse the new configuration and apply it to currently connected devices:
+
 ```bash
+sudo udevadm control --reload-rules
 sudo udevadm trigger
 
 ```
 
+#### 4. Power Cycle the Hardware Connection
 
+For the hardware to register under the new rules, reset the interface:
 
-### Why this works
+* **If wired:** Unplug the USB-C cable and plug it back in.
+* **If Bluetooth:** Toggle the physical switch on the back of the Q6 Pro to **OFF**, then back to **BT**.
 
-This rule tells the Linux kernel: "If you see this specific device, clear its `ID_INPUT_JOYSTICK` property." Now, when RetroArch starts, it will ignore the keyboard and look for the next available device—your Xbox Elite 2—and put it on **Port 1**.
+### Verification
 
----
+To ensure the ghost joystick is dead on both environments, check if any legacy joystick mappings remain for the input devices:
 
-### The "Quick & Dirty" RetroArch Fix
+```bash
+ls /dev/input/js*
 
-If you don't want to mess with system rules, you can force RetroArch to use a specific index, though it’s less stable:
+```
 
-* Go to **Settings** → **Input** → **RetroPad Binds** → **Port 1 Controls**.
-* Manually change **Device Index** from "Keychron" to "Xbox Wireless Controller."
-* **Save Configuration** immediately.
-
-**Note:** The udev rule is much better because it solves the problem for *all* your emulators (including standalone ones) at once.
+If it returns `ls: cannot access '/dev/input/js*': No such file or directory`, the rule executed flawlessly. Your keyboard will now behave exclusively as a keyboard on both machines.
