@@ -3,10 +3,11 @@
 alias la="lsd -al"
 alias ff="clear && fastfetch"
 alias fr="fresh"
-#alias nano="fresh"
+alias nano="fresh"
 alias weather="curl wttr.in/tampere"
 alias disks="lsblk -o NAME,SIZE,TYPE,FSTYPE,MOUNTPOINT"
-#alias vim="nvim"
+alias help-apps="glow ~/git/toolbox/docs/linux/terminal_apps.md"
+alias help-cs="glow ~/git/toolbox/docs/linux/terminal_cheatsheet.md"
 
 # flatpak
 alias fl-in="flatpak install"

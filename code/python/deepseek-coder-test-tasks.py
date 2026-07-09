@@ -23,7 +23,7 @@ def mark_completed(index):
 def delete_task(index):
     # Function to delete a task by index
     pass
-
+1
 def main():
     print("Welcome to the Task Manager App")
     tasks = load_tasks()
