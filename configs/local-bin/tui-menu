@@ -1,21 +1,25 @@
 #!/usr/bin/env bash
-# font: "JetBrainsMono Nerd Font 11"
 
-#!/usr/bin/env bash
+# Uses clean Nerd Font glyphs: Network (󰖩), Audio (󰕾), Bluetooth (󰂯), Config Files (󱔗)
+options="󰕾 Audio Mixer (wiremix)\n󰂯 Bluetooth (bluetui)\n󰖩 Network (nmtui)\n󱔗 Hyprland Config\n󱔗 Kitty Config"
 
-# Uses clean Nerd Font glyphs: Network (󰖩), Audio (󰕾), Bluetooth (󰂯)
-options="󰖩 Network (nmtui)\n󰕾 Audio Mixer (wiremix)\n󰂯 Bluetooth (bluetui)"
-
-choice=$(echo -e "$options" | rofi -dmenu -p "System Config" -theme-str 'window { width: 320px; height: 180px; font: "JetBrainsMono Nerd Font 11"; }')
+# Kept strictly on one line to prevent Rofi parser errors
+choice=$(echo -e "$options" | rofi -dmenu -p "System Config" -theme-str 'window { width: 320px; height: 160px; font: "JetBrainsMono Nerd Font 11"; } inputbar { enabled: false; } listview { scrollbar: false; }')
 
 case "$choice" in
-    *"Network"*)
-        kitty --class floating_tui -e nmtui
-        ;;
     *"Audio"*)
         kitty --class floating_tui -e wiremix
         ;;
     *"Bluetooth"*)
         kitty --class floating_tui -e bluetui
         ;;
+    *"Network"*)
+        kitty --class floating_tui -e nmtui
+        ;;
+    *"Hyprland"*)
+        kitty -e fresh ~/.config/hypr/hyprland.lua
+        ;;
+    *"Kitty"*)
+        kitty -e fresh ~/.config/kitty/kitty.conf
+        ;;        
 esac

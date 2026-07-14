@@ -277,7 +277,7 @@ hl.bind(mainMod .. " + E",      hl.dsp.exec_cmd(fileManager)) -- Super+E for fil
 hl.bind(mainMod .. " + I",      hl.dsp.exec_cmd(browser)) -- Super+I for browser
 
 -- Open Unified TUI Settings Menu
-hl.bind(mainMod .. " + A", hl.dsp.exec_cmd("~/.local/bin/tui-menu"))
+hl.bind(mainMod .. " + T",      hl.dsp.exec_cmd("~/.local/bin/tui-menu"))
 
 -- Apps
 hl.bind(mainMod .. " + C",      hl.dsp.exec_cmd("code")) -- Super+C for Code-OSS
