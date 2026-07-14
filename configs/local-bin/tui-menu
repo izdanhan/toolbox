@@ -8,7 +8,7 @@ choice=$(echo -e "$options" | rofi -dmenu -p "System Config" -theme-str 'window 
 
 case "$choice" in
     *"Audio"*)
-        kitty --class floating_tui -e wiremix
+        kitty --class floating_tui -e wiremix --tab output
         ;;
     *"Bluetooth"*)
         kitty --class floating_tui -e bluetui
