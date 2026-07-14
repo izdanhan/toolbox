@@ -25,6 +25,36 @@ window#waybar {
     border-bottom: 2px solid #fabd2f;
 }
 
+#battery {
+    color: #ebdbb2; /* Gruvbox Light Foreground */
+    background-color: transparent;
+    padding: 0 10px;
+    margin: 0 4px;
+}
+
+#battery.charging, #battery.plugged {
+    color: #b8bb26; /* Gruvbox Green when charging */
+}
+
+#battery.warning:not(.charging) {
+    color: #fabd2f; /* Gruvbox Yellow warning state */
+}
+
+#battery.critical:not(.charging) {
+    color: #fb4934; /* Gruvbox Red critical state */
+    animation-name: blink;
+    animation-duration: 1.0s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes blink {
+    to {
+        color: #282828; /* Blinks to background color */
+    }
+}
+
 #clock,
 #battery,
 #cpu,
