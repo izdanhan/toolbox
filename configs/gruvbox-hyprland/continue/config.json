@@ -1,0 +1,33 @@
+{
+  "models": [
+    {
+      "title": "DeepSeek R1 8B (Reasoning)",
+      "provider": "ollama",
+      "model": "deepseek-r1:8b"
+    },
+    {
+      "title": "Qwen 2.5 Coder 7B",
+      "provider": "ollama",
+      "model": "qwen2.5-coder:7b"
+    },
+    {
+      "title": "Codestral 22B (Q3)",
+      "provider": "ollama",
+      "model": "codestral:22b:q3_K_M"
+    },
+    {
+      "title": "Llama 3.2 3B (General)",
+      "provider": "ollama",
+      "model": "llama3.2:3b"
+    }
+  ],
+  "tabAutocompleteModel": {
+    "title": "Qwen 2.5 Coder 1.5B (Lag-free)",
+    "provider": "ollama",
+    "model": "qwen2.5-coder:1.5b"
+  },
+  "tabAutocompleteOptions": {
+    "useCopyBuffer": true,
+    "maxPromptTokens": 1024
+  }
+}

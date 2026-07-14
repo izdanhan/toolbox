@@ -5,7 +5,7 @@
     "spacing": 4,
     "modules-left": ["hyprland/workspaces", "hyprland/window"],
     "modules-center": ["clock"],
-    "modules-right": ["network", "cpu", "memory", "pulseaudio"],
+    "modules-right": ["pulseaudio", "network", "cpu", "memory"],
 
     "hyprland/workspaces": {
         "disable-scroll": true,
@@ -23,14 +23,9 @@
         "format": "RAM: {}%"
     },
     "network": {
-        "interval": 2,
-        "format-wifi": "󰖩  {essid}   {bandwidthUpBytes}  {bandwidthDownBytes}",
-        "format-ethernet": "󰈀  {ifname}   {bandwidthUpBytes}  {bandwidthDownBytes}",
-        "format-disconnected": "󰖪  Disconnected",
-        "tooltip-format": "{ifname} via {gwaddr}",
-        "tooltip-format-wifi": "{essid} ({signalStrength}%)",
-        "tooltip-format-ethernet": "{ifname} 󰈀",
-        "tooltip-format-disconnected": "Disconnected"
+        "format-wifi": "WiFi: {essid}",
+        "format-ethernet": "ETH: Connected",
+        "format-disconnected": "DISCONNECTED"
     },
     "pulseaudio": {
         "format": "VOL: {volume}%",

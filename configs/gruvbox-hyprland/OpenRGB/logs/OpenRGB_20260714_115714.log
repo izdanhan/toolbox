@@ -1,0 +1,55 @@
+    OpenRGB v0.9+ (1.0rc3)
+    Commit:  from 
+    Launched: 20260714_115714
+====================================================================================================
+
+52    |Info:    [ResourceManager] Saving detector settings
+54    |Info:    [ResourceManager] Initializing HID interfaces: Success
+54    |Info:    ------------------------------------------------------
+54    |Info:    |               Start device detection               |
+54    |Info:    ------------------------------------------------------
+72    |Info:    ------------------------------------------------------
+72    |Info:    |             Detecting I2C interfaces               |
+72    |Info:    ------------------------------------------------------
+72    |Info:    [ResourceManager] Registering I2C interface: NVIDIA i2c adapter 1 at 9:00.0
+ (/dev/i2c-3) Device 10DE:2206 Subsystem: 3842:3897
+72    |Info:    [ResourceManager] Registering I2C interface: SMBus PIIX4 adapter port 2 at 0b00 (/dev/i2c-1) Device 1022:790B Subsystem: 1043:87C0
+73    |Info:    [ResourceManager] Registering I2C interface: NVIDIA i2c adapter 7 at 9:00.0
+ (/dev/i2c-6) Device 10DE:2206 Subsystem: 3842:3897
+73    |Info:    [ResourceManager] Registering I2C interface: NVIDIA i2c adapter 5 at 9:00.0
+ (/dev/i2c-4) Device 10DE:2206 Subsystem: 3842:3897
+73    |Info:    [ResourceManager] Registering I2C interface: SMBus PIIX4 adapter port 1 at 0b20 (/dev/i2c-2) Device 1022:790B Subsystem: 1043:87C0
+73    |Info:    [ResourceManager] Registering I2C interface: SMBus PIIX4 adapter port 0 at 0b00 (/dev/i2c-0) Device 1022:790B Subsystem: 1043:87C0
+73    |Info:    [ResourceManager] Registering I2C interface: NVIDIA i2c adapter 8 at 9:00.0
+ (/dev/i2c-7) Device 10DE:2206 Subsystem: 3842:3897
+73    |Info:    [ResourceManager] Registering I2C interface: NVIDIA i2c adapter 6 at 9:00.0
+ (/dev/i2c-5) Device 10DE:2206 Subsystem: 3842:3897
+73    |Info:    ------------------------------------------------------
+73    |Info:    |               Detecting I2C devices                |
+73    |Info:    ------------------------------------------------------
+642   |Info:    ------------------------------------------------------
+642   |Info:    |            Detecting I2C DIMM modules              |
+643   |Info:    ------------------------------------------------------
+1489  |Info:    [ResourceManager] Detected occupied slot 3, bus 5, type DDR4
+2774  |Info:    [ResourceManager] Detected occupied slot 4, bus 5, type DDR4
+3866  |Info:    ------------------------------------------------------
+3866  |Info:    |               Detecting I2C PCI devices            |
+3866  |Info:    ------------------------------------------------------
+3867  |Info:    [EVGA GeForce RTX 3080 FTW3 Ultra] Failed to get a valid FW version, does the i2c interface support `i2c_smbus_read_i2c_block_data`?
+3868  |Info:    ------------------------------------------------------
+3868  |Info:    |               Detecting HID devices                |
+3868  |Info:    ------------------------------------------------------
+3945  |Info:    [ASUS ROG STRIX X570-F GAMING] Registering RGB controller
+4807  |Info:    [G Pro Wireless Gaming Mouse] Registering RGB controller
+4808  |Info:    [Logitech G610 Orion] Registering RGB controller
+4808  |Info:    ------------------------------------------------------
+4808  |Info:    |            Detecting libusb HID devices            |
+4808  |Info:    ------------------------------------------------------
+4907  |Info:    ------------------------------------------------------
+4907  |Info:    |              Detecting other devices               |
+4907  |Info:    ------------------------------------------------------
+4936  |Info:    [ResourceManager] Calling Post-detection callbacks
+4936  |Info:    ------------------------------------------------------
+4936  |Info:    |                Detection completed                 |
+4936  |Info:    ------------------------------------------------------
+4936  |Dialog:  <h2>Warning:</h2><p>One or more I2C/SMBus interfaces failed to initialize.</p><p>Depending on which interfaces failed to initialize, some RGB DRAM modules, some motherboards' onboard RGB lighting, and RGB graphics cards may not be available in OpenRGB.</p><p>On Linux, this is usually because the i2c-dev module is not loaded.</p><p>For OpenRGB to access these devices, you must load the i2c-dev module along with the correct I2C driver module for your motherboard. This is usually i2c-piix4 for AMD systems and i2c-i801 for Intel systems.</p><p>If you are not using any of the devices listed above, you can safely ignore this message.</p>
