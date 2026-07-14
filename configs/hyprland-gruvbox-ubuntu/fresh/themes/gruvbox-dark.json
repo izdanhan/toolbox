@@ -1,0 +1,32 @@
+{
+  "name": "gruvbox-dark",
+  "inherits": "dark",
+  "editor": {
+    "bg": [40, 40, 40],
+    "fg": [235, 219, 178],
+    "cursor": [254, 128, 25],
+    "selection_bg": [80, 73, 69],
+    "line_numbers": [146, 131, 116]
+  },
+  "syntax": {
+    "comment": [146, 131, 116],
+    "string": [184, 187, 38],
+    "number": [211, 134, 155],
+    "constant": [211, 134, 155],
+    "keyword": [251, 73, 52],
+    "type": [250, 189, 47],
+    "function": [131, 165, 152],
+    "variable": [142, 192, 124],
+    "operator": [235, 219, 178],
+    "error": [251, 73, 52]
+  },
+  "ui": {
+    "status_bar_bg": [60, 56, 54],
+    "status_bar_fg": [235, 219, 178],
+    "tab_bar_bg": [40, 40, 40],
+    "tab_active_bg": [60, 56, 54],
+    "tab_inactive_bg": [40, 40, 40],
+    "menu_bg": [60, 56, 54],
+    "menu_fg": [235, 219, 178]
+  }
+}
