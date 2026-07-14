@@ -1,0 +1,196 @@
+# =========================================================================
+# SWAY CONFIGURATION (Translated from Hyprland config)
+# Target System: ThinkPad T14s Gen 4, Ubuntu 26.04 LTS
+# Theme: Gruvbox
+# Font: JetBrainsMono Nerd Font
+# =========================================================================
+
+# --- Variables ---
+set $mod Mod4
+set $terminal kitty
+set $browser firefox
+set $fileManager nemo
+set $menu rofi -show drun
+
+# --- Font ---
+font pango:JetBrainsMono Nerd Font 10
+
+# --- Gruvbox Color Palette ---
+set $bg_dark      #282828
+set $bg_medium    #3c3836
+set $bg_light     #504945
+set $fg_light     #ebdbb2
+set $yellow       #fabd2f
+set $green        #8ec07c
+set $red          #fb4934
+
+# --- Look and Feel (Colors and Borders) ---
+# class                 border      backgr.     text        indicator   child_border
+client.focused          $green      $green      $bg_dark    $yellow     $green
+client.focused_inactive $bg_light   $bg_medium  $fg_light   $bg_light   $bg_light
+client.unfocused        $bg_medium  $bg_dark    $fg_light   $bg_medium  $bg_medium
+client.urgent           $red        $red        $bg_dark    $red        $red
+
+# Gaps & Borders
+default_border pixel 2
+default_floating_border normal 2
+gaps inner 4
+gaps outer 8
+
+# --- Monitors (Outputs) ---
+# Internal ThinkPad Screen (usually eDP-1)
+output eDP-1 {
+    resolution 2880x1800@90Hz  # Adjust resolution/rate to match your exact panel spec if needed
+    scale 1.5                  # Recommended scaling for high-res 14" screen
+}
+
+# Default fallbacks matching the Hyprland profile
+output DP-3 {
+    resolution 2560x1440@143.97Hz
+    position 0 0
+}
+output HDMI-A-1 disable
+
+# --- Autostart ---
+exec_always {
+    dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=sway
+    /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+}
+exec waybar
+exec mako
+
+# --- Input Configuration ---
+input "type:keyboard" {
+    xkb_layout fi
+}
+
+input "type:touchpad" {
+    dwt enabled
+    tap enabled
+    natural_scroll disabled
+    middle_emulation enabled
+}
+
+# --- Keybindings ---
+
+# Core Applications
+bindsym $mod+Return exec $terminal
+bindsym $mod+e exec $fileManager
+bindsym $mod+i exec $browser
+bindsym $mod+d exec $menu
+bindsym $mod+r exec $menu
+
+# Custom utilities & TUI apps
+bindsym $mod+a exec ~/.local/bin/tui-menu
+bindsym $mod+c exec code
+bindsym $mod+y exec kitty -e yazi
+bindsym $mod+o exec kitty -e oterm
+
+# Window control
+bindsym $mod+q kill
+bindsym $mod+Shift+q kill
+bindsym $mod+v floating toggle
+
+# Fullscreen modes
+bindsym $mod+f fullscreen toggle global
+bindsym $mod+Shift+f fullscreen toggle
+
+# Session management
+bindsym $mod+Escape exec ~/.local/bin/powermenu
+bindsym $mod+Shift+Escape exec swaymsg exit
+
+# --- Navigation & Focus (Vim & Arrow keys) ---
+# Vim keys
+bindsym $mod+h focus left
+bindsym $mod+j focus down
+bindsym $mod+k focus up
+bindsym $mod+l focus right
+# Arrow keys
+bindsym $mod+Left focus left
+bindsym $mod+Down focus down
+bindsym $mod+Up focus up
+bindsym $mod+Right focus right
+
+# Moving windows
+# Vim keys
+bindsym $mod+Shift+h move left
+bindsym $mod+Shift+j move down
+bindsym $mod+Shift+k move up
+bindsym $mod+Shift+l move right
+# Arrow keys
+bindsym $mod+Shift+Left move left
+bindsym $mod+Shift+Down move down
+bindsym $mod+Shift+Up move up
+bindsym $mod+Shift+Right move right
+
+# --- Workspaces ---
+# Workspace Navigation
+bindsym $mod+1 workspace number 1
+bindsym $mod+2 workspace number 2
+bindsym $mod+3 workspace number 3
+bindsym $mod+4 workspace number 4
+bindsym $mod+5 workspace number 5
+bindsym $mod+6 workspace number 6
+bindsym $mod+7 workspace number 7
+bindsym $mod+8 workspace number 8
+bindsym $mod+9 workspace number 9
+bindsym $mod+0 workspace number 10
+
+# Move container to workspace
+bindsym $mod+Shift+1 move container to workspace number 1
+bindsym $mod+Shift+2 move container to workspace number 2
+bindsym $mod+Shift+3 move container to workspace number 3
+bindsym $mod+Shift+4 move container to workspace number 4
+bindsym $mod+Shift+5 move container to workspace number 5
+bindsym $mod+Shift+6 move container to workspace number 6
+bindsym $mod+Shift+7 move container to workspace number 7
+bindsym $mod+Shift+8 move container to workspace number 8
+bindsym $mod+Shift+9 move container to workspace number 9
+bindsym $mod+Shift+0 move container to workspace number 10
+
+# Workspace navigation (Z/X mapped to prev/next)
+bindsym $mod+z workspace prev
+bindsym $mod+x workspace next
+
+# --- Scratchpad (Analogous to Hyprland's Special Workspace) ---
+bindsym $mod+s scratchpad show
+bindsym $mod+Shift+s move scratchpad
+
+# --- Window Resize Mode (Simulating dynamic Hyprland bindings) ---
+mode "resize" {
+    # Vim keys
+    bindsym h resize shrink width 40 px
+    bindsym j resize grow height 40 px
+    bindsym k resize shrink height 40 px
+    bindsym l resize grow width 40 px
+
+    # Arrow keys
+    bindsym Left resize shrink width 40 px
+    bindsym Down resize grow height 40 px
+    bindsym Up resize shrink height 40 px
+    bindsym Right resize grow width 40 px
+
+    # Return to default mode
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+bindsym $mod+Alt+h mode "resize"
+bindsym $mod+Alt+Left mode "resize"
+
+# --- Media Keys ---
+bindsym --locked XF86AudioRaiseVolume exec wpctl set-volume -l 1 @DEFAULT_AUDIO_SINK@ 5%+
+bindsym --locked XF86AudioLowerVolume exec wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-
+bindsym --locked XF86AudioMute exec wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle
+bindsym --locked XF86AudioMicMute exec wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle
+bindsym --locked XF86MonBrightnessUp exec brightnessctl -e4 -n2 set 5%+
+bindsym --locked XF86MonBrightnessDown exec brightnessctl -e4 -n2 set 5%-
+
+bindsym --locked XF86AudioNext exec playerctl next
+bindsym --locked XF86AudioPause exec playerctl play-pause
+bindsym --locked XF86AudioPlay exec playerctl play-pause
+bindsym --locked XF86AudioPrev exec playerctl previous
+
+# --- Window Rules ---
+for_window [app_id="imv"] floating enable, border normal 2
+for_window [app_id="kitty-image"] floating enable, border normal 2
+for_window [app_id="floating_tui"] floating enable, resize set 900 600, move position center

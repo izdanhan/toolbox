@@ -277,12 +277,16 @@ hl.bind(mainMod .. " + E",      hl.dsp.exec_cmd(fileManager)) -- Super+E for fil
 hl.bind(mainMod .. " + I",      hl.dsp.exec_cmd(browser)) -- Super+I for browser
 
 -- Open Unified TUI Settings Menu
-hl.bind(mainMod .. " + A", hl.dsp.exec_cmd("~/.local/bin/tui-menu"))
+hl.bind(mainMod .. " + I", hl.dsp.exec_cmd("~/.local/bin/tui-menu"))
 
 -- Apps
 hl.bind(mainMod .. " + C",      hl.dsp.exec_cmd("code")) -- Super+C for Code-OSS
 hl.bind(mainMod .. " + Y",      hl.dsp.exec_cmd("kitty -e yazi")) -- Super+Shift+E for Yazi
+hl.bind(mainMod .. " + B",      hl.dsp.exec_cmd("kitty --class floating_tui -e bluetui")) -- Bluetooth TUI
+hl.bind(mainMod .. " + A",      hl.dsp.exec_cmd("kitty --class floating_tui -e wiremix")) -- Audio TUI
+hl.bind(mainMod .. " + N",      hl.dsp.exec_cmd("kitty --class floating_tui -e nmtui")) -- Network Manager TUI
 hl.bind(mainMod .. " + O",      hl.dsp.exec_cmd("kitty -e oterm")) -- Ollama TUI
+
 
 -- Close Active Window (Graceful)
 hl.bind(mainMod .. " + Q", hl.dsp.window.close())
@@ -292,13 +296,15 @@ hl.bind(mainMod .. " + SHIFT + Q", hl.dsp.window.kill())
 
 -- Toggle MAXIMIZE (keeps bar/gaps - old "fullscreen, 1")
 hl.bind(mainMod .. " + F", hl.dsp.window.fullscreen({ mode = "maximized", action = "toggle" }))
+
 -- Toggle TRUE FULLSCREEN (completely fills screen - old "fullscreen, 0")
 hl.bind(mainMod .. " + SHIFT + F", hl.dsp.window.fullscreen({ mode = "fullscreen", action = "toggle" }))
 
--- 
 hl.bind(mainMod .. " + D",      hl.dsp.exec_cmd(menu))     -- Super+D for launcher (Cosmic style)
 hl.bind(mainMod .. " + R",      hl.dsp.exec_cmd(menu))     -- Fallback Super+R launcher
+
 hl.bind(mainMod .. " + V",      hl.dsp.window.float({ action = "toggle" }))
+-- hl.bind(mainMod .. " + SHIFT + F",      hl.dsp.window.fullscreen({ mode = 0 })) -- Super+F Fullscreen
 
 -- System Session Management aka EXIT
 hl.bind(mainMod .. " + SHIFT + ESCAPE", hl.dsp.exit()) -- Safe pipeline exit
