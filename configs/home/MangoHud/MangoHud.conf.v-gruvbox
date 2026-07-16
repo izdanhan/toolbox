@@ -10,7 +10,6 @@ ram
 io_read
 io_write
 fps
-fps_metrics=avg,0.01
 show_fps_limit
 frame_timing
 wine
@@ -20,7 +19,7 @@ fps_limit_method=late
 toggle_fps_limit=Shift_L+F1
 fps_limit=120,90,60
 horizontal
-horizontal_stretch=1
+horizontal_stretch=0
 round_corners=10
 background_alpha=0.5
 position=top-left
