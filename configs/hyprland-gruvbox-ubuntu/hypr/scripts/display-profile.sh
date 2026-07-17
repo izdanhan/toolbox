@@ -17,6 +17,7 @@ fi
 case "$SELECTION" in
     *"Laptop"*|laptop)
         hyprctl keyword monitor "$EDP"
+        hyprctl keyword monitor "DP-5,disable"
         hyprctl keyword monitor "DP-6,disable"
         hyprctl keyword monitor "HDMI-A-1,disable"
         notify-send "Display Profile" "Switched to laptop display" --icon=video-display
@@ -30,6 +31,7 @@ case "$SELECTION" in
     *"TV"*|tv)
         hyprctl keyword monitor "$HDMI"
         hyprctl keyword monitor "eDP-1,disable"
+        hyprctl keyword monitor "DP-5,disable"
         hyprctl keyword monitor "DP-6,disable"
         notify-send "Display Profile" "Switched to TV" --icon=video-display
         ;;
