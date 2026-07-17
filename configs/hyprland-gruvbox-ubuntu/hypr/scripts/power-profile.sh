@@ -1,12 +1,48 @@
 #!/usr/bin/env bash
 
-# Get profiles and clean up the output
-CHOSEN=$(echo -e "performance\nbalanced\npower-saver" | rofi -dmenu -p "Power Profile:")
+# Get currently active profile
+CURRENT=$(powerprofilesctl get)
 
-# If using wofi, uncomment below and comment out the rofi line:
-# CHOSEN=$(echo -e "performance\nbalanced\npower-saver" | wofi --dmenu --pmenu "Power Profile:")
+# Map profiles to clean UI names with icons (Requires Nerd Fonts)
+declare -A PROFILES=(
+    ["performance"]=" Performance"
+    ["balanced"]="  Balanced"
+    ["power-saver"]="  Power Saver"
+)
 
-if [ -n "$CHOSEN" ]; then
-    powerprofilesctl set "$CHOSEN"
-    notify-send "Power Profile" "Switched to $CHOSEN" -i bst-battery
-fi
+# Format the list for Rofi
+OPTIONS=""
+for key in "${!PROFILES[@]}"; do
+    if [ "$key" == "$CURRENT" ]; then
+        # Highlight the current profile in the menu list
+        OPTIONS+="${PROFILES[$key]} (Active)\n"
+    else
+        OPTIONS+="${PROFILES[$key]}\n"
+    fi
+done
+
+# Run Rofi in dmenu mode
+# -dmenu: acts as a filter
+# -p: sets the prompt text
+# -i: case-insensitive matching
+SELECTION=$(echo -e -n "$OPTIONS" | rofi -dmenu -p "Power Profile" -i)
+
+# Match selection and apply
+case "$SELECTION" in
+    *"Performance"*)
+        powerprofilesctl set performance
+        notify-send "Power Profile" "Switched to Performance Mode" --icon=battery-level-100-charging
+        ;;
+    *"Balanced"*)
+        powerprofilesctl set balanced
+        notify-send "Power Profile" "Switched to Balanced Mode" --icon=battery-level-50
+        ;;
+    *"Power Saver"*)
+        powerprofilesctl set power-saver
+        notify-send "Power Profile" "Switched to Power Saver Mode" --icon=battery-level-10-low
+        ;;
+    *)
+        # Exit if escaped or closed without selection
+        exit 0
+        ;;
+esac
