@@ -9,6 +9,9 @@ alias disks="lsblk -o NAME,SIZE,TYPE,FSTYPE,MOUNTPOINT"
 alias help-apps="glow ~/git/toolbox/docs/linux/terminal_apps.md"
 alias help-cs="glow ~/git/toolbox/docs/linux/terminal_cheatsheet.md"
 
+# power
+
+
 # flatpak
 alias fl-in="flatpak install"
 alias fl-rm="flatpak uninstall"

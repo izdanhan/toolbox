@@ -2,7 +2,7 @@
 # ~/.config/hypr/scripts/dock-handler.sh
 
 INTERNAL="eDP-1"
-EXTERNAL="DP-5"
+EXTERNAL="DP-6"
 
 # Check if the external monitor is physically connected
 if hyprctl monitors all | grep -q "$EXTERNAL"; then
