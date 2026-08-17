@@ -8,9 +8,7 @@ alias weather="curl wttr.in/tampere"
 alias disks="lsblk -o NAME,SIZE,TYPE,FSTYPE,MOUNTPOINT"
 alias help-apps="glow ~/git/toolbox/docs/linux/terminal_apps.md"
 alias help-cs="glow ~/git/toolbox/docs/linux/terminal_cheatsheet.md"
-
-# power
-
+alias ytdl='yt-dlp --embed-chapters -f "bestvideo+bestaudio/best" --merge-output-format mkv'
 
 # flatpak
 alias fl-in="flatpak install"
