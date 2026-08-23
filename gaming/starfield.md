@@ -30,11 +30,11 @@ Here is the exact breakdown for your setup:
 
 ### Linux Platform Tweaks
 
-Given your 595 drivers and Liquorix kernel, make sure your Steam launch options for Starfield include the absolute essentials for optimal thread allocation and execution path under VKD3D:
+Ubuntu 26.04 LTS
+
+Steam properties to get VRR working:
 
 ```bash
-__GL_SHADER_DISK_CACHE_SKIP_CLEANUP=1 DXVK_ASYNC=1 %command%
-
+MANGOHUD=1 PROTON_ENABLE_WAYLAND=1 gamemoderun %command%
 ```
 
-*(Note: If you encounter stuttering during initial cellular transitions, allow the pipeline cache to build over the first few minutes of gameplay.)*
