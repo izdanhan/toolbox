@@ -1,152 +1,162 @@
-Joo. **Jos tavoitteena on pitää ostokset noin 150 € / tilaus, minä en yrittäisi tehdä kahta täysin tasavahvaa tilausta.** Tekisin ensimmäisestä sen, mikä antaa sinulle heti käyttökelpoisen nukkumisjärjestelmän, ja toisesta majoitusmoduulin.
+Tämä on nyt **selkeästi parempi ja loogisempi hankintasuunnitelma** kuin aiempi. Isoin parannus on se, että olet muuttanut vaihtoehdot **1a/1b ja 2a/2b** selkeiksi valinnoiksi sen sijaan, että ostaisit kaiken päällekkäin.
 
-GoArmyn nykyinen Modular-setti sisältää Mediumin, Lightin ja linerin, ja Medium yksinään on heidän mukaansa 3 vuodenajan pussi; koko järjestelmän ilmoitettu paino Medium-koossa on noin 4 kg. ([Goarmy][1])
+## 🏆 Minun suositeltu polku
 
-## 🥇 Tilaus 1 — nukkumisjärjestelmä ~150 €
+### Vaihe 1: **1a tai 1b — valitse vain toinen**
 
-**Ostaisin ensin:**
+**Minun valintani on nyt 1b**, jos sen todellinen kokonaishinta toimituksineen pysyy selvästi GoArmya alempana.
 
-* GB Modular Sleep System, Grade 1 / Medium — **81,95 €**
-* Medium compression sack — **14,95 €**
-* Lightweight compression sack — **8,95 €**
-* Robens Zigzag Slumber Pro — noin **45–50 €**
+Saat:
 
-**Yhteensä noin 151–156 € + toimituskulut**, eli tämä on minusta täydellinen ensimmäinen tilaus.
+* GB Medium
+* GB Light
+* suuren kompressiosäkin
 
-Tässä on tärkeä pointti: **makuupussi + alusta muodostavat retkeilyn tärkeimmän kokonaisuuden.** Kun nämä ovat hallussa, pystyt jo nukkumaan turvallisesti Starlightissa, Bashassa tai tarvittaessa vaikka hätämajoituksessa.
+**1a:n suurin etu:** liner ja erilliset oikeankokoiset kompressiosäkit.
+**1b:n suurin etu:** parempi hinta ja yksi iso pussi, johon järjestelmä voidaan pakata.
 
-Ja GB-järjestelmän Light/Medium/liner-modulaarisuus on tässä todella hyvä. ([Goarmy][1])
+En kuitenkaan laske 1a:n tai 1b:n mukaan ZigZagia, koska alusta tulee eri kaupasta ja ostaisin sen **samalla kuin ensimmäinen makuupussivaihtoehto**, riippumatta siitä kumman valitset.
 
-### Miksi en ostaisi Bivvyä vielä?
+### Oma järjestykseni:
 
-Koska **Bivvy ilman kunnollista katosta on kompromissi**, kun taas Starlight/Basha ratkaisee varsinaisen sään. Bivvy on erinomainen lisä, mutta ei ensimmäinen prioriteetti.
-
----
-
-# 🥈 Tilaus 2 — Basha-moduuli ~150 €
-
-Kun nukkuminen on kunnossa, tekisin seuraavan tilauksen:
-
-* **MTP Basha Grade 1**, jos saatavilla
-* **2 × Basha Pole**
-* **GORE-TEX MTP Bivvy Bag**
-* **10 × teräskiilat**
-* **100 m / 3 mm paracord**
-
-Tämä on käytännössä juuri se kori, jonka olet nyt rakentanut.
-
-GoArmyn nykyisessä valikoimassa Basha maksaa kunnosta riippuen noin **17,95–44,95 €**, bivvy **16,95–44,95 €**, ja 10 teräskiilan paketti 3,95 €. ([Goarmy][2])
-
-**Mutta:** jos ostat kaikki nuo kerralla, päädyt helposti yli 100 euroon ennen toimitusta. Se ei haittaa, koska toinen tilaus voi olla esimerkiksi **120–150 €**.
+**1b + ZigZag** → paras budjetti/hyöty
+**1a + ZigZag** → parempi kokonaisuus, jos haluat linerin
 
 ---
 
-# ⛺ Entä Starlight 2 EXP?
+# Vaihe 2: Valitse Basha/Bivvy **tai** Starlight
 
-**Kolmanneksi.**
+Tässä kohtaa muuttaisin omaa aiempaa suositustani hieman.
 
-Tämä saattaa kuulostaa oudolta, koska Starlight oli alkuperäisessä suunnitelmassasi tärkeä. Mutta nyt kun olet löytänyt Bashan + Bivyn, järjestelmästä tulee todella mielenkiintoinen:
+## 🥇 Sinun käyttöön: 2b Starlight 2 EXP ensin
 
-### Ensin
+Vaikka Basha/Bivvy on hieno ja monipuolinen, **Robens Starlight 2 EXP olisi minun ensimmäinen varsinainen majoitushankintani**.
 
-**GB + Zigzag**
+Syy: suunnittelet myös **pitkiä, jopa yli viikon yksinvaelluksia**. Silloin:
 
-↓
+* suljettu teltta
+* hyönteissuoja
+* parempi sääsuoja
+* enemmän tilaa
+* kuivat varusteet
+* mukavampi pitkäaikainen käyttö
 
-### Sitten
+ovat tärkeämpiä kuin Bashan monipuolisuus.
 
-**Basha + Bivvy**
+### Sen jälkeen:
 
-↓
+**2a Basha/Bivvy** myöhemmin erilliseksi bushcraft-, nuotio- ja varamajoitusjärjestelmäksi.
 
-### Lopuksi
+Tämä olisi oma lopullinen järjestykseni:
 
-**Starlight 2 EXP**
-
-Tässä järjestyksessä jokainen uusi hankinta lisää jotain olennaista.
-
----
-
-## Miksi Starlight vasta kolmantena?
-
-Koska sinulla olisi jo:
-
-**Basha + Bivvy + GB + Zigzag**
-
-jolla pystyt oikeasti nukkumaan metsässä.
-
-Starlight tuo sitten:
-
-* paremman suojan sateelta
-* paremman tuulensuojan
-* hyönteissuojan
-* enemmän sisätilaa
-* tavaroille suojatun tilan
-* huomattavasti mukavamman pitkäaikaisen leirin.
-
-Eli Starlight ei **mahdollista** retkeilyä samalla tavalla kuin makuupussi + alusta. Se **parantaa sitä huomattavasti**.
+> **Nukkuminen → Starlight → Työkalut → Vesi → Basha/Bivvy**
 
 ---
 
-# 🔥 Mutta on yksi vaihtoehto, jota harkitsisin
+# 🪓 Vaihe 3 on hyvä, mutta jakaisin sen kahteen prioriteettiin
 
-Jos Starlight 2 EXP on edelleen noin **165 €**, voisin tehdä:
+Nykyisessä listassa on pieni epätasapaino.
 
-### Tilaus 1 — ~150 €
+## Pakolliset:
 
-**GB Modular + molemmat kompressiosäkit + Zigzag**
+* Jääkäripuukko 110
+* FireSteel
+* Bahco Laplander
 
-### Tilaus 2 — ~150 €
+## Harrastuslisä:
 
-**Basha + Bivvy + 2 × pole + kiilat + paracord**
+* onkilaitteet
+* matkaonkivapa
 
-### Tilaus 3 — ~165 €
+Onginta on hauska lisä, mutta **en laskisi sitä retken perusvarustukseen**. Ruokahuoltoa ei pidä suunnitella sen varaan.
 
-**Starlight 2 EXP**
+Eli hankkisin ensin:
 
-Ja sitten sinulla olisi:
+> 🔪 Puukko
+> 🔥 FireSteel
+> 🪚 Laplander
 
-> **GB Modular**
-> **Zigzag Slumber Pro**
-> **Bivvy**
-> **Basha**
-> **Starlight 2 EXP**
-
-Se on jo todella kattava majoitusjärjestelmä.
+Ja kalastusvehkeet myöhemmin, jos budjetti antaa myöten.
 
 ---
 
-# 🏆 Minun prioriteettini olisi siis
+# 💧 Vaihe 4: tässä tekisin yhden lisäyksen
 
-**1. 🛌 Nukkuminen — heti**
+Katadyn BeFree + rinkan sadesuoja on hyvä pari, mutta sinun listassasi on vielä yksi puuttuva perusasia:
 
-> GB Modular + 2 compression sack + Zigzag
+### **Veden kuljetuskapasiteetti**
 
-**2. 🛡️ Hätä-/kevytmajoitus**
+BeFree Tactical on suodatin ja pehmeä pullo, mutta pitkällä retkellä ottaisin mukaan myös:
 
-> Basha + Bivvy + 2 pole + kiilat + paracord
+* SA 1 L kenttäpullon, jonka jo löysit
 
-**3. ⛺ Varsinainen teltta**
+Tämä on minusta järkevämpi prioriteetti kuin pelkkä "ylimääräinen pullo".
 
-> Starlight 2 EXP
+**Suosittelisin:**
 
-**4. 🔪 Työkalut**
+* Katadyn BeFree Tactical 1 L
+* SA kenttäpullo 1 L
+* KAZ 03 -sadesuoja
 
-> Jääkäripuukko + Laplander + FireSteel
+Silloin voit kuljettaa vettä erillään ja suodattaa sitä tarvittaessa.
 
-**5. 💧 Vesi**
+---
 
-> BeFree + SA 1 L
+# ⚠️ Isoin puute nykyisestä listasta
 
-Tällä tavalla jokainen ~150 € erä tekee järjestelmästä **olennaisesti toimintakykyisemmän**.
+Minusta nykyisestä hankintasuunnitelmasta puuttuu yksi kokonainen kategoria:
 
-### Ja vielä yksi säästöidea
+## 🩹 Ensiapu ja hätävarusteet
 
-**Basha + Bivvy + Zigzag + GB** on jo niin hyvä minimalistinen majoitus, että voisit jopa **ostaa Starlightin vasta viimeisenä ja testata ensin Bashaa**.
+Tämä on minun mielestäni **prioriteetiltaan kalastusvälineiden ja ehkä jopa Bashan edellä**.
 
-Jos huomaat, että tykkäät nukkua Bashassa eikä tila haittaa, Starlight voi muuttua "haluan mukavuutta" -ostokseksi eikä "tarvitsen teltan" -ostokseksi.
+Lisäisin tulevaisuudessa vähintään:
 
-Minä tekisin juuri näin. **Ensimmäinen ~150 € tilaus olisi ehdottomasti GB + Zigzag.** Sen jälkeen rakentaisin Basha/Bivvy-järjestelmän. Starlight kolmanneksi. ([Goarmy][1])
+* ensiapupakkauksen
+* hätäpeitteen tai bivvy-bagin
+* punkkipihdit
+* rakkojen hoito
+* henkilökohtaiset lääkkeet
+* vihellyspillin
 
-[1]: https://goarmy.co.uk/collections/sleeping-equipment/products/british-army-military-modular-sleep-system?utm_source=chatgpt.com "British Army Military Modular Sleep System | 5 Season Sleeping Bag — Goarmy"
-[2]: https://goarmy.co.uk/en-eu/collections/sleeping-equipment?utm_source=chatgpt.com "Premium Military Surplus Sleeping Gear | GoArmy — Goarmy"
+Varsinkin kun tarkoitus on tehdä pidempiä yksinretkiä.
+
+---
+
+# 📋 Minun muokkaama hankintajärjestys
+
+### 🟢 Vaihe 0 — valmiina
+
+Erinomainen perusta. Keittiö, kaasu, valo ja virta ovat jo kunnossa.
+
+### 🥇 Vaihe 1 — Nukkuminen
+
+**1a TAI 1b + ZigZag Slumber Pro**
+
+### 🥈 Vaihe 2 — Majoitus
+
+**Robens Starlight 2 EXP**
+
+### 🥉 Vaihe 3 — Turvallisuus / perusvarusteet
+
+**Ensiapu + Jääkäripuukko + Laplander + FireSteel**
+
+Kalastusvälineet erikseen.
+
+### 💧 Vaihe 4 — Vesi
+
+**BeFree + SA-kenttäpullo + rinkan sadesuoja**
+
+### 🔥 Vaihe 5 — Bushcraft / varamajoitus
+
+**Basha + Bivvy + 2 polea + kiilat + paracord**
+
+---
+
+## Lopullinen kommentti
+
+**Listasi on nyt noin 8,5/10.** Perusmajoitus- ja nukkumispuoli on erittäin vahva.
+
+Suurin kehitysehdotus on: **älä tee Bashasta Starlightin korvaajaa**, koska sinun pääkäyttösi on pitkä yksinvaellus. Pidä Starlight päämajoituksena ja Basha/Bivvy myöhempänä vaihtoehtoisena järjestelmänä.
+
+Ja yksi käytännön huomio: sinun ei tarvitse ostaa kaikkea ennen ensimmäistä retkeä. Kun saat **makuupussin + alustan + teltan + keittimen + vedenpuhdistuksen + otsavalon**, olet jo valmis tekemään kunnon testiretkiä. Silloin saat paljon paremman käsityksen siitä, tarvitsetko Bashaa ja Bivvyä oikeasti vai onko Starlight jo sinun tarpeisiisi riittävä.
