@@ -7,14 +7,15 @@ Yhteenveto vaellukselle ja retkeilyyn valituista varusteista vaiheittain järjes
 
 ## 🛒 Hankintapolku
 
-### Vaihe 1: Eristysjärjestelmä (~165 €)
+### Vaihe 1: Eristysjärjestelmä (~145 €)
 
 *GB Modular -makuupussit + Therm-a-Rest RidgeRest Large + kompressiopussi*
 
 * 🛌 [GB Sleeping Bag Medium Weight MODULAR (Käytetty)](https://shop.militaryrange.eu/product/gb-sleeping-bag-medium-weight-modular-used)
 * 🛌 [GB Sleeping Bag Light Weight (Käytetty)](https://shop.militaryrange.eu/product/used-gb-sleeping-bag-light-weight)
 * 🎒 [Compression Large British Sack for Sleeping Bag (Vihreä, Käytetty)](https://shop.militaryrange.eu/product/compression-large-british-sack-for-sleeping-bag-green-used)
-* 🏕️ [Mat RidgeRest Classic LARGE GREY](https://shop.militaryrange.eu/product/mat-ridgerest-classic-large-grey-1000079694)
+* 🏕️ [Robens ZigZag Slumber Pro](https://www.bergfreunde.fi/robens-zigzag-slumber-pro-retkipatja/)
+  
 
 ---
 
@@ -23,6 +24,7 @@ Yhteenveto vaellukselle ja retkeilyyn valituista varusteista vaiheittain järjes
 *Robens Starlight 2 EXP -teltta*
 
 * ⛺ [Robens Starlight 2 EXP - 2 henkilön teltta](https://www.bergfreunde.fi/robens-starlight-2-exp-2-henkiloen-teltta/?aid=cee1ede7ec438a4e05800cf07bbd1d42)
+
 
 ---
 
