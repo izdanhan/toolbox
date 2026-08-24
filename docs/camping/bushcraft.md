@@ -1,7 +1,5 @@
 # Bushcraft eli vanhat hyvät erätaidot
-Mitä on Bushcraft? No sehän on niin paljon kaikkea kivaa metsässä puuhailua, että aiheesta saisi kirjasarjan. Ja on varmaan tehtykin. Tässä lyhyt pintaraapaisu puskatemppuilun maailmaan.
 
-27. maaliskuu 2023
 
 ## Mitä on Bushcraft?
 No sehän on niin paljon kaikkea kivaa metsässä puuhailua, että aiheesta saisi kirjasarjan. Ja on varmaan tehtykin. Tässä lyhyt pintaraapaisu puskatemppuilun maailmaan. Rouhitaan syvemmältä sitten myöhemmin lisää.
