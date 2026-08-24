@@ -21,9 +21,16 @@ Yhteenveto vaellukselle ja retkeilyyn valituista varusteista vaiheittain järjes
 
 ---
 
-### Vaihe 1: Eristysjärjestelmä (~145 €)
 
-*GB Modular -makuupussit + Therm-a-Rest RidgeRest Large + kompressiopussi*
+### Vaihe 1a: Nukkuminen (~170 €)
+
+* 🛌 [British Army Military Modular Sleep System](https://goarmy.co.uk/products/british-army-military-modular-sleep-system?variant=55031898669436)
+* 🎒 [British Army Lightweight Compression Sack](https://goarmy.co.uk/products/british-army-compression-sack-sleeping-bag)
+* 🎒 [British Army Medium Weight Compression Sack For Winter Sleeping Bag)](https://goarmy.co.uk/products/british-army-medium-weight-compression-sack-sleeping-bag)
+* 🏕️ [Robens ZigZag Slumber Pro](https://www.bergfreunde.fi/robens-zigzag-slumber-pro-retkipatja/)
+
+
+### Vaihe 1b: Nukkuminen (~145 €)
 
 * 🛌 [GB Sleeping Bag Medium Weight MODULAR (Käytetty)](https://shop.militaryrange.eu/product/gb-sleeping-bag-medium-weight-modular-used)
 * 🛌 [GB Sleeping Bag Light Weight (Käytetty)](https://shop.militaryrange.eu/product/used-gb-sleeping-bag-light-weight)
@@ -33,22 +40,29 @@ Yhteenveto vaellukselle ja retkeilyyn valituista varusteista vaiheittain järjes
 
 ---
 
-### Vaihe 2: Majoitus (~165 €)
+### Vaihe 2a: Majoitus (~170 €)
 
-*Robens Starlight 2 EXP -teltta*
+* ⛺ [British Army MTP Basha Tent, Grade 1, 44 €](https://goarmy.co.uk/en-eu/products/british-army-mtp-basha-tent?variant=55131979055484)
+* 🛌 [British Army GORE-TEX MTP Bivvy Bag, Grade 1, 44 €](https://goarmy.co.uk/en-eu/products/british-army-goretex-mtp-bivvy-bag?variant=55756859081084)
+* [2 x Basha Pole, 24 €](https://goarmy.co.uk/en-eu/products/bivi-basha-pole?variant=39331940270152)
+* [Tent Pegs (10 Pack), 4 €](https://goarmy.co.uk/en-eu/products/tent-pegs-10-pack?variant=44934790480182)
+* [3mm - 100m Coyote Paracord, 13 €](https://goarmy.co.uk/en-eu/products/3mm-100m-coyote-paracord?variant=47189706998070)
+
+
+### Vaihe 2b: Majoitus (~165 €)
 
 * ⛺ [Robens Starlight 2 EXP - 2 henkilön teltta](https://www.bergfreunde.fi/robens-starlight-2-exp-2-henkiloen-teltta/?aid=cee1ede7ec438a4e05800cf07bbd1d42)
 
 
 ---
 
-### Vaihe 3: Työkalut & Tuli (~145 €)
-
-*Jääkäripuukko 110 (nahkatupella) + Light My Fire FireSteel BIO Army + Bahco 396-LAP -retkisaha*
+### Vaihe 3: Työkalut & Tuli (~160 €)
 
 * 🔪 [Varusteleka Jääkäripuukko 110 nahkatupella](https://varusteleka.com/products/varusteleka-jaakaripuukko-110-nahkatupella)
 * 🔥 [Light My Fire FireSteel BIO Army -kipinärauta](https://varusteleka.com/products/light-my-fire-firesteel-bio-army-kipinarauta-fi)
 * 🪚 [Bahco 396-LAP Laplander -retkisaha](https://www.motonet.fi/tuote/bahco-396-lap-laplander-retkisaha?product=80-2131)
+* [MTX Fishing onkilaitesetti 2 kpl, 1,99 €](https://www.motonet.fi/tuote/mtx-fishing-onkilaitesetti-2-kpl?product=55-07130)
+* [Patriot Traveller matkaonkivapa 6-osainen 3 m, 6,99 €](https://www.motonet.fi/tuote/patriot-traveller-matkaonkivapa?product=55-07170&variant=54-2546)
 
 ---
 
@@ -70,4 +84,3 @@ Vedenpitävyys vähintään 10 000 mm](https://varusteleka.com/products/varustel
 
 ---
 
-> **Yhteenveto:** Koko varustekokonaisuus (Majoitus, Eristys, Virta, Valo, Keittiö, Vesi ja Työkalut) on nyt 100 % valmis ja vaelluskuntoinen!
