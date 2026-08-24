@@ -7,6 +7,20 @@ Yhteenveto vaellukselle ja retkeilyyn valituista varusteista vaiheittain järjes
 
 ## 🛒 Hankintapolku
 
+### Vaihe 0: Olemassa olevat
+
+* 🎒 [Itävaltalainen KAZ 03 rinkka, ylijäämä)](https://varusteleka.com/products/itavaltalainen-kaz-03-rinkka-ylijaama-fi?_pos=1&_sid=f3e433680&_ss=r)
+* 🏕️ [Stanley Wildfare Go Two Bowl Cookset ruoanvalmistussetti](https://www.verkkokauppa.com/fi/product/999769/Stanley-Wildfare-Go-Two-Bowl-Cookset-ruoanvalmistussetti)
+* 🔥 [Noux Tringa retkikeitin](https://www.verkkokauppa.com/fi/product/918502/Noux-Tringa-retkikeitin)
+* [MSR IsoPro -kaasu, 113 g](https://www.verkkokauppa.com/fi/product/249500/MSR-IsoPro-kaasu-113-g)
+* [Petzl TIKKA CORE otsavalo, 450 lm](https://www.verkkokauppa.com/fi/product/1023731/Petzl-TIKKA-CORE-otsavalo-450-lm-vihrea)
+* [UGreen Nexode 100W USB C GaN Charger-4 Port Wall Charger](https://eu.ugreen.com/products/ugreen-nexode-100w-usb-c-wall-charger)
+* [UGreen Nexode virtapankki 100W, 20000mAh](https://eu.ugreen.com/fi-fi/products/25188?variant=47333505302876)
+* [FoneKit Compact 10K PD20W -varavirtalähde, 10 000 mAh](https://www.verkkokauppa.com/fi/product/905653/FoneKit-Compact-10K-PD20W-varavirtalahde-10-000-mAh)
+
+
+---
+
 ### Vaihe 1: Eristysjärjestelmä (~145 €)
 
 *GB Modular -makuupussit + Therm-a-Rest RidgeRest Large + kompressiopussi*
@@ -46,11 +60,13 @@ Yhteenveto vaellukselle ja retkeilyyn valituista varusteista vaiheittain järjes
 
 ---
 
-### Vaihe 4: Vedenpuhdistus (~100 €)
+### Vaihe 4: Vedenpuhdistus (~150 €)
 
 *Katadyn BeFree Tactical 1.0L -vedensuodatin*
 
 * 💧 [Katadyn Tactical BeFree 1 L -vedensuodatin](https://shop.militaryrange.eu/product/water-filter-katadyn-tactical-befree-1-l-1000085326)
+* 🎒 [Varusteleka rinkan sadesuoja, Materiaali 100 % ripstop-vahvistettu polyamidi, paino 80g/m2, PU-pinnoite sisäpuolella, ulkopuolella PFC-vapaa C0 DWR -käsittely
+Vedenpitävyys vähintään 10 000 mm](https://varusteleka.com/products/varusteleka-repun-rinkan-sadesuoja-fi-1?variant=51826784141651)
 
 ---
 
