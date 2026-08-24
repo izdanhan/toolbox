@@ -26,7 +26,7 @@ Jotkut yhdistävät puskatemppuiluun myös omavaraisuus- ja ympäristöajattelua
 ## Vesihuolto
 Ilman vettä meno hyytyy aika nopeasti. Lyhyillä reissuilla vodaa voi roudata mukana esimerkiksi juomarakossa tai vesipullossa. Mutta entisajan korvenraivaajan tapaan hienointa on hyödyntää luonnonvesiä. Positiivista Suomessa on, että meillä on aivan hemmetisti järviä ja muita jorpakkoja, joten veden löytäminen on harvemmin mikään ongelma. Huono puoli sitten se, että on aika vaikea sanoa, mikä vesi on puhdasta juotavaksi.
 
-Juomapullo, jossa vedensuodatin kiven päällä kuksan vieressäVedensuodattimella varustettu juomapullo on hyvä olla matkassa, jos veden laatu epäilyttää. Osassa suodatus tapahtuu pillillä imemällä ja osassa vesi suodatetaan puristamalla.
+Vedensuodattimella varustettu juomapullo on hyvä olla matkassa, jos veden laatu epäilyttää. Osassa suodatus tapahtuu pillillä imemällä ja osassa vesi suodatetaan puristamalla.
 
 Nyrkkisääntönä voidaan sanoa, että käytä juoksevaa vettä. Ja mitä pohjoisemmaksi mennään, sitä puhtaammaksi vesi yleensä käy. Tunturipurojen raikkaus on sikäli varsin kuvaava ilmaus. Mutta ainoa varma tapa välttää erilaisia pöpöjä on puhdistaa vesi. Keittäminen on se perinteisin tapa, mutta reippaasti nopeampia ovat vedenpuhdistustabletit ja vedensuodattimet. Tableteilla veden maku ei ole kovin herkullinen, mutta tabletit tappavat myös viruksia. Jos sellaisista on pelkoa, ota tabut. Jos ei, ota suodatin. Koska maha kuralla ei ole hauska eräillä, otan itse vedenpuhdistimen mukaan myös niille vanhan ajan reissuille.
 
