@@ -11,7 +11,7 @@ Yhteenveto vaellukselle ja retkeilyyn valituista varusteista vaiheittain järjes
 
 * 🎒 [Itävaltalainen KAZ 03 rinkka, ylijäämä](https://varusteleka.com/products/itavaltalainen-kaz-03-rinkka-ylijaama-fi?_pos=1&_sid=f3e433680&_ss=r)
 * 🎒 [ThinkPad 14" sleeve](https://www.lenovo.com/us/en/p/accessories-and-software/cases-and-bags/sleeves/4x40n18009)
-* 🎒 [Tomtoc X-Pac Backpack, Premium Laptop Backpacks, Daypack, 28 Litres](https://www.amazon.de/dp/B0C2C1HDL4/ref=pe_27091401_487027711_TE_SCE_dp_i1)
+* 🎒 [Tomtoc X-Pac Backpack, Premium Laptop Backpacks, Daypack, 28 Litres](https://www.tomtoc.com/products/techpack-h73-x-pac-laptop-backpack)
 * 🏕️ [Stanley Wildfare Go Two Bowl Cookset ruoanvalmistussetti](https://wwwside bag for ALPINRUCKSACK.verkkokauppa.com/fi/product/999769/Stanley-Wildfare-Go-Two-Bowl-Cookset-ruoanvalmistussetti)
 * 🔥 [Noux Tringa retkikeitin](https://www.verkkokauppa.com/fi/product/918502/Noux-Tringa-retkikeitin)
 * [MSR IsoPro -kaasu, 113 g](https://www.verkkokauppa.com/fi/product/249500/MSR-IsoPro-kaasu-113-g)
@@ -21,12 +21,12 @@ Yhteenveto vaellukselle ja retkeilyyn valituista varusteista vaiheittain järjes
 * [FoneKit Compact 10K PD20W -varavirtalähde, 10 000 mAh](https://www.verkkokauppa.com/fi/product/905653/FoneKit-Compact-10K-PD20W-varavirtalahde-10-000-mAh)
 * [🧥 🥾 Jalas 3322 Fantom Drylock -maiharit](https://varusteleka.com/products/jalas-3322-fantom-drylock-fi?_pos=1&_sid=e9743edde&_ss=r)
 * [🧥 Särmä Retkeilytakki & -housut]
-
+* [🧥 British Army villapaita]
 
 
 ---
 
-### Vaihe 1a: Nukkuminen (~170 €)
+### Vaihe 1: Nukkuminen (~170 €)
 
 Go Army (135 €):
 * 🛌 [British Army Military Modular Sleep System](https://goarmy.co.uk/products/british-army-military-modular-sleep-system?variant=55031898669436)
@@ -39,7 +39,7 @@ Berg Freunde (33 €):
 
 ---
 
-### Vaihe 2a: Majoitus (~165 €)
+### Vaihe 2: Majoitus (~165 €)
 
 Berg Freunde:
 * ⛺ [Robens Starlight 2 EXP - 2 henkilön teltta](https://www.bergfreunde.fi/robens-starlight-2-exp-2-henkiloen-teltta/?aid=cee1ede7ec438a4e05800cf07bbd1d42)
@@ -47,28 +47,10 @@ Berg Freunde:
 
 ---
 
-### Vaihe 3: Halvat välttämättömät (150 €)
+### Vaihe 3: (165 €)
 
 Military Range (30 €):
 * [2 x Large side bag for ALPINRUCKSACK OLIVE used (2 x 11 € + 9,90 €)](https://shop.militaryrange.eu/product/large-side-bag-for-alpinrucksack-olive-used)
-
-Kärkkäinen (80 €):
-* [Out-Zone 20 l kuivasäkki (10 €)](https://www.karkkainen.com/verkkokauppa/out-zone-20-l-kuivasakki)
-* [Out-Zone 8 l kuivasäkki (7 €)](https://www.karkkainen.com/verkkokauppa/out-zone-8-l-kuivasakki)
-* [Out-Zone 5 l kuivasäkki (6 €)](https://www.karkkainen.com/verkkokauppa/out-zone-5-l-kuivasakki)
-* [Tatonka WP Dry Bag A4 kuivatasku (22 €)](https://www.karkkainen.com/verkkokauppa/tatonka-wp-dry-bag-a4-musta-tasku)
-* [Varta Longlife Power AAA 12 kpl paristo (7 €)](https://www.karkkainen.com/verkkokauppa/varta-longlife-power-aaa-12-kpl-paristo-p1694789353856499)
-* [Free Kids & Family hajuton 100 ml hyttyskarkote (7 €)](https://www.karkkainen.com/verkkokauppa/free-kids-family-hajuton-100-ml-hyttyskarkote)
-* [Amergrip Mini / 50 kpl pakastuspussi (1,70 €)](https://www.karkkainen.com/verkkokauppa/amergrip-mini-pakastuspussi-minigrip)
-* [2 x Amergrip 1 l / 20 kpl pakastuspussi (3,40 €)](https://www.karkkainen.com/verkkokauppa/amergrip-1-l-20-kpl-pakastuspussi-minigrip)
-* [2 x Amergrip 1/2 l / 25 kpl pakastuspussi (3,40 €)](https://www.karkkainen.com/verkkokauppa/amergrip-1-2-l-25-kpl-pakastuspussi-minigrip)
-* [2 x Amergrip 2 l / 10 kpl pakastuspussi (3,40 €)](https://www.karkkainen.com/verkkokauppa/amergrip-2-l-10-kpl-pakastuspussi-minigrip)
-* [2 x Amergrip 4 l / 6 kpl pakastuspussi (3,40 €)](https://www.karkkainen.com/verkkokauppa/amergrip-4-l-6-kpl-pakastuspussi-minigrip)
-
-
----
-
-### Vaihe 4: Työkalut (135 €)
 
 Varusteleka (110 €):
 * 🔪 [Varusteleka Jääkäripuukko 110 nahkatupella (95 €)](https://varusteleka.com/products/varusteleka-jaakaripuukko-110-nahkatupella)
@@ -80,11 +62,28 @@ Motonet [25 €]:
 
 ---
 
-### Vaihe 5: Vedenpuhdistus ja sadesuoja (130 €)
+### Vaihe 4: Vedenpuhdistus ja sadesuoja (130 €)
 
 Kärkkäinen:
 * 💧 [Katadyn BeFree Gravity 3L vedenpuhdistin (90 €)](https://www.karkkainen.com/verkkokauppa/katadyn-befree-gravity-3l-vedenpuhdistin)
 * [Savotta vihreä sadesuoja XL (39 €)](https://www.karkkainen.com/verkkokauppa/savotta-vihrea-sadesuoja?id=102167252)
+
+
+---
+
+### Vaihe 5: ( 80 €)
+
+Kärkkäinen (80 €):
+* [Tatonka Dry Sack 18L harmaa kuivapussi (16 €)](https://www.karkkainen.com/verkkokauppa/tatonka-dry-sack-18l-kuivapussi)
+* [2 x Tatonka Dry Sack 10L sininen kuivapussi (2 x 15 €)](https://www.karkkainen.com/verkkokauppa/tatonka-dry-sack-10l-sininen-kuivapussi)
+* [Tatonka WP Dry Bag A4 kuivatasku (22 €)](https://www.karkkainen.com/verkkokauppa/tatonka-wp-dry-bag-a4-musta-tasku)
+* [Varta Longlife Power AAA 12 kpl paristo (7 €)](https://www.karkkainen.com/verkkokauppa/varta-longlife-power-aaa-12-kpl-paristo-p1694789353856499)
+* [Free Kids & Family hajuton 100 ml hyttyskarkote (7 €)](https://www.karkkainen.com/verkkokauppa/free-kids-family-hajuton-100-ml-hyttyskarkote)
+* [Amergrip Mini / 50 kpl pakastuspussi (1,70 €)](https://www.karkkainen.com/verkkokauppa/amergrip-mini-pakastuspussi-minigrip)
+* [2 x Amergrip 1 l / 20 kpl pakastuspussi (3,40 €)](https://www.karkkainen.com/verkkokauppa/amergrip-1-l-20-kpl-pakastuspussi-minigrip)
+* [2 x Amergrip 1/2 l / 25 kpl pakastuspussi (3,40 €)](https://www.karkkainen.com/verkkokauppa/amergrip-1-2-l-25-kpl-pakastuspussi-minigrip)
+* [2 x Amergrip 2 l / 10 kpl pakastuspussi (3,40 €)](https://www.karkkainen.com/verkkokauppa/amergrip-2-l-10-kpl-pakastuspussi-minigrip)
+* [2 x Amergrip 4 l / 6 kpl pakastuspussi (3,40 €)](https://www.karkkainen.com/verkkokauppa/amergrip-4-l-6-kpl-pakastuspussi-minigrip)
 
 
 ---
@@ -139,6 +138,6 @@ Go Army:
 
 ---
 
-* [Tatonka Dry Sack 18L harmaa kuivapussi (16 €)](https://www.karkkainen.com/verkkokauppa/tatonka-dry-sack-18l-kuivapussi)
-* [2 x Tatonka Dry Sack 10L sininen kuivapussi (2 x 15 €)](https://www.karkkainen.com/verkkokauppa/tatonka-dry-sack-10l-sininen-kuivapussi)
-* 
+* [Out-Zone 20 l kuivasäkki (10 €)](https://www.karkkainen.com/verkkokauppa/out-zone-20-l-kuivasakki)
+* [Out-Zone 8 l kuivasäkki (7 €)](https://www.karkkainen.com/verkkokauppa/out-zone-8-l-kuivasakki)
+* [Out-Zone 5 l kuivasäkki (6 €)](https://www.karkkainen.com/verkkokauppa/out-zone-5-l-kuivasakki)
