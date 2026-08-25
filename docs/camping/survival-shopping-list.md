@@ -17,6 +17,8 @@ Yhteenveto vaellukselle ja retkeilyyn valituista varusteista vaiheittain järjes
 * [UGreen Nexode 100W USB C GaN Charger-4 Port Wall Charger](https://eu.ugreen.com/products/ugreen-nexode-100w-usb-c-wall-charger)
 * [UGreen Nexode virtapankki 100W, 20000mAh](https://eu.ugreen.com/fi-fi/products/25188?variant=47333505302876)
 * [FoneKit Compact 10K PD20W -varavirtalähde, 10 000 mAh](https://www.verkkokauppa.com/fi/product/905653/FoneKit-Compact-10K-PD20W-varavirtalahde-10-000-mAh)
+* [🧥 🥾 Jalas 3322 Fantom Drylock -maiharit](https://varusteleka.com/products/jalas-3322-fantom-drylock-fi?_pos=1&_sid=e9743edde&_ss=r)
+* [🧥 Särmä Retkeilytakki & -housut]
 
 
 ---
