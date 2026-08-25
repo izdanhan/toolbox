@@ -21,7 +21,6 @@ Yhteenveto vaellukselle ja retkeilyyn valituista varusteista vaiheittain järjes
 
 ---
 
-
 ### Vaihe 1a: Nukkuminen (~170 €)
 
 Go Army (135 €):
@@ -33,15 +32,6 @@ Berg Freunde (33 €):
 * 🏕️ [Robens ZigZag Slumber Pro](https://www.bergfreunde.fi/robens-zigzag-slumber-pro-retkipatja/)
 
 
-### Vaihe 1b: Nukkuminen (~145 €)
-
-Military Range:
-* 🛌 [GB Sleeping Bag Medium Weight MODULAR (Käytetty)](https://shop.militaryrange.eu/product/gb-sleeping-bag-medium-weight-modular-used)
-* 🛌 [GB Sleeping Bag Light Weight (Käytetty)](https://shop.militaryrange.eu/product/used-gb-sleeping-bag-light-weight)
-* 🎒 [Compression Large British Sack for Sleeping Bag (Vihreä, Käytetty)](https://shop.militaryrange.eu/product/compression-large-british-sack-for-sleeping-bag-green-used)
-* 🏕️ [Robens ZigZag Slumber Pro](https://www.bergfreunde.fi/robens-zigzag-slumber-pro-retkipatja/)
-  
-
 ---
 
 ### Vaihe 2a: Majoitus (~165 €)
@@ -49,6 +39,74 @@ Military Range:
 Berg Freunde:
 * ⛺ [Robens Starlight 2 EXP - 2 henkilön teltta](https://www.bergfreunde.fi/robens-starlight-2-exp-2-henkiloen-teltta/?aid=cee1ede7ec438a4e05800cf07bbd1d42)
 
+
+---
+
+### Vaihe 3: Halvat välttämättömät (165 €)
+
+Military Range (44 € + 9,90 €):
+* [2 x MEDIUM side bag for ALPINRUCKSACK OLIVE used (2 x 11 €)](https://shop.militaryrange.eu/product/medium-side-bag-for-alpinrucksack-olive-used)
+* [2 x LARGE side bag for ALPINRUCKSACK OLIVE used (2 x 11 €)](https://shop.militaryrange.eu/product/large-side-bag-for-alpinrucksack-olive-used)
+
+Kärkkäinen (110 €):
+* [Retki First Aid ensiapupakkaus (12 €)](https://www.karkkainen.com/verkkokauppa/retki-first-aid-ensiapupakkaus)
+* [Retki suunnistuskompassi (9 €)](https://www.karkkainen.com/verkkokauppa/retki-suunnistuskompassi)
+* [Tatonka Dry Sack Set III 3kpl kuivasäkki (40 €)](https://www.karkkainen.com/verkkokauppa/tatonka-dry-sack-set-iii-3kpl-kuivasakki)
+* [Tatonka WP Dry Bag A6 kuivatasku (13 €)](https://www.karkkainen.com/verkkokauppa/tatonka-wp-dry-bag-a6-kuivatasku)
+* [Varta Longlife Power AAA 12 kpl paristo (7 €)](https://www.karkkainen.com/verkkokauppa/varta-longlife-power-aaa-12-kpl-paristo-p1694789353856499)
+* [Free Kids & Family hajuton 100 ml hyttyskarkote (7 €)](https://www.karkkainen.com/verkkokauppa/free-kids-family-hajuton-100-ml-hyttyskarkote)
+* [Amergrip Mini / 50 kpl pakastuspussi (1,70 €)](https://www.karkkainen.com/verkkokauppa/amergrip-mini-pakastuspussi-minigrip)
+* [2 x Amergrip 1 l / 20 kpl pakastuspussi (3,40 €)](https://www.karkkainen.com/verkkokauppa/amergrip-1-l-20-kpl-pakastuspussi-minigrip)
+* [2 x Amergrip 1/2 l / 25 kpl pakastuspussi (3,40 €)](https://www.karkkainen.com/verkkokauppa/amergrip-1-2-l-25-kpl-pakastuspussi-minigrip)
+* [2 x Amergrip 2 l / 10 kpl pakastuspussi (3,40 €)](https://www.karkkainen.com/verkkokauppa/amergrip-2-l-10-kpl-pakastuspussi-minigrip)
+* [2 x Amergrip 4 l / 6 kpl pakastuspussi (3,40 €)](https://www.karkkainen.com/verkkokauppa/amergrip-4-l-6-kpl-pakastuspussi-minigrip)
+
+
+---
+
+### Vaihe 4: Työkalut & Tuli (160 €)
+
+Varusteleka (110 €):
+* 🔪 [Varusteleka Jääkäripuukko 110 nahkatupella (95 €)](https://varusteleka.com/products/varusteleka-jaakaripuukko-110-nahkatupella)
+* [2 x SA kenttäpullo, 1 l (16 €)](https://varusteleka.com/products/sa-kenttapullo-1-l-fi)
+
+Kärkkäinen (45 €):
+* [Retki Taittosaha (17 €)](https://www.karkkainen.com/verkkokauppa/retki-taittosaha)
+* [Nortrek Poncho camo sadeviitta (30 €)](https://www.karkkainen.com/verkkokauppa/nortrek-poncho-camo-sadeviitta)
+
+
+---
+
+### Vaihe 5: Vedenpuhdistus ja sadesuoja (130 €)
+
+Kärkkäinen:
+* 💧 [Katadyn BeFree Gravity 3L vedenpuhdistin (90 €)](https://www.karkkainen.com/verkkokauppa/katadyn-befree-gravity-3l-vedenpuhdistin)
+* [Savotta vihreä sadesuoja XL (39 €)](https://www.karkkainen.com/verkkokauppa/savotta-vihrea-sadesuoja?id=102167252)
+
+
+---
+
+### Vaihe 6: Vaatetus & varusteiden täydentäminen (~120 €)
+
+Kärkkäinen:
+* [Light My Fire FireSteel BIO Army tulus Orange (19 €)](https://www.karkkainen.com/verkkokauppa/light-my-fire-firesteel-bio-army-tulus)
+* [Mil-Tec vihreä taktinen käsine (19 €)](https://www.karkkainen.com/verkkokauppa/mil-tec-vihrea-taktinen-kasine)
+* [Anar Tuormus miesten merinovilla-alusasu (60 €)](https://www.karkkainen.com/verkkokauppa/anar-tuormus-miesten-merinovilla-alusasu?id=103693072)
+* [2 x Anar Dalvi merinovillasukat (20 €)](https://www.karkkainen.com/verkkokauppa/anar-dalvi-merinovillasukat)
+
+
+---
+
+### Vaihe 1b: Nukkuminen (~165 €)
+
+Military Range (135 €):
+* 🛌 [GB Sleeping Bag Medium Weight MODULAR (Käytetty)](https://shop.militaryrange.eu/product/gb-sleeping-bag-medium-weight-modular-used)
+* 🛌 [GB Sleeping Bag Light Weight (Käytetty)](https://shop.militaryrange.eu/product/used-gb-sleeping-bag-light-weight)
+* 🎒 [Compression Large British Sack for Sleeping Bag (Vihreä, Käytetty)](https://shop.militaryrange.eu/product/compression-large-british-sack-for-sleeping-bag-green-used)
+
+Berg Freunde (33 €):
+* 🏕️ [Robens ZigZag Slumber Pro](https://www.bergfreunde.fi/robens-zigzag-slumber-pro-retkipatja/)
+  
 
 ### Vaihe 2b: Majoitus (~170 €)
 
@@ -58,30 +116,3 @@ Go Army:
 * [2 x Basha Pole, 24 €](https://goarmy.co.uk/en-eu/products/bivi-basha-pole?variant=39331940270152)
 * [Tent Pegs (10 Pack), 4 €](https://goarmy.co.uk/en-eu/products/tent-pegs-10-pack?variant=44934790480182)
 * [3mm - 100m Coyote Paracord, 13 €](https://goarmy.co.uk/en-eu/products/3mm-100m-coyote-paracord?variant=47189706998070)
-
-
----
-
-### Vaihe 3: Työkalut & Tuli (145 €)
-
-Varusteleka (110 €):
-* 🔪 [Varusteleka Jääkäripuukko 110 nahkatupella (95 €)](https://varusteleka.com/products/varusteleka-jaakaripuukko-110-nahkatupella)
-* [SA kenttäpullo, 1 l (8 €)](https://varusteleka.com/products/sa-kenttapullo-1-l-fi)
-
-Kärkkäinen (35 €):
-* [Retki Taittosaha (17 €)](https://www.karkkainen.com/verkkokauppa/retki-taittosaha)
-* [Light My Fire FireSteel BIO Army tulus Orange (19 €)](https://www.karkkainen.com/verkkokauppa/light-my-fire-firesteel-bio-army-tulus)
-
-
----
-
-### Vaihe 4: Vedenpuhdistus ja sadesuoja (160 €)
-
-Kärkkäinen:
-* 💧 [Katadyn BeFree Gravity 3L vedenpuhdistin (90 €)](https://www.karkkainen.com/verkkokauppa/katadyn-befree-gravity-3l-vedenpuhdistin)
-* [Savotta vihreä sadesuoja XL (39 €)](https://www.karkkainen.com/verkkokauppa/savotta-vihrea-sadesuoja?id=102167252)
-* [Nortrek Poncho camo sadeviitta (30 €)](https://www.karkkainen.com/verkkokauppa/nortrek-poncho-camo-sadeviitta)
-
-
----
-
