@@ -10,7 +10,7 @@ Yhteenveto vaellukselle ja retkeilyyn valituista varusteista vaiheittain järjes
 ### Vaihe 0: Olemassa olevat
 
 * 🎒 [Itävaltalainen KAZ 03 rinkka, ylijäämä](https://varusteleka.com/products/itavaltalainen-kaz-03-rinkka-ylijaama-fi?_pos=1&_sid=f3e433680&_ss=r)
-* 🏕️ [Stanley Wildfare Go Two Bowl Cookset ruoanvalmistussetti](https://www.verkkokauppa.com/fi/product/999769/Stanley-Wildfare-Go-Two-Bowl-Cookset-ruoanvalmistussetti)
+* 🏕️ [Stanley Wildfare Go Two Bowl Cookset ruoanvalmistussetti](https://wwwside bag for ALPINRUCKSACK.verkkokauppa.com/fi/product/999769/Stanley-Wildfare-Go-Two-Bowl-Cookset-ruoanvalmistussetti)
 * 🔥 [Noux Tringa retkikeitin](https://www.verkkokauppa.com/fi/product/918502/Noux-Tringa-retkikeitin)
 * [MSR IsoPro -kaasu, 113 g](https://www.verkkokauppa.com/fi/product/249500/MSR-IsoPro-kaasu-113-g)
 * [Petzl TIKKA CORE otsavalo, 450 lm](https://www.verkkokauppa.com/fi/product/1023731/Petzl-TIKKA-CORE-otsavalo-450-lm-vihrea)
@@ -42,17 +42,16 @@ Berg Freunde:
 
 ---
 
-### Vaihe 3: Halvat välttämättömät (145 €)
+### Vaihe 3: Halvat välttämättömät (150 €)
 
 Military Range (30 €):
-* [2 x LARGE side bag for ALPINRUCKSACK OLIVE used (2 x 11 €)](https://shop.militaryrange.eu/product/large-side-bag-for-alpinrucksack-olive-used)
+* [2 x Large side bag for ALPINRUCKSACK OLIVE used (2 x 11 € + 9,90 €)](https://shop.militaryrange.eu/product/large-side-bag-for-alpinrucksack-olive-used)
 
-Kärkkäinen (115 €):
-* [Retki First Aid ensiapupakkaus (12 €)](https://www.karkkainen.com/verkkokauppa/retki-first-aid-ensiapupakkaus)
-* [Retki suunnistuskompassi (9 €)](https://www.karkkainen.com/verkkokauppa/retki-suunnistuskompassi)
-* [Tatonka Dry Sack 18L harmaa kuivapussi (16 €)](https://www.karkkainen.com/verkkokauppa/tatonka-dry-sack-18l-kuivapussi)
-* [2 x Tatonka Dry Sack 10L sininen kuivapussi (2 x 15 €)](https://www.karkkainen.com/verkkokauppa/tatonka-dry-sack-10l-sininen-kuivapussi)
-* [Tatonka WP Dry Bag A6 kuivatasku (13 €)](https://www.karkkainen.com/verkkokauppa/tatonka-wp-dry-bag-a6-kuivatasku)
+Kärkkäinen (80 €):
+* [Out-Zone 20 l kuivasäkki (10 €)](https://www.karkkainen.com/verkkokauppa/out-zone-20-l-kuivasakki)
+* [Out-Zone 8 l kuivasäkki (7 €)](https://www.karkkainen.com/verkkokauppa/out-zone-8-l-kuivasakki)
+* [Out-Zone 5 l kuivasäkki (6 €)](https://www.karkkainen.com/verkkokauppa/out-zone-5-l-kuivasakki)
+* [Tatonka WP Dry Bag A4 kuivatasku (22 €)](https://www.karkkainen.com/verkkokauppa/tatonka-wp-dry-bag-a4-musta-tasku)
 * [Varta Longlife Power AAA 12 kpl paristo (7 €)](https://www.karkkainen.com/verkkokauppa/varta-longlife-power-aaa-12-kpl-paristo-p1694789353856499)
 * [Free Kids & Family hajuton 100 ml hyttyskarkote (7 €)](https://www.karkkainen.com/verkkokauppa/free-kids-family-hajuton-100-ml-hyttyskarkote)
 * [Amergrip Mini / 50 kpl pakastuspussi (1,70 €)](https://www.karkkainen.com/verkkokauppa/amergrip-mini-pakastuspussi-minigrip)
@@ -64,15 +63,14 @@ Kärkkäinen (115 €):
 
 ---
 
-### Vaihe 4: Työkalut & Tuli (160 €)
+### Vaihe 4: Työkalut (135 €)
 
 Varusteleka (110 €):
 * 🔪 [Varusteleka Jääkäripuukko 110 nahkatupella (95 €)](https://varusteleka.com/products/varusteleka-jaakaripuukko-110-nahkatupella)
 * [2 x SA kenttäpullo, 1 l (16 €)](https://varusteleka.com/products/sa-kenttapullo-1-l-fi)
 
-Kärkkäinen (45 €):
-* [Retki Taittosaha (17 €)](https://www.karkkainen.com/verkkokauppa/retki-taittosaha)
-* [Nortrek Poncho camo sadeviitta (30 €)](https://www.karkkainen.com/verkkokauppa/nortrek-poncho-camo-sadeviitta)
+Motonet [25 €]:
+* [Bahco 396-LAP Laplander retkisaha (25 €)](https://www.motonet.fi/tuote/bahco-396-lap-laplander-retkisaha?product=80-2131)
 
 
 ---
@@ -97,6 +95,19 @@ Kärkkäinen:
 
 ---
 
+### Vaihe 7: Suunnistus
+
+Varusteleka:
+* [Suunto A-10 NH (20 €)](https://varusteleka.com/products/suunto-a-10-nh-laattakompassi-fi?_pos=1&_sid=5e87d3c06&_ss=r)
+
+Kärkkäinen:
+* [Retki karttalaukku(10 €)](https://www.karkkainen.com/verkkokauppa/retki-karttalaukku)
+
+
+---
+
+## Discarded
+
 ### Vaihe 1b: Nukkuminen (~165 €)
 
 Military Range (135 €):
@@ -116,3 +127,13 @@ Go Army:
 * [2 x Basha Pole, 24 €](https://goarmy.co.uk/en-eu/products/bivi-basha-pole?variant=39331940270152)
 * [Tent Pegs (10 Pack), 4 €](https://goarmy.co.uk/en-eu/products/tent-pegs-10-pack?variant=44934790480182)
 * [3mm - 100m Coyote Paracord, 13 €](https://goarmy.co.uk/en-eu/products/3mm-100m-coyote-paracord?variant=47189706998070)
+
+---
+
+* [2 x Medium side bag for ALPINRUCKSACK OLIVE used (2 x 11 €)](https://shop.militaryrange.eu/product/medium-side-bag-for-alpinrucksack-olive-used)
+
+---
+
+* [Tatonka Dry Sack 18L harmaa kuivapussi (16 €)](https://www.karkkainen.com/verkkokauppa/tatonka-dry-sack-18l-kuivapussi)
+* [2 x Tatonka Dry Sack 10L sininen kuivapussi (2 x 15 €)](https://www.karkkainen.com/verkkokauppa/tatonka-dry-sack-10l-sininen-kuivapussi)
+* 
