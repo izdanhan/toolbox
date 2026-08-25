@@ -10,6 +10,8 @@ Yhteenveto vaellukselle ja retkeilyyn valituista varusteista vaiheittain järjes
 ### Vaihe 0: Olemassa olevat
 
 * 🎒 [Itävaltalainen KAZ 03 rinkka, ylijäämä](https://varusteleka.com/products/itavaltalainen-kaz-03-rinkka-ylijaama-fi?_pos=1&_sid=f3e433680&_ss=r)
+* 🎒 [ThinkPad 14" sleeve](https://www.lenovo.com/us/en/p/accessories-and-software/cases-and-bags/sleeves/4x40n18009)
+* 🎒 [Tomtoc X-Pac Backpack, Premium Laptop Backpacks, Daypack, 28 Litres](https://www.amazon.de/dp/B0C2C1HDL4/ref=pe_27091401_487027711_TE_SCE_dp_i1)
 * 🏕️ [Stanley Wildfare Go Two Bowl Cookset ruoanvalmistussetti](https://wwwside bag for ALPINRUCKSACK.verkkokauppa.com/fi/product/999769/Stanley-Wildfare-Go-Two-Bowl-Cookset-ruoanvalmistussetti)
 * 🔥 [Noux Tringa retkikeitin](https://www.verkkokauppa.com/fi/product/918502/Noux-Tringa-retkikeitin)
 * [MSR IsoPro -kaasu, 113 g](https://www.verkkokauppa.com/fi/product/249500/MSR-IsoPro-kaasu-113-g)
@@ -19,6 +21,7 @@ Yhteenveto vaellukselle ja retkeilyyn valituista varusteista vaiheittain järjes
 * [FoneKit Compact 10K PD20W -varavirtalähde, 10 000 mAh](https://www.verkkokauppa.com/fi/product/905653/FoneKit-Compact-10K-PD20W-varavirtalahde-10-000-mAh)
 * [🧥 🥾 Jalas 3322 Fantom Drylock -maiharit](https://varusteleka.com/products/jalas-3322-fantom-drylock-fi?_pos=1&_sid=e9743edde&_ss=r)
 * [🧥 Särmä Retkeilytakki & -housut]
+
 
 
 ---
