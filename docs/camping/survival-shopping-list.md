@@ -42,16 +42,16 @@ Berg Freunde:
 
 ---
 
-### Vaihe 3: Halvat välttämättömät (165 €)
+### Vaihe 3: Halvat välttämättömät (145 €)
 
-Military Range (44 € + 9,90 €):
-* [2 x MEDIUM side bag for ALPINRUCKSACK OLIVE used (2 x 11 €)](https://shop.militaryrange.eu/product/medium-side-bag-for-alpinrucksack-olive-used)
+Military Range (30 €):
 * [2 x LARGE side bag for ALPINRUCKSACK OLIVE used (2 x 11 €)](https://shop.militaryrange.eu/product/large-side-bag-for-alpinrucksack-olive-used)
 
-Kärkkäinen (110 €):
+Kärkkäinen (115 €):
 * [Retki First Aid ensiapupakkaus (12 €)](https://www.karkkainen.com/verkkokauppa/retki-first-aid-ensiapupakkaus)
 * [Retki suunnistuskompassi (9 €)](https://www.karkkainen.com/verkkokauppa/retki-suunnistuskompassi)
-* [Tatonka Dry Sack Set III 3kpl kuivasäkki (40 €)](https://www.karkkainen.com/verkkokauppa/tatonka-dry-sack-set-iii-3kpl-kuivasakki)
+* [Tatonka Dry Sack 18L harmaa kuivapussi (16 €)](https://www.karkkainen.com/verkkokauppa/tatonka-dry-sack-18l-kuivapussi)
+* [2 x Tatonka Dry Sack 10L sininen kuivapussi (2 x 15 €)](https://www.karkkainen.com/verkkokauppa/tatonka-dry-sack-10l-sininen-kuivapussi)
 * [Tatonka WP Dry Bag A6 kuivatasku (13 €)](https://www.karkkainen.com/verkkokauppa/tatonka-wp-dry-bag-a6-kuivatasku)
 * [Varta Longlife Power AAA 12 kpl paristo (7 €)](https://www.karkkainen.com/verkkokauppa/varta-longlife-power-aaa-12-kpl-paristo-p1694789353856499)
 * [Free Kids & Family hajuton 100 ml hyttyskarkote (7 €)](https://www.karkkainen.com/verkkokauppa/free-kids-family-hajuton-100-ml-hyttyskarkote)
