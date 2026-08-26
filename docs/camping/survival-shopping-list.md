@@ -1,6 +1,5 @@
 # 🛒 Operation Man of the Forest
 
----
 
 ### Phase 0: Already have
 
