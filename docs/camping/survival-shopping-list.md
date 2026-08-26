@@ -26,23 +26,50 @@ Yhteenveto vaellukselle ja retkeilyyn valituista varusteista vaiheittain järjes
 
 ---
 
-### Vaihe 1: Nukkuminen (~170 €)
+### Vaihe 1: Nukkuminen
+
+#### A (170 e):
 
 Go Army (135 €):
-* 🛌 [British Army Military Modular Sleep System](https://goarmy.co.uk/products/british-army-military-modular-sleep-system?variant=55031898669436)
-* 🎒 [British Army Lightweight Compression Sack](https://goarmy.co.uk/products/british-army-compression-sack-sleeping-bag)
-* 🎒 [British Army Medium Weight Compression Sack For Winter Sleeping Bag](https://goarmy.co.uk/products/british-army-medium-weight-compression-sack-sleeping-bag)
+* 🛌 [British Army Military Modular Sleep System (82 €)](https://goarmy.co.uk/products/british-army-military-modular-sleep-system?variant=55031898669436)
+* 🎒 [British Army Lightweight Compression Sack (9 €)](https://goarmy.co.uk/products/british-army-compression-sack-sleeping-bag)
+* 🎒 [British Army Medium Weight Compression Sack For Winter Sleeping Bag (15 €)](https://goarmy.co.uk/products/british-army-medium-weight-compression-sack-sleeping-bag)
 
-Berg Freunde (33 €):
-* 🏕️ [Robens ZigZag Slumber Pro](https://www.bergfreunde.fi/robens-zigzag-slumber-pro-retkipatja/)
+Berg Freunde (35 €):
+* 🏕️ [Robens ZigZag Slumber Pro (25 €)](https://www.bergfreunde.fi/robens-zigzag-slumber-pro-retkipatja/)
+
+
+#### B (195 e):
+
+Go Army (160 €):
+* 🛌 [British Army Military Modular Sleep System (82 €)](https://goarmy.co.uk/products/british-army-military-modular-sleep-system?variant=55031898669436)
+* 🛌 [British Army GORE-TEX MTP Bivvy Bag, Grade 2, (22 €)](https://goarmy.co.uk/en-eu/products/british-army-goretex-mtp-bivvy-bag?variant=55756859081084)
+* 🎒 [British Army Lightweight Compression Sack (9 €)](https://goarmy.co.uk/products/british-army-compression-sack-sleeping-bag)
+* 🎒 [British Army Medium Weight Compression Sack For Winter Sleeping Bag (15 €)](https://goarmy.co.uk/products/british-army-medium-weight-compression-sack-sleeping-bag)
+
+Berg Freunde (35 €):
+* 🏕️ [Robens ZigZag Slumber Pro (25 €)](https://www.bergfreunde.fi/robens-zigzag-slumber-pro-retkipatja/)
+
+#### C (215):
+
+Go Army (160 €):
+* 🛌 [British Army Military Modular Sleep System (82 €)](https://goarmy.co.uk/products/british-army-military-modular-sleep-system?variant=55031898669436)
+* 🎒 [British Army Lightweight Compression Sack (9 €)](https://goarmy.co.uk/products/british-army-compression-sack-sleeping-bag)
+* 🎒 [British Army Medium Weight Compression Sack For Winter Sleeping Bag (15 €)](https://goarmy.co.uk/products/british-army-medium-weight-compression-sack-sleeping-bag)
+* ⛺ [British Army MTP Basha Tent, Grade 2, 22 €](https://goarmy.co.uk/en-eu/products/british-army-mtp-basha-tent?variant=55131979055484)
+
+Berg Freunde (55 €):
+* 🏕️ [Robens ZigZag Slumber Pro (25 €)](https://www.bergfreunde.fi/robens-zigzag-slumber-pro-retkipatja/)
+* ⛺ [Roberns Ultralite U-Hering 6-pack vaarna (7 €)](https://www.bergfreunde.fi/robens-ultralite-u-hering-6-pack-vaarna/?aid=2ff3438b1eafe0372bafa48bfb2ca43d)
+* ⛺ [2 x Robens Paracord 15 m (15 €)](https://www.bergfreunde.fi/robens-paracord-with-tinder-staattinen-koeysi/?aid=bec34aba4cfc12a04d9f35571fdab20e#contributionstream)
 
 
 ---
 
-### Vaihe 2: Majoitus (~165 €)
+### Vaihe 2: Majoitus (165 €)
 
 Berg Freunde:
-* ⛺ [Robens Starlight 2 EXP - 2 henkilön teltta](https://www.bergfreunde.fi/robens-starlight-2-exp-2-henkiloen-teltta/?aid=cee1ede7ec438a4e05800cf07bbd1d42)
+* ⛺ [Robens Starlight 2 EXP - 2 henkilön teltta (165 €)](https://www.bergfreunde.fi/robens-starlight-2-exp-2-henkiloen-teltta/?aid=cee1ede7ec438a4e05800cf07bbd1d42)
 
 
 ---
@@ -141,3 +168,25 @@ Go Army:
 * [Out-Zone 20 l kuivasäkki (10 €)](https://www.karkkainen.com/verkkokauppa/out-zone-20-l-kuivasakki)
 * [Out-Zone 8 l kuivasäkki (7 €)](https://www.karkkainen.com/verkkokauppa/out-zone-8-l-kuivasakki)
 * [Out-Zone 5 l kuivasäkki (6 €)](https://www.karkkainen.com/verkkokauppa/out-zone-5-l-kuivasakki)
+
+
+Basha tent (65 e):
+* ⛺ [British Army MTP Basha Tent, Grade 2 (23 €)](https://goarmy.co.uk/en-eu/products/british-army-mtp-basha-tent?variant=55132030271868)
+* ⛺ [3mm - 100m Coyote Paracord (13 €)](https://goarmy.co.uk/en-eu/products/3mm-100m-coyote-paracord?variant=47189706998070)
+* ⛺ [2 x Twist Lock Basha Pole (24 €)](https://goarmy.co.uk/en-eu/products/twist-lock-basha-pole?_pos=1&_sid=7c11597ab&_ss=r)
+* ⛺ [10 tent pegs (4 €)](https://goarmy.co.uk/en-eu/collections/tents-bashas/products/tent-pegs-10-pack)
+* ⛺ [British Army GORE-TEX MTP Bivvy Bag (45 €)](https://goarmy.co.uk/en-eu/collections/tents-bashas/products/tent-pegs-10-pack)
+
+## B1 (245):
+Go Army (190 €):
+* 🛌 [British Army Military Modular Sleep System (82 €)](https://goarmy.co.uk/products/british-army-military-modular-sleep-system?variant=55031898669436)
+* 🎒 [British Army Lightweight Compression Sack (9 €)](https://goarmy.co.uk/products/british-army-compression-sack-sleeping-bag)
+* 🎒 [British Army Medium Weight Compression Sack For Winter Sleeping Bag (15 €)](https://goarmy.co.uk/products/british-army-medium-weight-compression-sack-sleeping-bag)
+* ⛺ [British Army MTP Basha Tent, Grade 2, 22 €](https://goarmy.co.uk/en-eu/products/british-army-mtp-basha-tent?variant=55131979055484)
+* [2 x Basha Pole, 24 €](https://goarmy.co.uk/en-eu/products/bivi-basha-pole?variant=39331940270152)
+
+## B2:
+Berg Freunde (55 €):
+* 🏕️ [Robens ZigZag Slumber Pro (25 €)](https://www.bergfreunde.fi/robens-zigzag-slumber-pro-retkipatja/)
+* ⛺ [Roberns Ultralite U-Hering 6-pack vaarna (7 €)](https://www.bergfreunde.fi/robens-ultralite-u-hering-6-pack-vaarna/?aid=2ff3438b1eafe0372bafa48bfb2ca43d)
+* ⛺ [2 x Robens Paracord 15 m (15 €)](https://www.bergfreunde.fi/robens-paracord-with-tinder-staattinen-koeysi/?aid=bec34aba4cfc12a04d9f35571fdab20e#contributionstream)
