@@ -48,7 +48,18 @@ Motonet (170 €):
 
 ---
 
-### Vaihe 3: Vedenpuhdistus (90 €)
+### Vaihe 3: Vaatetus & varusteiden täydentäminen (~120 €)
+
+Kärkkäinen:
+* [Light My Fire FireSteel BIO Army tulus Orange (19 €)](https://www.karkkainen.com/verkkokauppa/light-my-fire-firesteel-bio-army-tulus)
+* [Mil-Tec vihreä taktinen käsine (19 €)](https://www.karkkainen.com/verkkokauppa/mil-tec-vihrea-taktinen-kasine)
+* [Anar Tuormus miesten merinovilla-alusasu (60 €)](https://www.karkkainen.com/verkkokauppa/anar-tuormus-miesten-merinovilla-alusasu?id=103693072)
+* [2 x Anar Dalvi merinovillasukat (20 €)](https://www.karkkainen.com/verkkokauppa/anar-dalvi-merinovillasukat)
+
+
+---
+
+### Vaihe 4: Vedenpuhdistus (90 €)
 
 Kärkkäinen:
 * 💧 [Katadyn BeFree Gravity 3L vedenpuhdistin (90 €)](https://www.karkkainen.com/verkkokauppa/katadyn-befree-gravity-3l-vedenpuhdistin)
@@ -56,34 +67,21 @@ Kärkkäinen:
 
 ---
 
-### Vaihe 4: Majoitus (165 €)
-
-Berg Freunde:
-* ⛺ [Robens Starlight 2 EXP - 2 henkilön teltta (165 €)](https://www.bergfreunde.fi/robens-starlight-2-exp-2-henkiloen-teltta/?aid=cee1ede7ec438a4e05800cf07bbd1d42)
-
-
----
-
-### Vaihe 5: (165 €)
+### Vaihe 5: (125 €)
 
 Military Range (30 €):
 * [2 x Large side bag for ALPINRUCKSACK OLIVE used (2 x 11 € + 9,90 €)](https://shop.militaryrange.eu/product/large-side-bag-for-alpinrucksack-olive-used)
 
-Varusteleka (110 €):
+Varusteleka (95 €):
 * 🔪 [Varusteleka Jääkäripuukko 110 nahkatupella (95 €)](https://varusteleka.com/products/varusteleka-jaakaripuukko-110-nahkatupella)
-* [2 x SA kenttäpullo, 1 l (16 €)](https://varusteleka.com/products/sa-kenttapullo-1-l-fi)
 
 
 ---
 
+### Vaihe 6: Majoitus (165 €)
 
-### Vaihe 6: Vaatetus & varusteiden täydentäminen (~120 €)
-
-Kärkkäinen:
-* [Light My Fire FireSteel BIO Army tulus Orange (19 €)](https://www.karkkainen.com/verkkokauppa/light-my-fire-firesteel-bio-army-tulus)
-* [Mil-Tec vihreä taktinen käsine (19 €)](https://www.karkkainen.com/verkkokauppa/mil-tec-vihrea-taktinen-kasine)
-* [Anar Tuormus miesten merinovilla-alusasu (60 €)](https://www.karkkainen.com/verkkokauppa/anar-tuormus-miesten-merinovilla-alusasu?id=103693072)
-* [2 x Anar Dalvi merinovillasukat (20 €)](https://www.karkkainen.com/verkkokauppa/anar-dalvi-merinovillasukat)
+Berg Freunde:
+* ⛺ [Robens Starlight 2 EXP - 2 henkilön teltta (165 €)](https://www.bergfreunde.fi/robens-starlight-2-exp-2-henkiloen-teltta/?aid=cee1ede7ec438a4e05800cf07bbd1d42)
 
 
 ---
