@@ -12,7 +12,7 @@ Yhteenveto vaellukselle ja retkeilyyn valituista varusteista vaiheittain järjes
 * 🎒 [Itävaltalainen KAZ 03 rinkka, ylijäämä](https://varusteleka.com/products/itavaltalainen-kaz-03-rinkka-ylijaama-fi?_pos=1&_sid=f3e433680&_ss=r)
 * 🎒 [ThinkPad 14" sleeve](https://www.lenovo.com/us/en/p/accessories-and-software/cases-and-bags/sleeves/4x40n18009)
 * 🎒 [Tomtoc X-Pac Backpack, Premium Laptop Backpacks, Daypack, 28 Litres](https://www.tomtoc.com/products/techpack-h73-x-pac-laptop-backpack)
-* 🏕️ [Stanley Wildfare Go Two Bowl Cookset ruoanvalmistussetti](https://wwwside bag for ALPINRUCKSACK.verkkokauppa.com/fi/product/999769/Stanley-Wildfare-Go-Two-Bowl-Cookset-ruoanvalmistussetti)
+* 🔥 [Stanley Wildfare Go Two Bowl Cookset ](https://www.verkkokauppa.com/fi/product/999769/Stanley-Wildfare-Go-Two-Bowl-Cookset-ruoanvalmistussetti)
 * 🔥 [Noux Tringa retkikeitin](https://www.verkkokauppa.com/fi/product/918502/Noux-Tringa-retkikeitin)
 * [MSR IsoPro -kaasu, 113 g](https://www.verkkokauppa.com/fi/product/249500/MSR-IsoPro-kaasu-113-g)
 * [Petzl TIKKA CORE otsavalo, 450 lm](https://www.verkkokauppa.com/fi/product/1023731/Petzl-TIKKA-CORE-otsavalo-450-lm-vihrea)
