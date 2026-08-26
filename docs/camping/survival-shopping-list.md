@@ -1,13 +1,8 @@
-
-# Retkeilyvarusteiden Hankintalista & Ostoslista
-
-Yhteenveto vaellukselle ja retkeilyyn valituista varusteista vaiheittain järjestettynä.
+# 🛒 Operation Man of the Forest
 
 ---
 
-## 🛒 Hankintapolku
-
-### Vaihe 0: Olemassa olevat
+### Phase 0: Already have
 
 * 🎒 [Itävaltalainen KAZ 03 rinkka, ylijäämä](https://varusteleka.com/products/itavaltalainen-kaz-03-rinkka-ylijaama-fi?_pos=1&_sid=f3e433680&_ss=r)
 * 🎒 [ThinkPad 14" sleeve](https://www.lenovo.com/us/en/p/accessories-and-software/cases-and-bags/sleeves/4x40n18009)
@@ -26,47 +21,35 @@ Yhteenveto vaellukselle ja retkeilyyn valituista varusteista vaiheittain järjes
 
 ---
 
-### Vaihe 1: Nukkuminen
+### Phase 1: Sleeping
 
-#### A (170 e):
-
-Go Army (135 €):
+Go Army (170 €):
 * 🛌 [British Army Military Modular Sleep System (82 €)](https://goarmy.co.uk/products/british-army-military-modular-sleep-system?variant=55031898669436)
-* 🎒 [British Army Lightweight Compression Sack (9 €)](https://goarmy.co.uk/products/british-army-compression-sack-sleeping-bag)
+* 🛌 [British Army GORE-TEX MTP Bivvy Bag, Grade 1 (44 €)](https://goarmy.co.uk/en-eu/products/british-army-goretex-mtp-bivvy-bag?variant=55756859081084)
 * 🎒 [British Army Medium Weight Compression Sack For Winter Sleeping Bag (15 €)](https://goarmy.co.uk/products/british-army-medium-weight-compression-sack-sleeping-bag)
-
-Berg Freunde (35 €):
-* 🏕️ [Robens ZigZag Slumber Pro (25 €)](https://www.bergfreunde.fi/robens-zigzag-slumber-pro-retkipatja/)
-
-
-#### B (195 e):
-
-Go Army (160 €):
-* 🛌 [British Army Military Modular Sleep System (82 €)](https://goarmy.co.uk/products/british-army-military-modular-sleep-system?variant=55031898669436)
-* 🛌 [British Army GORE-TEX MTP Bivvy Bag, Grade 2, (22 €)](https://goarmy.co.uk/en-eu/products/british-army-goretex-mtp-bivvy-bag?variant=55756859081084)
-* 🎒 [British Army Lightweight Compression Sack (9 €)](https://goarmy.co.uk/products/british-army-compression-sack-sleeping-bag)
-* 🎒 [British Army Medium Weight Compression Sack For Winter Sleeping Bag (15 €)](https://goarmy.co.uk/products/british-army-medium-weight-compression-sack-sleeping-bag)
-
-Berg Freunde (35 €):
-* 🏕️ [Robens ZigZag Slumber Pro (25 €)](https://www.bergfreunde.fi/robens-zigzag-slumber-pro-retkipatja/)
-
-#### C (215):
-
-Go Army (160 €):
-* 🛌 [British Army Military Modular Sleep System (82 €)](https://goarmy.co.uk/products/british-army-military-modular-sleep-system?variant=55031898669436)
-* 🎒 [British Army Lightweight Compression Sack (9 €)](https://goarmy.co.uk/products/british-army-compression-sack-sleeping-bag)
-* 🎒 [British Army Medium Weight Compression Sack For Winter Sleeping Bag (15 €)](https://goarmy.co.uk/products/british-army-medium-weight-compression-sack-sleeping-bag)
-* ⛺ [British Army MTP Basha Tent, Grade 2, 22 €](https://goarmy.co.uk/en-eu/products/british-army-mtp-basha-tent?variant=55131979055484)
-
-Berg Freunde (55 €):
-* 🏕️ [Robens ZigZag Slumber Pro (25 €)](https://www.bergfreunde.fi/robens-zigzag-slumber-pro-retkipatja/)
-* ⛺ [Roberns Ultralite U-Hering 6-pack vaarna (7 €)](https://www.bergfreunde.fi/robens-ultralite-u-hering-6-pack-vaarna/?aid=2ff3438b1eafe0372bafa48bfb2ca43d)
-* ⛺ [2 x Robens Paracord 15 m (15 €)](https://www.bergfreunde.fi/robens-paracord-with-tinder-staattinen-koeysi/?aid=bec34aba4cfc12a04d9f35571fdab20e#contributionstream)
 
 
 ---
 
-### Vaihe 2: Majoitus (165 €)
+### Phase 2 Camping:
+
+Motonet (170 €):
+* ⛺ [Woodlander tarppi 3x3 (30 €)](https://www.motonet.fi/tuote/woodlander-tarppi?product=55-22844&variant=55-06997)
+* 🛌 [Kaira XXL makuualusta 60 x 195 x 1,5 cm R arvo 2.3 (22 €)](https://www.motonet.fi/tuote/kaira-xxl-makuualusta-60-x-195-x-15-cm?product=46-6475)
+* [Bahco 396-LAP Laplander retkisaha (25 €)](https://www.motonet.fi/tuote/bahco-396-lap-laplander-retkisaha?product=80-2131)
+* [Bahco 2446-LAP Laplander puukko RST vihreä (10 €)](https://www.motonet.fi/tuote/bahco-2446-lap-laplander-puukko-rst-vihrea?product=70-22389)
+* [2 x Woodlander yleisköysi 3 mm 15 m (6 €)](https://www.motonet.fi/tuote/woodlander-yleiskoysi?product=55-22840&variant=55-11047)
+* [Woodlander sadeviitta musta (20 €)](https://www.motonet.fi/tuote/woodlander-sadeviitta-musta?product=55-23414)
+* [2 x Woodlander telttakiila heavy duty 4kpl 10 €](https://www.motonet.fi/tuote/woodlander-telttakiila-heavy-duty-4kpl?product=55-11040)
+* [Woodlander repun joustonyörisetti (7 €)](https://www.motonet.fi/tuote/woodlander-repun-joustonyorisetti?product=55-23402)
+* [Savotta Happy Stove risukeitin 30 €](https://www.motonet.fi/tuote/savotta-happy-stove-risukeitin?product=55-01970)
+* [Atomic BBQ Flex Stormflame sytytin (5 €)](https://www.motonet.fi/tuote/atomic-bbq-flex-stormflame-sytytin?product=86-02593)
+* [Plastex SA kenttäpullo 0,65 l (5 €)](https://www.motonet.fi/tuote/plastex-sa-kenttapullo-065-l?product=38-1125)
+
+
+---
+
+### Vaihe 4: Majoitus (165 €)
 
 Berg Freunde:
 * ⛺ [Robens Starlight 2 EXP - 2 henkilön teltta (165 €)](https://www.bergfreunde.fi/robens-starlight-2-exp-2-henkiloen-teltta/?aid=cee1ede7ec438a4e05800cf07bbd1d42)
@@ -74,7 +57,7 @@ Berg Freunde:
 
 ---
 
-### Vaihe 3: (165 €)
+### Vaihe 5: (165 €)
 
 Military Range (30 €):
 * [2 x Large side bag for ALPINRUCKSACK OLIVE used (2 x 11 € + 9,90 €)](https://shop.militaryrange.eu/product/large-side-bag-for-alpinrucksack-olive-used)
@@ -190,3 +173,32 @@ Berg Freunde (55 €):
 * 🏕️ [Robens ZigZag Slumber Pro (25 €)](https://www.bergfreunde.fi/robens-zigzag-slumber-pro-retkipatja/)
 * ⛺ [Roberns Ultralite U-Hering 6-pack vaarna (7 €)](https://www.bergfreunde.fi/robens-ultralite-u-hering-6-pack-vaarna/?aid=2ff3438b1eafe0372bafa48bfb2ca43d)
 * ⛺ [2 x Robens Paracord 15 m (15 €)](https://www.bergfreunde.fi/robens-paracord-with-tinder-staattinen-koeysi/?aid=bec34aba4cfc12a04d9f35571fdab20e#contributionstream)
+
+
+---
+
+#### C (215):
+
+Go Army (160 €):
+* 🛌 [British Army Military Modular Sleep System (82 €)](https://goarmy.co.uk/products/british-army-military-modular-sleep-system?variant=55031898669436)
+* 🎒 [British Army Lightweight Compression Sack (9 €)](https://goarmy.co.uk/products/british-army-compression-sack-sleeping-bag)
+* 🎒 [British Army Medium Weight Compression Sack For Winter Sleeping Bag (15 €)](https://goarmy.co.uk/products/british-army-medium-weight-compression-sack-sleeping-bag)
+* ⛺ [British Army MTP Basha Tent, Grade 2, 22 €](https://goarmy.co.uk/en-eu/products/british-army-mtp-basha-tent?variant=55131979055484)
+
+Berg Freunde (55 €):
+* 🏕️ [Robens ZigZag Slumber Pro (25 €)](https://www.bergfreunde.fi/robens-zigzag-slumber-pro-retkipatja/)
+* ⛺ [Roberns Ultralite U-Hering 6-pack vaarna (7 €)](https://www.bergfreunde.fi/robens-ultralite-u-hering-6-pack-vaarna/?aid=2ff3438b1eafe0372bafa48bfb2ca43d)
+* ⛺ [2 x Robens Paracord 15 m (15 €)](https://www.bergfreunde.fi/robens-paracord-with-tinder-staattinen-koeysi/?aid=bec34aba4cfc12a04d9f35571fdab20e#contributionstream)
+
+
+---
+
+#### A (170 e):
+
+Go Army (135 €):
+* 🛌 [British Army Military Modular Sleep System (82 €)](https://goarmy.co.uk/products/british-army-military-modular-sleep-system?variant=55031898669436)
+* 🎒 [British Army Lightweight Compression Sack (9 €)](https://goarmy.co.uk/products/british-army-compression-sack-sleeping-bag)
+* 🎒 [British Army Medium Weight Compression Sack For Winter Sleeping Bag (15 €)](https://goarmy.co.uk/products/british-army-medium-weight-compression-sack-sleeping-bag)
+
+Berg Freunde (35 €):
+* 🏕️ [Robens ZigZag Slumber Pro (25 €)](https://www.bergfreunde.fi/robens-zigzag-slumber-pro-retkipatja/)
