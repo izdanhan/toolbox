@@ -48,6 +48,14 @@ Motonet (170 €):
 
 ---
 
+### Vaihe 3: Vedenpuhdistus (90 €)
+
+Kärkkäinen:
+* 💧 [Katadyn BeFree Gravity 3L vedenpuhdistin (90 €)](https://www.karkkainen.com/verkkokauppa/katadyn-befree-gravity-3l-vedenpuhdistin)
+
+
+---
+
 ### Vaihe 4: Majoitus (165 €)
 
 Berg Freunde:
@@ -65,37 +73,9 @@ Varusteleka (110 €):
 * 🔪 [Varusteleka Jääkäripuukko 110 nahkatupella (95 €)](https://varusteleka.com/products/varusteleka-jaakaripuukko-110-nahkatupella)
 * [2 x SA kenttäpullo, 1 l (16 €)](https://varusteleka.com/products/sa-kenttapullo-1-l-fi)
 
-Motonet [25 €]:
-* [Bahco 396-LAP Laplander retkisaha (25 €)](https://www.motonet.fi/tuote/bahco-396-lap-laplander-retkisaha?product=80-2131)
-
 
 ---
 
-### Vaihe 4: Vedenpuhdistus ja sadesuoja (130 €)
-
-Kärkkäinen:
-* 💧 [Katadyn BeFree Gravity 3L vedenpuhdistin (90 €)](https://www.karkkainen.com/verkkokauppa/katadyn-befree-gravity-3l-vedenpuhdistin)
-* [Savotta vihreä sadesuoja XL (39 €)](https://www.karkkainen.com/verkkokauppa/savotta-vihrea-sadesuoja?id=102167252)
-
-
----
-
-### Vaihe 5: ( 80 €)
-
-Kärkkäinen (80 €):
-* [Tatonka Dry Sack 18L harmaa kuivapussi (16 €)](https://www.karkkainen.com/verkkokauppa/tatonka-dry-sack-18l-kuivapussi)
-* [2 x Tatonka Dry Sack 10L sininen kuivapussi (2 x 15 €)](https://www.karkkainen.com/verkkokauppa/tatonka-dry-sack-10l-sininen-kuivapussi)
-* [Tatonka WP Dry Bag A4 kuivatasku (22 €)](https://www.karkkainen.com/verkkokauppa/tatonka-wp-dry-bag-a4-musta-tasku)
-* [Varta Longlife Power AAA 12 kpl paristo (7 €)](https://www.karkkainen.com/verkkokauppa/varta-longlife-power-aaa-12-kpl-paristo-p1694789353856499)
-* [Free Kids & Family hajuton 100 ml hyttyskarkote (7 €)](https://www.karkkainen.com/verkkokauppa/free-kids-family-hajuton-100-ml-hyttyskarkote)
-* [Amergrip Mini / 50 kpl pakastuspussi (1,70 €)](https://www.karkkainen.com/verkkokauppa/amergrip-mini-pakastuspussi-minigrip)
-* [2 x Amergrip 1 l / 20 kpl pakastuspussi (3,40 €)](https://www.karkkainen.com/verkkokauppa/amergrip-1-l-20-kpl-pakastuspussi-minigrip)
-* [2 x Amergrip 1/2 l / 25 kpl pakastuspussi (3,40 €)](https://www.karkkainen.com/verkkokauppa/amergrip-1-2-l-25-kpl-pakastuspussi-minigrip)
-* [2 x Amergrip 2 l / 10 kpl pakastuspussi (3,40 €)](https://www.karkkainen.com/verkkokauppa/amergrip-2-l-10-kpl-pakastuspussi-minigrip)
-* [2 x Amergrip 4 l / 6 kpl pakastuspussi (3,40 €)](https://www.karkkainen.com/verkkokauppa/amergrip-4-l-6-kpl-pakastuspussi-minigrip)
-
-
----
 
 ### Vaihe 6: Vaatetus & varusteiden täydentäminen (~120 €)
 
@@ -201,3 +181,21 @@ Go Army (135 €):
 
 Berg Freunde (35 €):
 * 🏕️ [Robens ZigZag Slumber Pro (25 €)](https://www.bergfreunde.fi/robens-zigzag-slumber-pro-retkipatja/)
+
+
+### Vaihe 5: ( 80 €)
+
+Kärkkäinen (80 €):
+* [Tatonka Dry Sack 18L harmaa kuivapussi (16 €)](https://www.karkkainen.com/verkkokauppa/tatonka-dry-sack-18l-kuivapussi)
+* [2 x Tatonka Dry Sack 10L sininen kuivapussi (2 x 15 €)](https://www.karkkainen.com/verkkokauppa/tatonka-dry-sack-10l-sininen-kuivapussi)
+* [Tatonka WP Dry Bag A4 kuivatasku (22 €)](https://www.karkkainen.com/verkkokauppa/tatonka-wp-dry-bag-a4-musta-tasku)
+* [Varta Longlife Power AAA 12 kpl paristo (7 €)](https://www.karkkainen.com/verkkokauppa/varta-longlife-power-aaa-12-kpl-paristo-p1694789353856499)
+* [Free Kids & Family hajuton 100 ml hyttyskarkote (7 €)](https://www.karkkainen.com/verkkokauppa/free-kids-family-hajuton-100-ml-hyttyskarkote)
+* [Amergrip Mini / 50 kpl pakastuspussi (1,70 €)](https://www.karkkainen.com/verkkokauppa/amergrip-mini-pakastuspussi-minigrip)
+* [2 x Amergrip 1 l / 20 kpl pakastuspussi (3,40 €)](https://www.karkkainen.com/verkkokauppa/amergrip-1-l-20-kpl-pakastuspussi-minigrip)
+* [2 x Amergrip 1/2 l / 25 kpl pakastuspussi (3,40 €)](https://www.karkkainen.com/verkkokauppa/amergrip-1-2-l-25-kpl-pakastuspussi-minigrip)
+* [2 x Amergrip 2 l / 10 kpl pakastuspussi (3,40 €)](https://www.karkkainen.com/verkkokauppa/amergrip-2-l-10-kpl-pakastuspussi-minigrip)
+* [2 x Amergrip 4 l / 6 kpl pakastuspussi (3,40 €)](https://www.karkkainen.com/verkkokauppa/amergrip-4-l-6-kpl-pakastuspussi-minigrip)
+
+
+---
