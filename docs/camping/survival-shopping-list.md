@@ -36,15 +36,15 @@ Go Army (170 €):
 Motonet (170 €):
 * ⛺ [Woodlander tarppi 3x3 (30 €)](https://www.motonet.fi/tuote/woodlander-tarppi?product=55-22844&variant=55-06997)
 * 🛌 [Kaira XXL makuualusta 60 x 195 x 1,5 cm R arvo 2.3 (22 €)](https://www.motonet.fi/tuote/kaira-xxl-makuualusta-60-x-195-x-15-cm?product=46-6475)
-* [Bahco 396-LAP Laplander retkisaha (25 €)](https://www.motonet.fi/tuote/bahco-396-lap-laplander-retkisaha?product=80-2131)
-* [Bahco 2446-LAP Laplander puukko RST vihreä (10 €)](https://www.motonet.fi/tuote/bahco-2446-lap-laplander-puukko-rst-vihrea?product=70-22389)
-* [2 x Woodlander yleisköysi 3 mm 15 m (6 €)](https://www.motonet.fi/tuote/woodlander-yleiskoysi?product=55-22840&variant=55-11047)
-* [Woodlander sadeviitta musta (20 €)](https://www.motonet.fi/tuote/woodlander-sadeviitta-musta?product=55-23414)
-* [2 x Woodlander telttakiila heavy duty 4kpl 10 €](https://www.motonet.fi/tuote/woodlander-telttakiila-heavy-duty-4kpl?product=55-11040)
-* [Woodlander repun joustonyörisetti (7 €)](https://www.motonet.fi/tuote/woodlander-repun-joustonyorisetti?product=55-23402)
-* [Savotta Happy Stove risukeitin 30 €](https://www.motonet.fi/tuote/savotta-happy-stove-risukeitin?product=55-01970)
-* [Atomic BBQ Flex Stormflame sytytin (5 €)](https://www.motonet.fi/tuote/atomic-bbq-flex-stormflame-sytytin?product=86-02593)
-* [Plastex SA kenttäpullo 0,65 l (5 €)](https://www.motonet.fi/tuote/plastex-sa-kenttapullo-065-l?product=38-1125)
+* 🪓 [Bahco 396-LAP Laplander retkisaha (25 €)](https://www.motonet.fi/tuote/bahco-396-lap-laplander-retkisaha?product=80-2131)
+* 🔪 [Bahco 2446-LAP Laplander puukko RST vihreä (10 €)](https://www.motonet.fi/tuote/bahco-2446-lap-laplander-puukko-rst-vihrea?product=70-22389)
+* 🧵 [2 x Woodlander yleisköysi 3 mm 15 m (6 €)](https://www.motonet.fi/tuote/woodlander-yleiskoysi?product=55-22840&variant=55-11047)
+* 🌧️ [Woodlander sadeviitta musta (20 €)](https://www.motonet.fi/tuote/woodlander-sadeviitta-musta?product=55-23414)
+* 📌 [2 x Woodlander telttakiila heavy duty 4kpl 10 €](https://www.motonet.fi/tuote/woodlander-telttakiila-heavy-duty-4kpl?product=55-11040)
+* 🪢 [Woodlander repun joustonyörisetti (7 €)](https://www.motonet.fi/tuote/woodlander-repun-joustonyorisetti?product=55-23402)
+* 🪵 [Savotta Happy Stove risukeitin 30 €](https://www.motonet.fi/tuote/savotta-happy-stove-risukeitin?product=55-01970)
+* 🔥 [Atomic BBQ Flex Stormflame sytytin (5 €)](https://www.motonet.fi/tuote/atomic-bbq-flex-stormflame-sytytin?product=86-02593)
+* 💧 [Plastex SA kenttäpullo 0,65 l (5 €)](https://www.motonet.fi/tuote/plastex-sa-kenttapullo-065-l?product=38-1125)
 
 
 ---
