@@ -32,8 +32,9 @@ Go Army (170 €):
 
 ### Phase 2 Camping:
 
-Motonet (170 €):
+Motonet (175 €):
 * ⛺ [Woodlander tarppi 3x3 (30 €)](https://www.motonet.fi/tuote/woodlander-tarppi?product=55-22844&variant=55-06997)
+* ⛺ [MTX Basic kevytpeite 2 x 3 m (2,50 €)](https://www.motonet.fi/tuote/mtx-basic-kevytpeite-80-gm?product=91-3317&variant=91-3303)
 * 🛌 [Kaira XXL makuualusta 60 x 195 x 1,5 cm R arvo 2.3 (22 €)](https://www.motonet.fi/tuote/kaira-xxl-makuualusta-60-x-195-x-15-cm?product=46-6475)
 * 🪓 [Bahco 396-LAP Laplander retkisaha (25 €)](https://www.motonet.fi/tuote/bahco-396-lap-laplander-retkisaha?product=80-2131)
 * 🔪 [Bahco 2446-LAP Laplander puukko RST vihreä (10 €)](https://www.motonet.fi/tuote/bahco-2446-lap-laplander-puukko-rst-vihrea?product=70-22389)
