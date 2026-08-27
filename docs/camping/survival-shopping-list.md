@@ -47,37 +47,36 @@ Kärkkäinen (170 €):
 
 ---
 
-### Phase 3: Alpine Jaeger (125 €)
+### Phase 3: Alpine Jaeger (140 €)
 
 Military Range (30 €):
 * [2 x Large side bag for ALPINRUCKSACK OLIVE used (2 x 11 € + 9,90 €)](https://shop.militaryrange.eu/product/large-side-bag-for-alpinrucksack-olive-used)
 
-Kärkkäinen (95 €):
+Kärkkäinen (110 €):
 * 🩹 [Retki 65-osainen ensiapulaukku (20 €)](https://www.karkkainen.com/verkkokauppa/retki-65-osainen-ensiapulaukku)
 * 🪵 [Bushcraft Essentials Bushbox risukeitin (33 €)](https://www.karkkainen.com/verkkokauppa/bushcraft-essentials-bushbox-risukeitin-retkikeitin)
-* 🪵 [Retki 36,5cm kirves (19 €)](https://www.karkkainen.com/verkkokauppa/retki-36-5cm-kirves)
 * 💧 [Ortlieb 2L nestepussi (22 €)](https://www.karkkainen.com/verkkokauppa/ortlieb-2l-nestepussi)
+* [Retki 36,5cm kirves (19 €)](https://www.karkkainen.com/verkkokauppa/retki-36-5cm-kirves)
+* [Retki kokoontaitettava lapio (13 €)](https://www.karkkainen.com/verkkokauppa/retki-kokoontaitettava-lapio)
 
 ---
+Retki kokoontaitettava lapio
 
-
-### Phase 4: Water Camel (140 €)
+### Phase 4: Water Camel (130 €)
 
 Kärkkäinen:
 * 💧 [Katadyn BeFree Gravity 3L vedenpuhdistin (90 €)](https://www.karkkainen.com/verkkokauppa/katadyn-befree-gravity-3l-vedenpuhdistin)
-
-
-
+* [Light My Fire FireSteel BIO Army tulus Orange (19 €)](https://www.karkkainen.com/verkkokauppa/light-my-fire-firesteel-bio-army-tulus)
+* [Mil-Tec vihreä taktinen käsine (19 €)](https://www.karkkainen.com/verkkokauppa/mil-tec-vihrea-taktinen-kasine)
 
 
 ---
 
 
-### Phase 5: Vaatetus & varusteiden täydentäminen (~120 €)
+### Phase 5: Vaatetus (80 €)
 
 Kärkkäinen:
-* [Light My Fire FireSteel BIO Army tulus Orange (19 €)](https://www.karkkainen.com/verkkokauppa/light-my-fire-firesteel-bio-army-tulus)
-* [Mil-Tec vihreä taktinen käsine (19 €)](https://www.karkkainen.com/verkkokauppa/mil-tec-vihrea-taktinen-kasine)
+
 * [Anar Tuormus miesten merinovilla-alusasu (60 €)](https://www.karkkainen.com/verkkokauppa/anar-tuormus-miesten-merinovilla-alusasu?id=103693072)
 * [2 x Anar Dalvi merinovillasukat (20 €)](https://www.karkkainen.com/verkkokauppa/anar-dalvi-merinovillasukat)
 
