@@ -1,5 +1,5 @@
 
-# 🛒 Operation Bushcraft
+# 🛒 Operation Nomad
 
 ### Phase 0: Already have
 
@@ -20,12 +20,11 @@
 
 ---
 
-### Phase 1:
-
-Go Army (135 €):
-* 🛌 [British Army Military Modular Sleep System, 82 €](https://goarmy.co.uk/products/british-army-military-modular-sleep-system?variant=55031898669436)
-* 🎒 [British Army Medium Weight Compression Sack For Winter Sleeping Bag, 15 €](https://goarmy.co.uk/products/british-army-medium-weight-compression-sack-sleeping-bag)
-* 🎒 [British Army Lightweight Compression Sack, 9 €](https://goarmy.co.uk/products/british-army-compression-sack-sleeping-bag)
+Go Army (180 €):
+* 🛌 [British Army Military Modular Sleep System (82 €)](https://goarmy.co.uk/products/british-army-military-modular-sleep-system?variant=55031898669436)
+* 🛌 [British Army GORE-TEX MTP Bivvy Bag, Grade 1 (44 €)](https://goarmy.co.uk/en-eu/products/british-army-goretex-mtp-bivvy-bag?variant=55756859081084)
+* 🎒 [British Army Medium Weight Compression Sack For Winter Sleeping Bag (15 €)](https://goarmy.co.uk/products/british-army-medium-weight-compression-sack-sleeping-bag)
+* 🎒 [British Army Lightweight Compression Sack (9 €)](https://goarmy.co.uk/products/british-army-compression-sack-sleeping-bag)
 
 
 ---
@@ -33,5 +32,5 @@ Go Army (135 €):
 ### Phase 2:
 
 Berg Freunde (175 €):
-* ⛺ [Robens Starlight 2 EXP - 2 henkilön teltta (148 €)](https://www.bergfreunde.fi/robens-starlight-2-exp-2-henkiloen-teltta/?aid=cee1ede7ec438a4e05800cf07bbd1d42)
+* ⛺ [Robens Starlight 1 EXP - 1 henkilön teltta (148 €)](https://www.bergfreunde.fi/robens-starlight-1-exp-1-henkiloen-teltta/?aid=6ac04469026a7faf58dab35f213320bb)
 * 🏕️ [Robens ZigZag Slumber Pro (27 €)](https://www.bergfreunde.fi/robens-zigzag-slumber-pro-retkipatja/)
