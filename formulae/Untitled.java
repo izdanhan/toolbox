@@ -1,0 +1,1 @@
+Update Homebrew: Run brew update to fetch the newest version and all package formulae from GitHub before installing or upgrading anything. 
