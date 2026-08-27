@@ -32,6 +32,6 @@ Go Army (135 €):
 
 ### Phase 2:
 
-Outdoors (75 € + 8,55 €):
-* 🛌 [British Army Bivy Cover MVP MTP, 50 €](https://www.outdoors.ee/products/british-army-bivy-cover-mvp-mtp/?attribute_pa_condition=pre-owned-supergrade)
-* [🧥 Dutch Army Wet Weather Poncho Woodland, 25 €](https://www.outdoors.ee/products/dutch-army-wet-weather-poncho-woodland/?attribute_pa_condition=pre-owned-supergrade)
+Berg Freunde (175 €):
+* ⛺ [Robens Starlight 2 EXP - 2 henkilön teltta (148 €)](https://www.bergfreunde.fi/robens-starlight-2-exp-2-henkiloen-teltta/?aid=cee1ede7ec438a4e05800cf07bbd1d42)
+* 🏕️ [Robens ZigZag Slumber Pro (27 €)](https://www.bergfreunde.fi/robens-zigzag-slumber-pro-retkipatja/)
