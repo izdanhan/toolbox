@@ -34,52 +34,49 @@ Go Army (180 €):
 
 ### Phase 2 Camping:
 
-Kärkkäinen (145 €):
+Kärkkäinen (170 €):
+
+* [Mora Kansbol puukko tupella (44 €)](https://www.karkkainen.com/verkkokauppa/mora-kansbol-puukko-tupella)
 * ⛺ [DD Hammocks Tarp 3 x 3 m tarppi (60 €)](https://www.karkkainen.com/verkkokauppa/dd-hammocks-tarp-3-x-3-m-tarppi-loue?id=103060868)
+* [10 x DD Hammocks mini karabiini 9 €](https://www.karkkainen.com/verkkokauppa/dd-hammocks-mini-karabiini)
 * 🧵 [Moment 3,5 mm/30 m Paracord-köysi (6 €)](https://www.karkkainen.com/verkkokauppa/moment-3-5-mm-30-m-paracord-koysi?id=103117247)
+* 🛌 [Robens ZigZag Slumber Wide makuualusta (20 €)](https://www.karkkainen.com/verkkokauppa/robens-zigzag-slumber-wide-makuualusta)
+* 💧 [Plastex SA 1 l juomapullo (7 €)](https://www.karkkainen.com/verkkokauppa/plastex-sa-1-l-juomapullo-kentta-leili-armeija)
 * 📌 [Robens V-Stake telttakiila 6kpl 9 €](https://www.karkkainen.com/verkkokauppa/robens-v-stake-telttakiila-6kpl)
 * 📌 [Robens Guyline Alloy telttanarun pidike 6kpl 7 €](https://www.karkkainen.com/verkkokauppa/robens-guyline-alloy-telttanarun-pidike-6kpl)
-* 🛌 [Robens ZigZag Slumber Wide makuualusta (20 €)](https://www.karkkainen.com/verkkokauppa/robens-zigzag-slumber-wide-makuualusta)
-* 🪵 [Bushcraft Essentials Bushbox risukeitin 33 €](https://www.karkkainen.com/verkkokauppa/bushcraft-essentials-bushbox-risukeitin-retkikeitin)
-* 💧 [Plastex SA 1 l juomapullo (7 €)](https://www.karkkainen.com/verkkokauppa/plastex-sa-1-l-juomapullo-kentta-leili-armeija)
-
-Motonet (40 €):
-* 🪓 [Bahco 396-LAP Laplander retkisaha (25 €)](https://www.motonet.fi/tuote/bahco-396-lap-laplander-retkisaha?product=80-2131)
-* 🔪 [Bahco 2446-LAP Laplander puukko RST vihreä (10 €)](https://www.motonet.fi/tuote/bahco-2446-lap-laplander-puukko-rst-vihrea?product=70-22389)
-* 🔥 [Atomic BBQ Flex Stormflame sytytin (5 €)](https://www.motonet.fi/tuote/atomic-bbq-flex-stormflame-sytytin?product=86-02593)
-
 
 ---
 
-### Phase 3: Water Camel (140 €)
-
-Kärkkäinen:
-* 💧 [Katadyn BeFree Gravity 3L vedenpuhdistin (90 €)](https://www.karkkainen.com/verkkokauppa/katadyn-befree-gravity-3l-vedenpuhdistin)
-* 💧 [Ortlieb 2L nestepussi (22 €)](https://www.karkkainen.com/verkkokauppa/ortlieb-2l-nestepussi)
+### Phase 3: Alpine Jaeger (140 €)
 
 Military Range (30 €):
 * [2 x Large side bag for ALPINRUCKSACK OLIVE used (2 x 11 € + 9,90 €)](https://shop.militaryrange.eu/product/large-side-bag-for-alpinrucksack-olive-used)
 
-
----
-
-### Phase 4: Jaeger (115 €)
-
-Varusteleka (95 €):
-* 🔪 [Varusteleka Jääkäripuukko 110 nahkatupella (95 €)](https://varusteleka.com/products/varusteleka-jaakaripuukko-110-nahkatupella)
-
-Kärkkäinen (20 €):
+Kärkkäinen (110 €):
 * 🩹 [Retki 65-osainen ensiapulaukku (20 €)](https://www.karkkainen.com/verkkokauppa/retki-65-osainen-ensiapulaukku)
-
+* 🪵 [Bushcraft Essentials Bushbox risukeitin (33 €)](https://www.karkkainen.com/verkkokauppa/bushcraft-essentials-bushbox-risukeitin-retkikeitin)
+* 💧 [Ortlieb 2L nestepussi (22 €)](https://www.karkkainen.com/verkkokauppa/ortlieb-2l-nestepussi)
+* [Retki 36,5cm kirves (19 €)](https://www.karkkainen.com/verkkokauppa/retki-36-5cm-kirves)
+* [Retki kokoontaitettava lapio (13 €)](https://www.karkkainen.com/verkkokauppa/retki-kokoontaitettava-lapio)
 
 ---
+Retki kokoontaitettava lapio
 
-
-### Phase 5: Vaatetus & varusteiden täydentäminen (~120 €)
+### Phase 4: Water Camel (130 €)
 
 Kärkkäinen:
+* 💧 [Katadyn BeFree Gravity 3L vedenpuhdistin (90 €)](https://www.karkkainen.com/verkkokauppa/katadyn-befree-gravity-3l-vedenpuhdistin)
 * [Light My Fire FireSteel BIO Army tulus Orange (19 €)](https://www.karkkainen.com/verkkokauppa/light-my-fire-firesteel-bio-army-tulus)
 * [Mil-Tec vihreä taktinen käsine (19 €)](https://www.karkkainen.com/verkkokauppa/mil-tec-vihrea-taktinen-kasine)
+
+
+---
+
+
+### Phase 5: Vaatetus (80 €)
+
+Kärkkäinen:
+
 * [Anar Tuormus miesten merinovilla-alusasu (60 €)](https://www.karkkainen.com/verkkokauppa/anar-tuormus-miesten-merinovilla-alusasu?id=103693072)
 * [2 x Anar Dalvi merinovillasukat (20 €)](https://www.karkkainen.com/verkkokauppa/anar-dalvi-merinovillasukat)
 
@@ -262,3 +259,11 @@ Kärkkäinen (80 €):
 * ⛺ [MTX Basic kevytpeite 2 x 3 m (2,50 €)](https://www.motonet.fi/tuote/mtx-basic-kevytpeite-80-gm?product=91-3317&variant=91-3303)
 * 🪵 [Savotta Happy Stove risukeitin 30 €](https://www.motonet.fi/tuote/savotta-happy-stove-risukeitin?product=55-01970)
 * 🪢 [Woodlander repun joustonyörisetti (7 €)](https://www.motonet.fi/tuote/woodlander-repun-joustonyorisetti?product=55-23402)
+
+---
+
+Motonet (40 €):
+* 🪓 [Bahco 396-LAP Laplander retkisaha (25 €)](https://www.motonet.fi/tuote/bahco-396-lap-laplander-retkisaha?product=80-2131)
+* 🔪 [Bahco 2446-LAP Laplander puukko RST vihreä (10 €)](https://www.motonet.fi/tuote/bahco-2446-lap-laplander-puukko-rst-vihrea?product=70-22389)
+* 🔥 [Atomic BBQ Flex Stormflame sytytin (5 €)](https://www.motonet.fi/tuote/atomic-bbq-flex-stormflame-sytytin?product=86-02593)
+
