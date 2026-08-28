@@ -31,6 +31,11 @@ Go Army (180 €):
 
 ### Phase 2:
 
-Berg Freunde (175 €):
-* ⛺ [Robens Starlight 1 EXP - 1 henkilön teltta (148 €)](https://www.bergfreunde.fi/robens-starlight-1-exp-1-henkiloen-teltta/?aid=6ac04469026a7faf58dab35f213320bb)
-* 🏕️ [Robens ZigZag Slumber Pro (27 €)](https://www.bergfreunde.fi/robens-zigzag-slumber-pro-retkipatja/)
+Get Camping (SE) (177 €):
+* ⛺ [Robens Cress  2 Pro (160 €)](https://www.getcamping.eu/en/tents/all-tents/backpacking-tents/robens-cress-2-pro-tent/)
+* 🏕️ [Robens ZigZag Slumber (17 €)](https://www.getcamping.eu/en/camping-accessories/sleeping-bags-mats-airbeds/mats/robens-zigzag-slumber-sleeping-pad/)
+
+
+---
+
+https://www.getcamping.eu/en/camping-accessories/sleeping-bags-mats-airbeds/mats/robens-zigzag-slumber-pro-sleeping-pad/
