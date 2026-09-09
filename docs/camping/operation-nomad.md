@@ -20,11 +20,14 @@
 
 ---
 
+<<<<<<< HEAD
 ### Phase 1:
 
 Go Army (180 €):
+=======
+Go Army (135 €): done!
+>>>>>>> 43edaf258f11845fd4137e5d26c0650e09cb4e65
 * 🛌 [British Army Military Modular Sleep System (82 €)](https://goarmy.co.uk/products/british-army-military-modular-sleep-system?variant=55031898669436)
-* 🛌 [British Army GORE-TEX MTP Bivvy Bag, Grade 1 (44 €)](https://goarmy.co.uk/en-eu/products/british-army-goretex-mtp-bivvy-bag?variant=55756859081084)
 * 🎒 [British Army Medium Weight Compression Sack For Winter Sleeping Bag (15 €)](https://goarmy.co.uk/products/british-army-medium-weight-compression-sack-sleeping-bag)
 * 🎒 [British Army Lightweight Compression Sack (9 €)](https://goarmy.co.uk/products/british-army-compression-sack-sleeping-bag)
 
@@ -36,6 +39,12 @@ Clas Olson (13 €):
 
 ### Phase 2:
 
-Berg Freunde (175 €):
-* ⛺ [Robens Starlight 1 EXP - 1 henkilön teltta (148 €)](https://www.bergfreunde.fi/robens-starlight-1-exp-1-henkiloen-teltta/?aid=6ac04469026a7faf58dab35f213320bb)
-* 🏕️ [Robens ZigZag Slumber Pro (27 €)](https://www.bergfreunde.fi/robens-zigzag-slumber-pro-retkipatja/)
+Get Camping (SE) (177 €):
+* ⛺ [Robens Cress  2 Pro (160 €)](https://www.getcamping.eu/en/tents/all-tents/backpacking-tents/robens-cress-2-pro-tent/)
+* 🏕️ [Robens ZigZag Slumber (17 €)](https://www.getcamping.eu/en/camping-accessories/sleeping-bags-mats-airbeds/mats/robens-zigzag-slumber-sleeping-pad/)
+
+
+---
+
+https://www.getcamping.eu/en/camping-accessories/sleeping-bags-mats-airbeds/mats/robens-zigzag-slumber-pro-sleeping-pad/
+* 🛌 [British Army GORE-TEX MTP Bivvy Bag, Grade 1 (44 €)](https://goarmy.co.uk/en-eu/products/british-army-goretex-mtp-bivvy-bag?variant=55756859081084)
