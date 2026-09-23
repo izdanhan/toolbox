@@ -9,6 +9,7 @@ alias disks="lsblk -o NAME,SIZE,TYPE,FSTYPE,MOUNTPOINT"
 alias help-apps="glow ~/git/toolbox/docs/linux/terminal_apps.md"
 alias help-cs="glow ~/git/toolbox/docs/linux/terminal_cheatsheet.md"
 alias ytdl='yt-dlp --embed-chapters -f "bestvideo+bestaudio/best" --merge-output-format mkv'
+alias kiwix='sudo kiwix-serve .local/share/kiwix-desktop/*.zim'
 
 # flatpak
 alias fl-in="flatpak install"
