@@ -38,7 +38,7 @@ alias nl-i="nala show"
 alias nl-h="nala history"
 
 # dnf
-alias dn-up="sudo dnf upgrade"
+alias dn-up="sudo dnf upgrade --refresh"
 alias dn-in="sudo dnf install"
 alias dn-rm="sudo dnf remove"
 alias dn-s="dnf search"
