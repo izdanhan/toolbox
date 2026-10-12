@@ -8,13 +8,13 @@ choice=$(echo -e "$options" | rofi -dmenu -p "System Config" -theme-str 'window 
 
 case "$choice" in
     *"Audio"*)
-        alacritty --class "floating_tui" -e "$HOME/.cargo/bin/wiremix" --tab output
+        alacritty --class "floating_tui" -e "wiremix" --tab output
         ;;
     *"Bluetooth"*)
-        alacritty --class "floating_tui" -e "$HOME/.cargo/bin/bluetui"
+        alacritty --class "floating_tui" -e "bluetui"
         ;;
     *"Network"*)
-        alacritty --class "floating_tui" -e nmtui
+        alacritty --class "floating_tui" -e nmtui-go
         ;;
     *"Alacritty"*)
         alacritty -e fresh ~/.config/alacritty/alacritty.toml
