@@ -1,0 +1,3 @@
+Location:
+
+.local/share/konsole

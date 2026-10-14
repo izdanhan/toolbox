@@ -1,0 +1,3 @@
+Location:
+
+/.config/fresh/themes/

@@ -1,0 +1,62 @@
+{
+  "name": "ayu-mirage",
+  "editor": {
+    "bg": [31, 36, 48],
+    "fg": [204, 202, 194],
+    "cursor": [255, 174, 87],
+    "selection_bg": [40, 48, 68],
+    "current_line_bg": [36, 41, 54],
+    "line_number_fg": [104, 104, 104],
+    "line_number_bg": [31, 36, 48]
+  },
+  "ui": {
+    "tab_active_fg": [204, 202, 194],
+    "tab_active_bg": [31, 36, 48],
+    "tab_inactive_fg": [104, 104, 104],
+    "tab_inactive_bg": [23, 27, 36],
+    "tab_separator_bg": [36, 41, 54],
+    "status_bar_fg": [204, 202, 194],
+    "status_bar_bg": [23, 27, 36],
+    "prompt_fg": [204, 202, 194],
+    "prompt_bg": [36, 41, 54],
+    "prompt_selection_fg": [204, 202, 194],
+    "prompt_selection_bg": [40, 48, 68],
+    "popup_border_fg": [52, 63, 84],
+    "popup_bg": [36, 41, 54],
+    "popup_selection_bg": [40, 48, 68],
+    "popup_text_fg": [204, 202, 194],
+    "suggestion_bg": [36, 41, 54],
+    "suggestion_selected_bg": [40, 48, 68],
+    "help_bg": [23, 27, 36],
+    "help_fg": [204, 202, 194],
+    "help_key_fg": [115, 208, 255],
+    "help_separator_fg": [36, 41, 54],
+    "help_indicator_fg": [237, 130, 116],
+    "help_indicator_bg": [23, 27, 36],
+    "split_separator_fg": [36, 41, 54]
+  },
+  "search": {
+    "match_bg": [250, 204, 110],
+    "match_fg": [31, 36, 48]
+  },
+  "diagnostic": {
+    "error_fg": [237, 130, 116],
+    "error_bg": [31, 36, 48],
+    "warning_fg": [250, 204, 110],
+    "warning_bg": [31, 36, 48],
+    "info_fg": [115, 208, 255],
+    "info_bg": [31, 36, 48],
+    "hint_fg": [104, 104, 104],
+    "hint_bg": [31, 36, 48]
+  },
+  "syntax": {
+    "keyword": [255, 167, 89],
+    "string": [135, 217, 108],
+    "comment": [112, 122, 138],
+    "function": [115, 208, 255],
+    "type": [250, 204, 110],
+    "variable": [204, 202, 194],
+    "constant": [212, 191, 255],
+    "operator": [255, 174, 87]
+  }
+}

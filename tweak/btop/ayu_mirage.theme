@@ -1,0 +1,59 @@
+# Main background, empty for terminal default, clear to transparent if true
+theme[main_bg]="#1f2430"
+
+# Main text color
+theme[main_fg]="#cccac2"
+
+# Title color for boxes
+theme[title]="#ffcc66"
+
+# Highlight color for keyboard shortcuts
+theme[hi_fg]="#73d0ff"
+
+# Background color of selected item in lists
+theme[selected_bg]="#283044"
+
+# Value color of selected item in lists
+theme[selected_fg]="#ffae57"
+
+# Color of inactive/disabled text
+theme[inactive_fg]="#686868"
+
+# Color of box outlines and borders
+theme[border_color]="#343f54"
+
+# Graph colors (Cpu, Mem, Net, Proc) -> Gradient: Green -> Amber -> Red
+theme[cpu_start]="#87d75f"
+theme[cpu_mid]="#ffae57"
+theme[cpu_end]="#ed8274"
+
+theme[free_start]="#73d0ff"
+theme[free_mid]="#73d0ff"
+theme[free_end]="#d4bfff"
+
+theme[cached_start]="#d4bfff"
+theme[cached_mid]="#d4bfff"
+theme[cached_end]="#73d0ff"
+
+theme[available_start]="#6dcbf0"
+theme[available_mid]="#6dcbf0"
+theme[available_end]="#73d0ff"
+
+theme[used_start]="#ffcc66"
+theme[used_mid]="#ffae57"
+theme[used_end]="#ed8274"
+
+# Download graph colors
+theme[download_start]="#73d0ff"
+theme[download_mid]="#6dcbf0"
+theme[download_end]="#87d75f"
+
+# Upload graph colors
+theme[upload_start]="#d4bfff"
+theme[upload_mid]="#ffae57"
+theme[upload_end]="#ed8274"
+
+# Process meter background
+theme[process_start]="#87d75f"
+theme[process_mid]="#ffae57"
+theme[process_end]="#ed8274"

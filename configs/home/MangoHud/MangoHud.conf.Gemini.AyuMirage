@@ -1,0 +1,81 @@
+################### Ayu Mirage MangoHud Config ###################
+
+no_display
+
+legacy_layout=false
+
+# Header
+custom_text_center=luna
+
+# Modern Glass Aesthetics
+background_alpha=0.85
+round_corners=12
+background_color=1F2430   # Ayu Mirage Background
+
+font_size=24
+text_color=FFCC66         # Ayu Mirage Accent Yellow
+position=top-right
+
+table_columns=3
+
+# GPU Section
+gpu_text=GPU
+gpu_stats
+gpu_load_change
+gpu_load_value=50,90
+gpu_load_color=73D0FF,FFAE57,FF6666
+gpu_temp
+gpu_color=73D0FF                      # Cyan
+
+# CPU Section
+cpu_text=CPU
+cpu_stats
+cpu_load_change
+cpu_load_value=50,90
+cpu_load_color=87D75F,FFAE57,FF6666
+cpu_temp
+cpu_color=87D75F                      # Green
+
+# System Stats
+io_stats
+io_read
+io_write
+io_color=5CCFE6
+vram
+vram_color=D4BFFF                     # Purple
+ram
+ram_color=D4BFFF                      # Purple
+
+# Performance Metrics
+fps
+
+# Environment Info
+custom_text_center= 
+custom_text=Fedora 44 KDE
+wine
+wine_color=CCCAC2
+engine_version
+engine_color=707A8A
+vulkan_driver
+
+# Frametime Gradient
+frame_timing
+frametime_color=87D75F,FFAE57,FF6666
+
+fps_limit_method=late
+toggle_fps_limit=Shift_L+F1
+fps_limit=0
+
+gpu_name
+resolution
+refresh_rate
+gamemode
+display_server
+
+output_folder=/home/daniel
+log_duration=30
+autostart_log=0
+log_interval=100
+toggle_logging=Shift_L+F2
+
+blacklist=pamac-manager,lact,ghb,bitwig-studio,ptyxis,yumex
