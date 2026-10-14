@@ -1,3 +1,3 @@
-Location:
+# Location:
 
 .config/btop/themes/

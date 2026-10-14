@@ -1,3 +1,3 @@
-Location:
+# Location:
 
 .local/share/konsole
