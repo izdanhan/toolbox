@@ -1,8 +1,10 @@
-### Phase 1: Base System, Docker, & Tailscale Setup
+# Ubuntu 26.04 LTS Server deployment
+
+## Phase 1: Base System, Docker, & Tailscale Setup
 
 Execute these steps directly in your terminal post-installation to ready the host.
 
-#### 1. Install Docker & Docker Compose
+### 1. Install Docker & Docker Compose
 
 ```bash
 sudo apt update && sudo apt install -y ca-certificates curl gnupg
@@ -26,7 +28,7 @@ newgrp docker
 
 ```
 
-#### 2. Install & Connect Tailscale
+### 2. Install & Connect Tailscale
 
 ```bash
 curl -fsSL https://tailscale.com/install.sh | sh
@@ -38,11 +40,11 @@ sudo tailscale up
 
 ---
 
-### Phase 2: Directory & Stack Architecture
+## Phase 2: Directory & Stack Architecture
 
 We will structure your deployment files inside `/opt/stacks` so **Dockge** can manage everything natively via its web UI.
 
-#### 1. Initialize Folders
+### 1. Initialize Folders
 
 ```bash
 sudo mkdir -p /opt/stacks/homeserver
@@ -50,7 +52,7 @@ sudo chown -R $USER:$USER /opt/stacks
 
 ```
 
-#### 2. Create the Unified `docker-compose.yml`
+### 2. Create the Unified `docker-compose.yml`
 
 Create and open the configuration file:
 
@@ -183,9 +185,9 @@ services:
 
 ---
 
-### Phase 3: Launch & Verification
+## Phase 3: Launch & Verification
 
-#### 1. Start the Stack via CLI (First Time)
+### 1. Start the Stack via CLI (First Time)
 
 ```bash
 cd /opt/stacks/homeserver
@@ -193,7 +195,7 @@ docker compose up -d
 
 ```
 
-#### 2. Accessing Services (Local & via Tailscale)
+### 2. Accessing Services (Local & via Tailscale)
 
 From your laptop on the road (connected to Tailscale), point your browser or client to your server's Tailscale IP address:
 
