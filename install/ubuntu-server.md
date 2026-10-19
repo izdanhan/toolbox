@@ -226,8 +226,21 @@ From your laptop on the road (connected to Tailscale), point your browser or cli
 * **Kiwix:** `http://<tailscale-ip>:8080`
 * **Samba File Shares:** `smb://<tailscale-ip>/Alpha` or `smb://<tailscale-ip>/Beta`
 
-## Download models to Ollama
+### Download models to Ollama
 
 ```bash
 docker exec -it ollama ollama run phi3
 ```
+
+---
+
+## Minecraft server
+
+/opt/stacks/homeserver/minecraft/server.properties
+
+docker exec -it minecraft-server rcon-cli op YOUR_MINECRAFT_USERNAME
+
+cd /opt/stacks/homeserver
+docker compose restart minecraft
+
+---
