@@ -63,7 +63,6 @@ nano /opt/stacks/homeserver/docker-compose.yml
 
 Paste the complete stack configuration matching your specific paths (`/mnt/alpha`, `/mnt/beta`, `/mnt/xanadu`):
 
-```yaml
 services:
   # --------------------------------------------------
   # Dockge (Web GUI Manager)
@@ -152,38 +151,39 @@ services:
   # Kiwix (Offline Knowledge Server)
   # --------------------------------------------------
   kiwix:
-    image: kiwix/kiwix-serve:latest
+    image: ghcr.io/kiwix/kiwix-tools:latest
     container_name: kiwix
     restart: unless-stopped
     ports:
       - "8080:8080"
     volumes:
-      - /mnt/xanadu:/data
-    command: "*.zim"
+      - /mnt/xanadu/KiwixLibrary:/data
+    command: kiwix-serve --port=8080 --threads=4 /data/*.zim
 
-  # --------------------------------------------------
-  # Samba File Server
-  # --------------------------------------------------
-  samba:
-    image: dperson/samba:latest
-    container_name: samba-fileserver
-    restart: unless-stopped
-    network_mode: host
-    environment:
-      - TZ=Auto
-    volumes:
-      - /mnt/alpha:/mnt/alpha
-      - /mnt/beta:/mnt/beta
-    command: >
-      -u "username;password"
-      -s "Alpha;/mnt/alpha;yes;no;no;username"
-      -s "Beta;/mnt/beta;yes;no;no;username"
+### Samba
 
+```bash
+sudo apt update && sudo apt install -y samba
+sudo smbpasswd -a $USER
+
+sudo tee -a /etc/samba/smb.conf <<EOF
+
+[Alpha]
+   path = /mnt/alpha
+   browseable = yes
+   read only = no
+   valid users = $USER
+
+[Beta]
+   path = /mnt/beta
+   browseable = yes
+   read only = no
+   valid users = $USER
+EOF
+
+sudo systemctl restart smbd
 ```
 
-*(Note: Change `username` and `password` under the Samba section to your desired credentials).*
-
----
 
 ## Phase 3: Launch & Verification
 
