@@ -11,4 +11,4 @@ cat ~/.ssh/id_ed25519.pub
 echo "Copy/paste that to GitHub SSH settings."
 
 git config --global user.name "Daniel Hanikka"
-git config --global user.email "daniel.proton.me"
+git config --global user.email "daniel.hanikka@proton.me"
