@@ -1,0 +1,81 @@
+services:
+  # --------------------------------------------------
+  # Jellyfin (Media Server)
+  # --------------------------------------------------
+  jellyfin:
+    image: jellyfin/jellyfin:latest
+    container_name: jellyfin
+    restart: unless-stopped
+    network_mode: host
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Auto
+    volumes:
+      - ./jellyfin/config:/config
+      - ./jellyfin/cache:/cache
+      - /mnt/alpha/Videos:/mnt/alpha/Videos
+      - /mnt/beta/Videos:/mnt/beta/Videos
+    devices:
+      - /dev/dri:/dev/dri    
+    
+  # --------------------------------------------------
+  # Minecraft Server (Fabric)
+  # --------------------------------------------------
+  minecraft:
+    image: itzg/minecraft-server:latest
+    container_name: minecraft-server
+    restart: unless-stopped
+    ports:
+      - "25565:25565"
+    environment:
+      EULA: "TRUE"
+      TYPE: "FABRIC"
+      VERSION: "1.21"
+      MEMORY: "4G"
+    volumes:
+      - ./minecraft:/data
+
+  # --------------------------------------------------
+  # Ollama + Web UI (AI Stack)
+  # --------------------------------------------------
+  ollama:
+    image: ollama/ollama:latest
+    container_name: ollama
+    restart: unless-stopped
+    ports:
+      - "11434:11434"
+    volumes:
+      - ./ollama_data:/root/.ollama
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+
+  ollama-webui:
+    image: ghcr.io/open-webui/open-webui:main
+    container_name: ollama-webui
+    restart: unless-stopped
+    ports:
+      - "3000:8080"
+    environment:
+      - OLLAMA_BASE_URL=http://ollama:11434
+    volumes:
+      - ./open_webui:/app/backend/data
+
+  # --------------------------------------------------
+  # Kiwix (Offline Knowledge Server)
+  # --------------------------------------------------
+  kiwix:
+    image: ghcr.io/kiwix/kiwix-serve:latest
+    container_name: kiwix
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+    volumes:
+      - /mnt/xanadu/KiwixLibrary:/data
+    working_dir: /data
+    command: "*.zim"
