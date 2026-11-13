@@ -1,0 +1,19 @@
+{
+    "Orientation": "Horizontal",
+    "Widgets": [
+        {
+            "Columns": 88,
+            "Command": "",
+            "Lines": 61,
+            "SessionRestoreId": 0,
+            "WorkingDirectory": "/home/daniel"
+        },
+        {
+            "Columns": 187,
+            "Command": "",
+            "Lines": 61,
+            "SessionRestoreId": 0,
+            "WorkingDirectory": "/home/daniel"
+        }
+    ]
+}
