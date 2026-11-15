@@ -28,7 +28,7 @@ exec_always powerprofilesctl set power-saver
 exec brightnessctl set 25%
 
 # Enforce internal eDP-1 display only (disable external outputs)
-output * disable bg /usr/share/backgrounds/gnome/adwaita-d.jxl fill
+output * disable bg /home/daniel/Media/Pictures/Wallpapers/ml4w/sand-dunes.jpg fill
 output eDP-1 enable resolution 1920x1200 position 0,0
 
 # Aggressive screen blanking & lock (90s display off, 180s lock)
@@ -73,6 +73,10 @@ bindsym $mod+Ctrl+a exec "kitty -e cliamp $HOME/Music"
 bindsym $mod+Ctrl+c exec "$HOME/.config/sway/tui/configs.sh"
 bindsym $mod+Ctrl+p exec "$HOME/.config/sway/tui/power-profile.sh"
 bindsym $mod+Ctrl+w exec "$HOME/.config/sway/tui/toggle-wifi.sh"
+
+# Cycle active workspaces left/right
+bindsym $mod+z workspace prev
+bindsym $mod+x workspace next
 
 floating_modifier $mod normal
 
