@@ -1,0 +1,66 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 32,
+    "spacing": 4,
+    "modules-left": ["sway/workspaces", "sway/mode", "sway/window"],
+    "modules-center": ["clock"],
+    "modules-right": ["network", "cpu", "memory", "pulseaudio", "battery"],
+
+    "sway/workspaces": {
+        "disable-scroll": true,
+        "all-outputs": true,
+        "format": "{name}"
+    },
+    "sway/mode": {
+        "format": "<span style=\"italic\">{}</span>"
+    },
+    "sway/window": {
+        "max-length": 50
+    },
+    "clock": {
+        "format": "{:%H:%M}"
+    },
+    "cpu": {
+        "interval": 5,
+        "format": "CPU: {usage}%",
+        "tooltip": false,
+        "on-click": "kitty --class floating_tui -e btop"
+    },
+    "memory": {
+        "interval": 5,
+        "format": "RAM: {}%",
+        "on-click": "kitty --class floating_tui -e btop"
+    },
+    "network": {
+        "interval": 5,
+        "format-wifi": "󰖩  {essid}",
+        "format-ethernet": "󰈀  {ifname}",
+        "format-disconnected": "󰖪  Offline",
+        "tooltip-format": "{ifname} via {gwaddr}",
+        "tooltip-format-wifi": "{essid} ({signalStrength}%)\n↑ {bandwidthUpBytes}\n↓ {bandwidthDownBytes}",
+        "tooltip-format-ethernet": "{ifname}\n↑ {bandwidthUpBytes}\n↓ {bandwidthDownBytes}",
+        "tooltip-format-disconnected": "Disconnected",
+        "on-click": "kitty --class floating_tui -e nmtui-go"
+    },
+    "pulseaudio": {
+        "format": "VOL: {volume}%",
+        "format-muted": "MUTED",
+        "on-click": "kitty --class floating_tui -e wiremix --tab output"
+    },
+    "battery": {
+        "bat": "BAT0",
+        "interval": 15,
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{icon} {capacity}%",
+        "format-charging": "󱐌 {icon} {capacity}%",
+        "format-plugged": " {icon} {capacity}%",
+        "format-full": "󰂅 {capacity}%",
+        "format-not-charging": "󰚥 {icon} {capacity}%",
+        "format-icons": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
+        "on-click": "kitty --class floating_tui -e sudo powertop"
+    }
+}

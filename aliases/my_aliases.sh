@@ -10,6 +10,7 @@ alias help-apps="glow ~/git/toolbox/docs/linux/terminal_apps.md"
 alias help-cs="glow ~/git/toolbox/docs/linux/terminal_cheatsheet.md"
 alias ytdl='yt-dlp --embed-chapters -f "bestvideo+bestaudio/best" --merge-output-format mkv'
 alias kiwix='sudo kiwix-serve .local/share/kiwix-desktop/*.zim'
+alias fresh-update='curl -fsSL https://raw.githubusercontent.com/sinelaw/fresh/refs/heads/master/scripts/install.sh | sh'
 
 # flatpak
 alias fl-in="flatpak install"
