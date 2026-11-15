@@ -68,6 +68,7 @@ bindsym $mod+Escape exec "$HOME/.config/sway/tui/powermenu.sh"
 # Misc
 bindsym $mod+Ctrl+b exec $browser
 bindsym $mod+Ctrl+f exec $fm
+bindsym $mod+Ctrl+a exec "kitty -e cliamp $HOME/Music"
 
 bindsym $mod+Ctrl+c exec "$HOME/.config/sway/tui/configs.sh"
 bindsym $mod+Ctrl+p exec "$HOME/.config/sway/tui/power-profile.sh"
