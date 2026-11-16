@@ -12,4 +12,5 @@ tui-tunes   Apple podcasts and music with search
 
 fresh       Text editor, like VS Code
 spf         Superfile, filemanager
+ouch        CLI tool for compressing and decompressing various formats
  
