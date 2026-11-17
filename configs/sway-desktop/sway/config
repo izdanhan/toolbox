@@ -1,0 +1,161 @@
+### ============================================================================
+### VARIABLES & THEME
+### ============================================================================
+set $mod Mod4
+set $left h
+set $down j
+set $up k
+set $right l
+
+set $term kitty
+set $menu wofi --show drun
+set $browser firefox
+set $fm nemo
+
+font pango:AdwaitaMono Nerd Font 10
+
+# Gruvbox Dark Window Colors
+#                         border    background text     indicator child_border
+client.focused            #d65d0e   #282828    #ebdbb2  #fabd2f   #689d6a
+client.focused_inactive   #3c3836   #1d2021    #928374  #3c3836   #3c3836
+client.unfocused          #282828   #1d2021    #504945  #282828   #282828
+client.urgent             #cc241d   #cc241d    #fbf1c7  #cc241d   #cc241d
+
+### ============================================================================
+### OFF-GRID POWER & HARDWARE SETUP
+### ============================================================================
+exec_always powerprofilesctl set power-saver
+exec brightnessctl set 25%
+
+# Enforce internal eDP-1 display only (disable external outputs)
+output * disable bg /home/daniel/Media/Pictures/Wallpapers/ml4w/sand-dunes.jpg fill
+output eDP-1 enable resolution 1920x1200 position 0,0
+
+# Aggressive screen blanking & lock (90s display off, 180s lock)
+exec swayidle -w \
+    timeout 90 'swaymsg "output * power off"' resume 'swaymsg "output * power on"' \
+    timeout 180 'gtklock -d' \
+    before-sleep 'gtklock -d'
+
+# Finnish keyboard & ThinkPad touchpad
+input type:keyboard {
+    xkb_layout "fi"
+}
+
+input type:touchpad {
+    tap enabled
+    natural_scroll enabled
+    dwt enabled
+}
+
+### ============================================================================
+### WINDOW RULES
+### ============================================================================
+# Center floating TUI popups triggered from Waybar
+for_window [app_id="floating_tui"] floating enable, resize set 1000 700, move position center
+
+### ============================================================================
+### KEYBINDINGS
+### ============================================================================
+# Core actions
+bindsym $mod+Return exec $term
+bindsym $mod+q kill
+bindsym $mod+d exec $menu
+bindsym $mod+Shift+c reload
+bindsym $mod+Shift+e exec swaynag -t warning -m 'Exit Sway and end Wayland session?' -B 'Yes, exit sway' 'swaymsg exit'
+bindsym $mod+Escape exec "$HOME/.config/sway/tui/powermenu.sh"
+
+# Misc
+bindsym $mod+Ctrl+b exec $browser
+bindsym $mod+Ctrl+f exec $fm
+bindsym $mod+Ctrl+a exec "kitty -e cliamp $HOME/Music"
+
+bindsym $mod+Ctrl+c exec "$HOME/.config/sway/tui/configs.sh"
+bindsym $mod+Ctrl+p exec "$HOME/.config/sway/tui/power-profile.sh"
+bindsym $mod+Ctrl+w exec "$HOME/.config/sway/tui/toggle-wifi.sh"
+
+# Cycle active workspaces left/right
+bindsym $mod+z workspace prev
+bindsym $mod+x workspace next
+
+floating_modifier $mod normal
+
+# Focus movement (Vim keys + Arrows)
+bindsym $mod+$left focus left
+bindsym $mod+$down focus down
+bindsym $mod+$up focus up
+bindsym $mod+$right focus right
+bindsym $mod+Left focus left
+bindsym $mod+Down focus down
+bindsym $mod+Up focus up
+bindsym $mod+Right focus right
+
+# Window movement (Vim keys + Arrows)
+bindsym $mod+Shift+$left move left
+bindsym $mod+Shift+$down move down
+bindsym $mod+Shift+$up move up
+bindsym $mod+Shift+$right move right
+bindsym $mod+Shift+Left move left
+bindsym $mod+Shift+Down move down
+bindsym $mod+Shift+Up move up
+bindsym $mod+Shift+Right move right
+
+# Workspaces (Switch & Move)
+bindsym $mod+1 workspace number 1
+bindsym $mod+2 workspace number 2
+bindsym $mod+3 workspace number 3
+bindsym $mod+4 workspace number 4
+bindsym $mod+5 workspace number 5
+bindsym $mod+6 workspace number 6
+bindsym $mod+7 workspace number 7
+bindsym $mod+8 workspace number 8
+bindsym $mod+9 workspace number 9
+bindsym $mod+0 workspace number 10
+
+bindsym $mod+Shift+1 move container to workspace number 1
+bindsym $mod+Shift+2 move container to workspace number 2
+bindsym $mod+Shift+3 move container to workspace number 3
+bindsym $mod+Shift+4 move container to workspace number 4
+bindsym $mod+Shift+5 move container to workspace number 5
+bindsym $mod+Shift+6 move container to workspace number 6
+bindsym $mod+Shift+7 move container to workspace number 7
+bindsym $mod+Shift+8 move container to workspace number 8
+bindsym $mod+Shift+9 move container to workspace number 9
+bindsym $mod+Shift+0 move container to workspace number 10
+
+# Layouts
+bindsym $mod+b splith
+bindsym $mod+v splitv
+bindsym $mod+s layout stacking
+bindsym $mod+w layout tabbed
+bindsym $mod+e layout toggle split
+bindsym $mod+f fullscreen
+bindsym $mod+Shift+space floating toggle
+bindsym $mod+space focus mode_toggle
+bindsym $mod+a focus parent
+
+# Scratchpad
+bindsym $mod+Shift+minus move scratchpad
+bindsym $mod+minus scratchpad show
+
+# Resize mode
+mode "resize" {
+    bindsym $left resize shrink width 10px
+    bindsym $down resize grow height 10px
+    bindsym $up resize shrink height 10px
+    bindsym $right resize grow width 10px
+
+    bindsym Left resize shrink width 10px
+    bindsym Down resize grow height 10px
+    bindsym Up resize shrink height 10px
+    bindsym Right resize grow width 10px
+
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+bindsym $mod+r mode "resize"
+
+### ============================================================================
+### SYSTEM INCLUDES (Keep for Fedora media keys, Waybar, & PipeWire/XDG portal)
+### ============================================================================
+include '$(/usr/libexec/sway/layered-include "/usr/share/sway/config.d/*.conf" "/etc/sway/config.d/*.conf" "${XDG_CONFIG_HOME:-$HOME/.config}/sway/config.d/*.conf")'
