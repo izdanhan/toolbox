@@ -1,11 +1,12 @@
-# Nibiru docker servers for Dummies
+# Orion docker servers for Dummies
 
-Manage your entire stack with a single command from your stack directory (`~/.docker-stacks/homeserver`).
+Manage your entire stack with a single command from your stack directory (`/opt/stacks/homeserver`).
+nano /opt/stacks/homeserver/docker-compose.yml
 
 ### 1. Start Everything (Background Mode)
 
 ```bash
-cd ~/.docker-stacks/homeserver
+cd /opt/stacks/homeserver
 docker compose up -d
 
 ```
