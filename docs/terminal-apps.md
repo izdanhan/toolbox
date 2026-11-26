@@ -10,3 +10,4 @@ fresh       Text editor, like VS Code
 spf         Superfile, filemanager
 ouch        CLI tool for compressing and decompressing various formats
 caligula    USB writer
+lazyllama   Ollama TUI
