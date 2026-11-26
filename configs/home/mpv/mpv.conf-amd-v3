@@ -1,0 +1,35 @@
+# --- Hardware Decode & Low-Power Rendering (AMD Radeon 780M) ---
+vo=gpu
+gpu-api=vulkan
+gpu-context=waylandvk
+hwdec=vaapi,vulkan
+hwdec-codecs=h264,hevc,vp9,av1
+
+# Keep shader/post-processing overhead minimal for battery life
+deband=no
+video-sync=audio
+
+# --- Audio (Clean stereo output) ---
+audio-channels=stereo
+audio-normalize-downmix=yes
+
+# --- Subtitles & OSD ---
+slang=fi,en
+sub-auto=fuzzy
+sub-file-paths=subs:subtitle:subtitles
+sub-codepage=utf8
+sub-font-size=40
+sub-color='#ebdbb2'
+sub-border-color='#282828'
+sub-border-size=2
+blend-subtitles=video
+sid=auto
+
+osd-font-size=25
+osd-scale=1.0
+osd-level=1
+osd-color='#ebdbb2'
+
+# --- Session & Window ---
+keepaspect-window=yes
+save-position-on-quit=yes
