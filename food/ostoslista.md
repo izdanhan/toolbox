@@ -8,7 +8,7 @@ Ei sikaa, ei maitotuotteita lihan kanssa, ei vaadi tehosekoitinta.
 - [ ] Broilerin koipireidet, naturel (n. 1–1,5 kg) — n. 4,00 €
 - [ ] Kananmunat (15 kpl) — n. 2,80 €
 - [ ] Tomaattimurska (4–5 tlk, à 0,30–0,40 €) — n. 1,50–1,60 €
-- [ ] Valkokaali (1–1,2 kg kerä) — n. 1,20 €
+- [ ] Keräkaali (1–1,2 kg kerä) — n. 1,20 €
 - [ ] Porkkanat (1 kg pussi) — n. 1,20 €
 - [ ] Sipuli (1 kg pussi) — n. 1,20 €
 - [ ] Kuivahiiva (2 pussia) — n. 0,80 €
