@@ -30,8 +30,8 @@ alias ap-i="apt show"
 alias ap-cl="sudo apt autoremove --purge -y && sudo apt clean"
 
 # YouTube download
-alias ytdl-video="ytdl-video.sh"
-alias ytdl-audio="ytdl-audio.sh"
+# alias ytdl-video="ytdl-video.sh"
+# alias ytdl-audio="ytdl-audio.sh"
 alias ytdl="ytdl.sh"
 
 # Ollama (docker)
